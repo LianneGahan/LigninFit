@@ -1,0 +1,30 @@
+rm: das Entfernen von 'family_1/Generation_*' ist nicht möglich: Datei oder Verzeichnis nicht gefunden
+rm: das Entfernen von 'family_1/vars_*.txt' ist nicht möglich: Datei oder Verzeichnis nicht gefunden
+rm: das Entfernen von 'Gridsearch/Run*' ist nicht möglich: Datei oder Verzeichnis nicht gefunden
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/may24/230524_monaddsgopen/spruce_eswaran/family_1/Generation_48/Run_4/Code/function_library.py", line 200, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 15
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/may24/230524_monaddsgopen/spruce_eswaran/family_1/Generation_48/Run_4/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/may24/230524_monaddsgopen/spruce_eswaran/family_1/Generation_48/Run_4/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/may24/230524_monaddsgopen/spruce_eswaran/family_1/Generation_48/Run_4/Code/function_library.py", line 341, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 15
+rm: das Entfernen von 'Gridsearch/Run*' ist nicht möglich: Datei oder Verzeichnis nicht gefunden

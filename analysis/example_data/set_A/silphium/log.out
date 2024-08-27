@@ -1,0 +1,2831 @@
+--------------------------------------------
+number of families: 1
+Generations per family: 50
+Sub-folders per generation: 4
+DELTA: 0.1
+cores to be used: 25
+Number of runs to use in a sample: 50
+Grid search option: 1
+Grid search degrees of freedom: 3 (ignored if Grid search option is not 0)
+--------------------------------------------
+--------------
+CLEANING UP
+--------------
+-----------------
+DONE CLEANING UP
+-----------------
+Minimum is  0.09184240598843703
+---------------------------------------------
+Starting parameters for fitting are set as: 
+Monomer addition rate (10^x) 1.0
+Minimum Monomers:  10
+Maximum Monomers:  500
+SG Ratio:  5.0
+GG Scaling Parameter:  1
+SS Scaling Parameter:  1
+SG Scaling Parameter:  1
+---------------------------------------------
+Generation 1
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 1
+Random param update (no gradient used)
+Changing kin param 0 from 0.1000 to 0.1017
+Changing kin param 3 from 0.5000 to 0.4784
+Changing kin param 0 from 0.1000 to 0.0578
+Changing kin param 3 from 0.5000 to 0.5135
+Changing kin param 0 from 0.1000 to 0.1158
+Changing kin param 3 from 0.5000 to 0.5362
+Changing kin param 0 from 0.1000 to 0.0838
+Changing kin param 3 from 0.5000 to 0.4888
+Running
+Running code
+params 10.396280772871094 10 500 4.783669 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7849661514145634 10 500 5.134854 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 6.879549502324526 10 500 4.887992 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_1/Run_1/Output/library.json
+var = 0.08977358656773937
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_1/Run_2/Output/library.json
+var = 0.1131665546608818
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_1/Run_3/Output/library.json
+var = 0.08299834979380528
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_1/Run_4/Output/library.json
+var = 0.10561180780479762
+0.1131665546608818
+0.08299834979380528
+0.10561180780479762
+MINI NR IS:  3.0
+MINI IS:  0.08299834979380528
+mini_difference pct = 0.09629599855806491
+Cleaning house
+Done cleaning house
+Generation 2
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 2
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1 1.  1.  0.5 1.  1.  1. ]
+new kins:  [0.1158345 1.        1.        0.536228  1.        1.        1.       ]
+Gradient values  [-0.5585310556064295, 0.0, 0.0, -0.24412222590261654, 0.0, 0.0, 0.0]
+-0.5585310556064295
+Not changing kin param 0 from 0.1158 to -0.0647
+-0.24412222590261654
+Not changing kin param 3 from 0.5362 to -0.1309
+-0.5585310556064295
+Not changing kin param 0 from 0.1158 to -0.0647
+-0.24412222590261654
+Not changing kin param 3 from 0.5362 to -0.1309
+-0.5585310556064295
+Not changing kin param 0 from 0.1158 to -0.0647
+-0.24412222590261654
+Not changing kin param 3 from 0.5362 to -0.1309
+-0.5585310556064295
+Not changing kin param 0 from 0.1158 to -0.0647
+-0.24412222590261654
+Not changing kin param 3 from 0.5362 to -0.1309
+Running
+Running code
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_2/Run_1/Output/library.json
+var = 0.08170225233134606
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_2/Run_2/Output/library.json
+var = 0.08166840001588693
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_2/Run_3/Output/library.json
+var = 0.08169162716737229
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_2/Run_4/Output/library.json
+var = 0.08772756728124316
+0.08166840001588693
+0.08169162716737229
+0.08772756728124316
+MINI NR IS:  2.0
+MINI IS:  0.08166840001588693
+mini_difference pct = 0.016023812330161574
+Cleaning house
+Done cleaning house
+Generation 3
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 3
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1158345 1.        1.        0.536228  1.        1.        1.       ]
+new kins:  [0.1158345 1.        1.        0.536228  1.        1.        1.       ]
+Gradient values  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+Running
+Running code
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_3/Run_1/Output/library.json
+var = 0.08249465838195554
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_3/Run_2/Output/library.json
+var = 0.08695808347641107
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_3/Run_3/Output/library.json
+var = 0.08153655374409166
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_3/Run_4/Output/library.json
+var = 0.08857924396480975
+0.08695808347641107
+0.08153655374409166
+0.08857924396480975
+MINI NR IS:  3.0
+MINI IS:  0.08153655374409166
+mini_difference pct = 0.001614409684876171
+Cleaning house
+Done cleaning house
+Generation 4
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 4
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1158345 1.        1.        0.536228  1.        1.        1.       ]
+new kins:  [0.1158345 1.        1.        0.536228  1.        1.        1.       ]
+Gradient values  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+0.0
+Not changing kin param 0 from 0.1158 to 0.0000
+0.0
+Not changing kin param 3 from 0.5362 to 0.0000
+Running
+Running code
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.399420022336122 10 500 5.36228 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_4/Run_1/Output/library.json
+var = 0.08397995341044041
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_4/Run_2/Output/library.json
+var = 0.08497339924714949
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_4/Run_3/Output/library.json
+var = 0.08478305328323323
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_4/Run_4/Output/library.json
+var = 0.08439434181898856
+0.08497339924714949
+0.08478305328323323
+0.08439434181898856
+MINI NR IS:  1.0
+MINI IS:  0.08397995341044041
+Cleaning house
+Done cleaning house
+Generation 5
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 1.0
+Generation = 5
+Random param update (no gradient used)
+Changing kin param 0 from 0.1158 to 0.1072
+Changing kin param 3 from 0.5362 to 0.5155
+Changing kin param 0 from 0.1158 to 0.1244
+Changing kin param 3 from 0.5362 to 0.5271
+Changing kin param 0 from 0.1158 to 0.1001
+Changing kin param 3 from 0.5362 to 0.5257
+Changing kin param 0 from 0.1158 to 0.1158
+Changing kin param 3 from 0.5362 to 0.5381
+Running
+Running code
+params 11.813701684323098 10 500 5.154681 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 17.526814895191986 10 500 5.270808 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 10.021390835481506 10 500 5.257408 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.397032996137343 10 500 5.380834 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_5/Run_1/Output/library.json
+var = 0.09358587065102401
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_5/Run_2/Output/library.json
+var = 0.08267129486814775
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_5/Run_3/Output/library.json
+var = 0.09369911328285525
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_5/Run_4/Output/library.json
+var = 0.08433178669556464
+0.08267129486814775
+0.09369911328285525
+0.08433178669556464
+MINI NR IS:  2.0
+MINI IS:  0.08267129486814775
+Cleaning house
+Done cleaning house
+Generation 6
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 2.0
+Generation = 6
+Random param update (no gradient used)
+Changing kin param 0 from 0.1158 to 0.0970
+Changing kin param 3 from 0.5362 to 0.5186
+Changing kin param 0 from 0.1158 to 0.0949
+Changing kin param 3 from 0.5362 to 0.5609
+Changing kin param 0 from 0.1158 to 0.1443
+Changing kin param 3 from 0.5362 to 0.5566
+Changing kin param 0 from 0.1158 to 0.0570
+Changing kin param 3 from 0.5362 to 0.5244
+Running
+Running code
+params 9.340002661813909 10 500 5.186053 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 8.886116444958295 10 500 5.609483 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7136588039109855 10 500 5.243515 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_6/Run_1/Output/library.json
+var = 0.09363720123219164
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_6/Run_2/Output/library.json
+var = 0.10224685055617963
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_6/Run_3/Output/library.json
+var = 0.0674671818609692
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_6/Run_4/Output/library.json
+var = 0.11481123723562522
+0.10224685055617963
+0.0674671818609692
+0.11481123723562522
+MINI NR IS:  3.0
+MINI IS:  0.0674671818609692
+mini_difference pct = 0.17255289976128252
+Cleaning house
+Done cleaning house
+Generation 7
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 7
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1158345 1.        1.        0.536228  1.        1.        1.       ]
+new kins:  [0.1442891 1.        1.        0.5566039 1.        1.        1.       ]
+Gradient values  [-0.4944497550483926, 0.0, 0.0, -0.6904907267899821, 0.0, 0.0, 0.0]
+-0.4944497550483926
+Not changing kin param 0 from 0.1443 to -0.0713
+-0.6904907267899821
+Not changing kin param 3 from 0.5566 to -0.3843
+-0.4944497550483926
+Not changing kin param 0 from 0.1443 to -0.0713
+-0.6904907267899821
+Not changing kin param 3 from 0.5566 to -0.3843
+-0.4944497550483926
+Not changing kin param 0 from 0.1443 to -0.0713
+-0.6904907267899821
+Not changing kin param 3 from 0.5566 to -0.3843
+-0.4944497550483926
+Not changing kin param 0 from 0.1443 to -0.0713
+-0.6904907267899821
+Not changing kin param 3 from 0.5566 to -0.3843
+Running
+Running code
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_7/Run_1/Output/library.json
+var = 0.06898220919428913
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_7/Run_2/Output/library.json
+var = 0.06417322653138083
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_7/Run_3/Output/library.json
+var = 0.05894658809482778
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_7/Run_4/Output/library.json
+var = 0.06517737530519523
+0.06417322653138083
+0.05894658809482778
+0.06517737530519523
+MINI NR IS:  3.0
+MINI IS:  0.05894658809482778
+mini_difference pct = 0.12629239735782974
+Cleaning house
+Done cleaning house
+Generation 8
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 8
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1442891 1.        1.        0.5566039 1.        1.        1.       ]
+new kins:  [0.1442891 1.        1.        0.5566039 1.        1.        1.       ]
+Gradient values  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+Running
+Running code
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_8/Run_1/Output/library.json
+var = 0.05932932584282992
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_8/Run_2/Output/library.json
+var = 0.054464883088643674
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_8/Run_3/Output/library.json
+var = 0.05825355604191639
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_8/Run_4/Output/library.json
+var = 0.0658045433455879
+0.054464883088643674
+0.05825355604191639
+0.0658045433455879
+MINI NR IS:  2.0
+MINI IS:  0.054464883088643674
+mini_difference pct = 0.07602996053472008
+Cleaning house
+Done cleaning house
+Generation 9
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 9
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1442891 1.        1.        0.5566039 1.        1.        1.       ]
+new kins:  [0.1442891 1.        1.        0.5566039 1.        1.        1.       ]
+Gradient values  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+0.0
+Not changing kin param 0 from 0.1443 to 0.0000
+0.0
+Not changing kin param 3 from 0.5566 to 0.0000
+Running
+Running code
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 27.7262413918993 10 500 5.566039 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_9/Run_1/Output/library.json
+var = 0.06305774334964796
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_9/Run_2/Output/library.json
+var = 10
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_9/Run_3/Output/library.json
+var = 0.05927421477313399
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_9/Run_4/Output/library.json
+var = 0.06566407050213047
+10
+0.05927421477313399
+0.06566407050213047
+MINI NR IS:  3.0
+MINI IS:  0.05927421477313399
+Cleaning house
+Done cleaning house
+Generation 10
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 1.0
+Generation = 10
+Random param update (no gradient used)
+Changing kin param 0 from 0.1443 to 0.1108
+Changing kin param 3 from 0.5566 to 0.5500
+Changing kin param 0 from 0.1443 to 0.1517
+Changing kin param 3 from 0.5566 to 0.5624
+Changing kin param 0 from 0.1443 to 0.1692
+Changing kin param 3 from 0.5566 to 0.5554
+Changing kin param 0 from 0.1443 to 0.1846
+Changing kin param 3 from 0.5566 to 0.5939
+Running
+Running code
+params 12.811854562517217 10 500 5.499649 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 32.88516308759829 10 500 5.623843 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 49.20621954612082 10 500 5.553762 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_10/Run_1/Output/library.json
+var = 0.08687369001254978
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_10/Run_2/Output/library.json
+var = 0.05482608319587963
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_10/Run_3/Output/library.json
+var = 0.042666643355684666
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_10/Run_4/Output/library.json
+var = 0.025386131815751358
+0.05482608319587963
+0.042666643355684666
+0.025386131815751358
+MINI NR IS:  4.0
+MINI IS:  0.025386131815751358
+mini_difference pct = 0.533899059067947
+Cleaning house
+Done cleaning house
+Generation 11
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 11
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1442891 1.        1.        0.5566039 1.        1.        1.       ]
+new kins:  [0.1846063 1.        1.        0.5939396 1.        1.        1.       ]
+Gradient values  [-0.7212492434990526, 0.0, 0.0, -0.7788457160305022, 0.0, 0.0, 0.0]
+-0.7212492434990526
+Not changing kin param 0 from 0.1846 to -0.1331
+-0.7788457160305022
+Not changing kin param 3 from 0.5939 to -0.4626
+-0.7212492434990526
+Not changing kin param 0 from 0.1846 to -0.1331
+-0.7788457160305022
+Not changing kin param 3 from 0.5939 to -0.4626
+-0.7212492434990526
+Not changing kin param 0 from 0.1846 to -0.1331
+-0.7788457160305022
+Not changing kin param 3 from 0.5939 to -0.4626
+-0.7212492434990526
+Not changing kin param 0 from 0.1846 to -0.1331
+-0.7788457160305022
+Not changing kin param 3 from 0.5939 to -0.4626
+Running
+Running code
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_11/Run_1/Output/library.json
+var = 0.013604623796036205
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_11/Run_2/Output/library.json
+var = 0.021295724292151486
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_11/Run_3/Output/library.json
+var = 0.017602515130491915
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_11/Run_4/Output/library.json
+var = 0.01654836697399995
+0.021295724292151486
+0.017602515130491915
+0.01654836697399995
+MINI NR IS:  1.0
+MINI IS:  0.013604623796036205
+mini_difference pct = 0.46409225053065567
+Cleaning house
+Done cleaning house
+Generation 12
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 12
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1846063 1.        1.        0.5939396 1.        1.        1.       ]
+new kins:  [0.1846063 1.        1.        0.5939396 1.        1.        1.       ]
+Gradient values  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0.0
+Not changing kin param 0 from 0.1846 to 0.0000
+0.0
+Not changing kin param 3 from 0.5939 to 0.0000
+0.0
+Not changing kin param 0 from 0.1846 to 0.0000
+0.0
+Not changing kin param 3 from 0.5939 to 0.0000
+0.0
+Not changing kin param 0 from 0.1846 to 0.0000
+0.0
+Not changing kin param 3 from 0.5939 to 0.0000
+0.0
+Not changing kin param 0 from 0.1846 to 0.0000
+0.0
+Not changing kin param 3 from 0.5939 to 0.0000
+Running
+Running code
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.15570609131252 10 500 5.939396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_12/Run_1/Output/library.json
+var = 0.017598823144937693
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_12/Run_2/Output/library.json
+var = 0.021791790076851662
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_12/Run_3/Output/library.json
+var = 0.020404968004341592
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_12/Run_4/Output/library.json
+var = 0.021271303688440983
+0.021791790076851662
+0.020404968004341592
+0.021271303688440983
+MINI NR IS:  1.0
+MINI IS:  0.017598823144937693
+Cleaning house
+Done cleaning house
+Generation 13
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 1.0
+Generation = 13
+Random param update (no gradient used)
+Changing kin param 0 from 0.1846 to 0.1926
+Changing kin param 3 from 0.5939 to 0.5854
+Changing kin param 0 from 0.1846 to 0.1987
+Changing kin param 3 from 0.5939 to 0.5723
+Changing kin param 0 from 0.1846 to 0.2759
+Changing kin param 3 from 0.5939 to 0.5938
+Changing kin param 0 from 0.1846 to 0.1570
+Changing kin param 3 from 0.5939 to 0.5798
+Running
+Running code
+params 84.34163194098156 10 500 5.854329 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 97.05412532947231 10 500 5.722813 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 574.1402578365829 10 500 5.937834 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 37.16002521388911 10 500 5.798128 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_13/Run_1/Output/library.json
+var = 0.011566471211037542
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_13/Run_2/Output/library.json
+var = 0.007427795471540909
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_13/Run_3/Output/library.json
+var = 0.1384302942639838
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_13/Run_4/Output/library.json
+var = 0.050856842951923706
+0.007427795471540909
+0.1384302942639838
+0.050856842951923706
+MINI NR IS:  2.0
+MINI IS:  0.007427795471540909
+mini_difference pct = 0.454024039514451
+Cleaning house
+Done cleaning house
+Generation 14
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 14
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1846063 1.        1.        0.5939396 1.        1.        1.       ]
+new kins:  [0.1987014 1.        1.        0.5722813 1.        1.        1.       ]
+Gradient values  [-0.43822463125483324, 0.0, 0.0, 0.2851941288097401, 0.0, 0.0, 0.0]
+-0.43822463125483324
+Not changing kin param 0 from 0.1987 to -0.0871
+0.2851941288097401
+Changing kin param 3 from 0.5723 to 0.1632
+-0.43822463125483324
+Not changing kin param 0 from 0.1987 to -0.0871
+0.2851941288097401
+Changing kin param 3 from 0.5723 to 0.1632
+-0.43822463125483324
+Not changing kin param 0 from 0.1987 to -0.0871
+0.2851941288097401
+Changing kin param 3 from 0.5723 to 0.1632
+-0.43822463125483324
+Not changing kin param 0 from 0.1987 to -0.0871
+0.2851941288097401
+Changing kin param 3 from 0.5723 to 0.1632
+Running
+Running code
+params 97.05412532947231 10 500 1.632113 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 97.05412532947231 10 500 1.632113 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 97.05412532947231 10 500 1.632113 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 97.05412532947231 10 500 1.632113 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_14/Run_1/Output/library.json
+var = 0.25894082897845766
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_14/Run_2/Output/library.json
+var = 0.258334398362685
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_14/Run_3/Output/library.json
+var = 0.2579764320668286
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_14/Run_4/Output/library.json
+var = 0.2615810680964984
+0.258334398362685
+0.2579764320668286
+0.2615810680964984
+MINI NR IS:  3.0
+MINI IS:  0.2579764320668286
+Cleaning house
+Done cleaning house
+Generation 15
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 1.0
+Generation = 15
+Random param update (no gradient used)
+Changing kin param 0 from 0.1987 to 0.2012
+Changing kin param 3 from 0.5723 to 0.5587
+Changing kin param 0 from 0.1987 to 0.1663
+Changing kin param 3 from 0.5723 to 0.5821
+Changing kin param 0 from 0.1987 to 0.1837
+Changing kin param 3 from 0.5723 to 0.5651
+Changing kin param 0 from 0.1987 to 0.1611
+Changing kin param 3 from 0.5723 to 0.6300
+Running
+Running code
+params 102.76920572552591 10 500 5.586577 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 46.06223429184343 10 500 5.821386 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 68.78345710799306 10 500 5.65138 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 40.8263918882677 10 500 6.299529 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_15/Run_1/Output/library.json
+var = 0.01969889715503268
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_15/Run_2/Output/library.json
+var = 0.04085400712713029
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_15/Run_3/Output/library.json
+var = 0.021091833031563277
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_15/Run_4/Output/library.json
+var = 0.05301182223665905
+0.04085400712713029
+0.021091833031563277
+0.05301182223665905
+MINI NR IS:  1.0
+MINI IS:  0.01969889715503268
+Cleaning house
+Done cleaning house
+Generation 16
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 2.0
+Generation = 16
+Random param update (no gradient used)
+Changing kin param 0 from 0.1987 to 0.2023
+Changing kin param 3 from 0.5723 to 0.5620
+Changing kin param 0 from 0.1987 to 0.2440
+Changing kin param 3 from 0.5723 to 0.5576
+Changing kin param 0 from 0.1987 to 0.2035
+Changing kin param 3 from 0.5723 to 0.6034
+Changing kin param 0 from 0.1987 to 0.1790
+Changing kin param 3 from 0.5723 to 0.5619
+Running
+Running code
+params 105.52831410241207 10 500 5.620048 1.0 1.0 1.0
+params 275.5795584819741 10 500 5.576222 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 108.4898228370268 10 500 6.034363 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 61.675971630343135 10 500 5.61947 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_16/Run_1/Output/library.json
+var = 10
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_16/Run_2/Output/library.json
+var = 0.07893809472569938
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_16/Run_3/Output/library.json
+var = 0.011304036945196936
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_16/Run_4/Output/library.json
+var = 0.03209791659360298
+0.07893809472569938
+0.011304036945196936
+0.03209791659360298
+MINI NR IS:  3.0
+MINI IS:  0.011304036945196936
+Cleaning house
+Done cleaning house
+Generation 17
+Delta = 0.13
+In rando_specs.py: N_unsuccessful_tries = 3.0
+Generation = 17
+Random param update (no gradient used)
+Changing kin param 0 from 0.1987 to 0.2046
+Changing kin param 3 from 0.5723 to 0.6032
+Changing kin param 0 from 0.1987 to 0.1960
+Changing kin param 3 from 0.5723 to 0.6015
+Changing kin param 0 from 0.1987 to 0.2037
+Changing kin param 3 from 0.5723 to 0.5946
+Changing kin param 0 from 0.1987 to 0.2053
+Changing kin param 3 from 0.5723 to 0.5537
+Running
+Running code
+params 111.05266882415677 10 500 6.031598 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 91.24561443378745 10 500 6.015454 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 108.95395508925262 10 500 5.945655 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 113.09489455400644 10 500 5.536644 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_17/Run_1/Output/library.json
+var = 0.006107994391237602
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_17/Run_2/Output/library.json
+var = 0.005807760399800413
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_17/Run_3/Output/library.json
+var = 0.002549830509010765
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_17/Run_4/Output/library.json
+var = 0.021805659511396944
+0.005807760399800413
+0.002549830509010765
+0.021805659511396944
+MINI NR IS:  3.0
+MINI IS:  0.002549830509010765
+mini_difference pct = 0.6567179368035265
+Cleaning house
+Done cleaning house
+Generation 18
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 18
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.1987014 1.        1.        0.5722813 1.        1.        1.       ]
+new kins:  [0.2037243 1.        1.        0.5945655 1.        1.        1.       ]
+Gradient values  [-0.9711461506301095, 0.0, 0.0, -0.21889814307895197, 0.0, 0.0, 0.0]
+-0.9711461506301095
+Not changing kin param 0 from 0.2037 to -0.1978
+-0.21889814307895197
+Not changing kin param 3 from 0.5946 to -0.1301
+-0.9711461506301095
+Not changing kin param 0 from 0.2037 to -0.1978
+-0.21889814307895197
+Not changing kin param 3 from 0.5946 to -0.1301
+-0.9711461506301095
+Not changing kin param 0 from 0.2037 to -0.1978
+-0.21889814307895197
+Not changing kin param 3 from 0.5946 to -0.1301
+-0.9711461506301095
+Not changing kin param 0 from 0.2037 to -0.1978
+-0.21889814307895197
+Not changing kin param 3 from 0.5946 to -0.1301
+Running
+Running code
+params 108.95395508925262 10 500 5.945655 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 108.95395508925262 10 500 5.945655 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 108.95395508925262 10 500 5.945655 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 108.95395508925262 10 500 5.945655 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_18/Run_1/Output/library.json
+var = 0.0058444812341324785
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_18/Run_2/Output/library.json
+var = 0.010323782975191395
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_18/Run_3/Output/library.json
+var = 0.009129314747290786
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_18/Run_4/Output/library.json
+var = 0.01071620215312633
+0.010323782975191395
+0.009129314747290786
+0.01071620215312633
+MINI NR IS:  1.0
+MINI IS:  0.0058444812341324785
+Cleaning house
+Done cleaning house
+Generation 19
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 1.0
+Generation = 19
+Random param update (no gradient used)
+Changing kin param 0 from 0.2037 to 0.1749
+Changing kin param 3 from 0.5946 to 0.6392
+Changing kin param 0 from 0.2037 to 0.2320
+Changing kin param 3 from 0.5946 to 0.6056
+Changing kin param 0 from 0.2037 to 0.2063
+Changing kin param 3 from 0.5946 to 0.5229
+Changing kin param 0 from 0.2037 to 0.1778
+Changing kin param 3 from 0.5946 to 0.5682
+Running
+Running code
+params 56.15546140439698 10 500 6.392071 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 208.70266751591745 10 500 6.056145 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 115.67220116618148 10 500 5.228842 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 59.99126227286382 10 500 5.682476 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_19/Run_1/Output/library.json
+var = 0.03969755631253135
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_19/Run_2/Output/library.json
+var = 0.04799150608519779
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_19/Run_3/Output/library.json
+var = 0.02316402038291514
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_19/Run_4/Output/library.json
+var = 0.02728238341811279
+0.04799150608519779
+0.02316402038291514
+0.02728238341811279
+MINI NR IS:  3.0
+MINI IS:  0.02316402038291514
+Cleaning house
+Done cleaning house
+Generation 20
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 2.0
+Generation = 20
+Random param update (no gradient used)
+Changing kin param 0 from 0.2037 to 0.2112
+Changing kin param 3 from 0.5946 to 0.6010
+Changing kin param 0 from 0.2037 to 0.1801
+Changing kin param 3 from 0.5946 to 0.6298
+Changing kin param 0 from 0.2037 to 0.1821
+Changing kin param 3 from 0.5946 to 0.5898
+Changing kin param 0 from 0.2037 to 0.1684
+Changing kin param 3 from 0.5946 to 0.6009
+Running
+Running code
+params 129.40289724297514 10 500 6.010396 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 63.301208306648356 10 500 6.297738 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 66.17500762273417 10 500 5.898103 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 48.33380660152978 10 500 6.009178 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_20/Run_1/Output/library.json
+var = 0.01732121720122839
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_20/Run_2/Output/library.json
+var = 0.03109969877044542
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_20/Run_3/Output/library.json
+var = 0.028807821731502075
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_20/Run_4/Output/library.json
+var = 0.041811848059016374
+0.03109969877044542
+0.028807821731502075
+0.041811848059016374
+MINI NR IS:  1.0
+MINI IS:  0.01732121720122839
+Cleaning house
+Done cleaning house
+Generation 21
+Delta = 0.13
+In rando_specs.py: N_unsuccessful_tries = 3.0
+Generation = 21
+Random param update (no gradient used)
+Changing kin param 0 from 0.2037 to 0.2079
+Changing kin param 3 from 0.5946 to 0.5877
+Changing kin param 0 from 0.2037 to 0.2069
+Changing kin param 3 from 0.5946 to 0.6209
+Changing kin param 0 from 0.2037 to 0.2160
+Changing kin param 3 from 0.5946 to 0.6248
+Changing kin param 0 from 0.2037 to 0.1890
+Changing kin param 3 from 0.5946 to 0.6063
+Running
+Running code
+params 119.85937258177657 10 500 5.876528 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 117.18850124891668 10 500 6.209134 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 144.62620818367859 10 500 6.247979 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 77.67566856955595 10 500 6.062627 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_21/Run_1/Output/library.json
+var = 0.011326970218283293
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_21/Run_2/Output/library.json
+var = 0.00805132329111811
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_21/Run_3/Output/library.json
+var = 0.02346349698655259
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_21/Run_4/Output/library.json
+var = 0.02025574062153093
+0.00805132329111811
+0.02346349698655259
+0.02025574062153093
+MINI NR IS:  2.0
+MINI IS:  0.00805132329111811
+Cleaning house
+Done cleaning house
+Generation 22
+Delta = 0.14
+In rando_specs.py: N_unsuccessful_tries = 4.0
+Generation = 22
+Random param update (no gradient used)
+Changing kin param 0 from 0.2037 to 0.1630
+Changing kin param 3 from 0.5946 to 0.6109
+Changing kin param 0 from 0.2037 to 0.1469
+Changing kin param 3 from 0.5946 to 0.6016
+Changing kin param 0 from 0.2037 to 0.1468
+Changing kin param 3 from 0.5946 to 0.5968
+Changing kin param 0 from 0.2037 to 0.2522
+Changing kin param 3 from 0.5946 to 0.5328
+Running
+Running code
+params 42.66512280299706 10 500 6.108531 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 29.426729696707145 10 500 6.016219 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 29.349587382231498 10 500 5.967618 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 332.8135502902898 10 500 5.328474 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_22/Run_1/Output/library.json
+var = 0.04488972250349318
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_22/Run_2/Output/library.json
+var = 0.0622806934151597
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_22/Run_3/Output/library.json
+var = 0.06645373366678184
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_22/Run_4/Output/library.json
+var = 0.09916410039390941
+0.0622806934151597
+0.06645373366678184
+0.09916410039390941
+MINI NR IS:  1.0
+MINI IS:  0.04488972250349318
+Cleaning house
+Done cleaning house
+Generation 23
+Delta = 0.15000000000000002
+In rando_specs.py: N_unsuccessful_tries = 5.0
+Generation = 23
+Random param update (no gradient used)
+Changing kin param 0 from 0.2037 to 0.2004
+Changing kin param 3 from 0.5946 to 0.6004
+Changing kin param 0 from 0.2037 to 0.1942
+Changing kin param 3 from 0.5946 to 0.5932
+Changing kin param 0 from 0.2037 to 0.2129
+Changing kin param 3 from 0.5946 to 0.6526
+Changing kin param 0 from 0.2037 to 0.2462
+Changing kin param 3 from 0.5946 to 0.6184
+Running
+Running code
+params 100.99688982636049 10 500 6.003911 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 87.44762119002962 10 500 5.931901 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 134.71625459752462 10 500 6.525717 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 289.9646128293226 10 500 6.183982 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_23/Run_1/Output/library.json
+var = 0.0005026737001106355
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_23/Run_2/Output/library.json
+var = 0.011151609457311685
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_23/Run_3/Output/library.json
+var = 0.016923096544471786
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_23/Run_4/Output/library.json
+var = 0.07461529023361432
+0.011151609457311685
+0.016923096544471786
+0.07461529023361432
+MINI NR IS:  1.0
+MINI IS:  0.0005026737001106355
+mini_difference pct = 0.8028599161078834
+Cleaning house
+Done cleaning house
+Generation 24
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 24
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0. 1. 1. 0. 1. 1. 1.]
+old kins:  [0.2037243 1.        1.        0.5945655 1.        1.        1.       ]
+new kins:  [0.2004308 1.        1.        0.6003911 1.        1.        1.       ]
+Gradient values  [0.6215758311826264, 0.0, 0.0, -0.35140758033507363, 0.0, 0.0, 0.0]
+0.6215758311826264
+Changing kin param 0 from 0.2004 to 0.1246
+-0.35140758033507363
+Not changing kin param 3 from 0.6004 to -0.2110
+0.6215758311826264
+Changing kin param 0 from 0.2004 to 0.1246
+-0.35140758033507363
+Not changing kin param 3 from 0.6004 to -0.2110
+0.6215758311826264
+Changing kin param 0 from 0.2004 to 0.1246
+-0.35140758033507363
+Not changing kin param 3 from 0.6004 to -0.2110
+0.6215758311826264
+Changing kin param 0 from 0.2004 to 0.1246
+-0.35140758033507363
+Not changing kin param 3 from 0.6004 to -0.2110
+Running
+Running code
+params 17.61282418913593 10 500 6.003911 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 17.61282418913593 10 500 6.003911 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 17.61282418913593 10 500 6.003911 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 17.61282418913593 10 500 6.003911 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_24/Run_1/Output/library.json
+var = 0.08363066158534432
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_24/Run_2/Output/library.json
+var = 0.08852794646886808
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_24/Run_3/Output/library.json
+var = 0.08298253904424861
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_24/Run_4/Output/library.json
+var = 0.08719815188303942
+0.08852794646886808
+0.08298253904424861
+0.08719815188303942
+MINI NR IS:  3.0
+MINI IS:  0.08298253904424861
+Cleaning house
+Done cleaning house
+Generation 25
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 1.0
+Generation = 25
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1981
+Changing kin param 3 from 0.6004 to 0.6522
+Changing kin param 0 from 0.2004 to 0.2007
+Changing kin param 3 from 0.6004 to 0.6232
+Changing kin param 0 from 0.2004 to 0.1948
+Changing kin param 3 from 0.6004 to 0.5638
+Changing kin param 0 from 0.2004 to 0.2027
+Changing kin param 3 from 0.6004 to 0.6195
+Running
+Running code
+params 95.6678469344628 10 500 6.521816 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 101.63656995605618 10 500 6.232354 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 88.75564818313717 10 500 5.63811 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 106.32514900240528 10 500 6.19453 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_25/Run_1/Output/library.json
+var = 0.013346958210828418
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_25/Run_2/Output/library.json
+var = 0.00860347107104808
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_25/Run_3/Output/library.json
+var = 0.010353806261361717
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_25/Run_4/Output/library.json
+var = 0.0065851563931382
+0.00860347107104808
+0.010353806261361717
+0.0065851563931382
+MINI NR IS:  4.0
+MINI IS:  0.0065851563931382
+Cleaning house
+Done cleaning house
+Generation 26
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 2.0
+Generation = 26
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2180
+Changing kin param 3 from 0.6004 to 0.6028
+Changing kin param 0 from 0.2004 to 0.1998
+Changing kin param 3 from 0.6004 to 0.5935
+Changing kin param 0 from 0.2004 to 0.2039
+Changing kin param 3 from 0.6004 to 0.5973
+Changing kin param 0 from 0.2004 to 0.1849
+Changing kin param 3 from 0.6004 to 0.6251
+Running
+Running code
+params 151.27703366438658 10 500 6.028293 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 99.48646509543774 10 500 5.935059 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 109.27806593093086 10 500 5.973337 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 70.59582209619471 10 500 6.251254 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_26/Run_1/Output/library.json
+var = 0.02353157806695157
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_26/Run_2/Output/library.json
+var = 0.0026313807454392247
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_26/Run_3/Output/library.json
+var = 0.0012320724073444434
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_26/Run_4/Output/library.json
+var = 0.02447496697255454
+0.0026313807454392247
+0.0012320724073444434
+0.02447496697255454
+MINI NR IS:  3.0
+MINI IS:  0.0012320724073444434
+Cleaning house
+Done cleaning house
+Generation 27
+Delta = 0.13
+In rando_specs.py: N_unsuccessful_tries = 3.0
+Generation = 27
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2692
+Changing kin param 3 from 0.6004 to 0.5879
+Changing kin param 0 from 0.2004 to 0.1724
+Changing kin param 3 from 0.6004 to 0.6245
+Changing kin param 0 from 0.2004 to 0.2783
+Changing kin param 3 from 0.6004 to 0.6259
+Changing kin param 0 from 0.2004 to 0.2442
+Changing kin param 3 from 0.6004 to 0.5895
+Running
+Running code
+params 492.37047208914 10 500 5.87889 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 52.967685960820894 10 500 6.245037 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 606.9501177348642 10 500 6.258884 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 276.4521679217094 10 500 5.894911 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_27/Run_1/Output/library.json
+var = 0.12651184967894044
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_27/Run_2/Output/library.json
+var = 0.0338191235211842
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_27/Run_3/Output/library.json
+var = 0.1375868656988667
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_27/Run_4/Output/library.json
+var = 0.0752633663115128
+0.0338191235211842
+0.1375868656988667
+0.0752633663115128
+MINI NR IS:  2.0
+MINI IS:  0.0338191235211842
+Cleaning house
+Done cleaning house
+Generation 28
+Delta = 0.14
+In rando_specs.py: N_unsuccessful_tries = 4.0
+Generation = 28
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1810
+Changing kin param 3 from 0.6004 to 0.6011
+Changing kin param 0 from 0.2004 to 0.1956
+Changing kin param 3 from 0.6004 to 0.6248
+Changing kin param 0 from 0.2004 to 0.1877
+Changing kin param 3 from 0.6004 to 0.5512
+Changing kin param 0 from 0.2004 to 0.1278
+Changing kin param 3 from 0.6004 to 0.5909
+Running
+Running code
+params 64.60884837554067 10 500 6.010619 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 90.31835104228112 10 500 6.248444 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 75.39438448365782 10 500 5.512183 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 18.98768420030932 10 500 5.908866 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_28/Run_1/Output/library.json
+var = 0.023002186382161578
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_28/Run_2/Output/library.json
+var = 0.009375249053065235
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_28/Run_3/Output/library.json
+var = 0.018015576508463242
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_28/Run_4/Output/library.json
+var = 0.08003767675124034
+0.009375249053065235
+0.018015576508463242
+0.08003767675124034
+MINI NR IS:  2.0
+MINI IS:  0.009375249053065235
+Cleaning house
+Done cleaning house
+Generation 29
+Delta = 0.15000000000000002
+In rando_specs.py: N_unsuccessful_tries = 5.0
+Generation = 29
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2337
+Changing kin param 3 from 0.6004 to 0.6303
+Changing kin param 0 from 0.2004 to 0.2257
+Changing kin param 3 from 0.6004 to 0.5660
+Changing kin param 0 from 0.2004 to 0.1678
+Changing kin param 3 from 0.6004 to 0.7013
+Changing kin param 0 from 0.2004 to 0.2300
+Changing kin param 3 from 0.6004 to 0.6914
+Running
+Running code
+params 217.4908547140702 10 500 6.303132 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 180.6321287007921 10 500 5.65977 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 47.60702029484931 10 500 7.012599 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 199.3861557209218 10 500 6.914492 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_29/Run_1/Output/library.json
+var = 0.04866362194139884
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_29/Run_2/Output/library.json
+var = 0.049848241024481654
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_29/Run_3/Output/library.json
+var = 0.04756019116418635
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_29/Run_4/Output/library.json
+var = 0.0406729758427835
+0.049848241024481654
+0.04756019116418635
+0.0406729758427835
+MINI NR IS:  4.0
+MINI IS:  0.0406729758427835
+Cleaning house
+Done cleaning house
+Generation 30
+Delta = 0.16000000000000003
+In rando_specs.py: N_unsuccessful_tries = 6.0
+Generation = 30
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1584
+Changing kin param 3 from 0.6004 to 0.6299
+Changing kin param 0 from 0.2004 to 0.2328
+Changing kin param 3 from 0.6004 to 0.6193
+Changing kin param 0 from 0.2004 to 0.1914
+Changing kin param 3 from 0.6004 to 0.5603
+Changing kin param 0 from 0.2004 to 0.2075
+Changing kin param 3 from 0.6004 to 0.6926
+Running
+Running code
+params 38.344669601091056 10 500 6.298779 1.0 1.0 1.0
+params 212.61064254799413 10 500 6.19338 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 82.07842231891111 10 500 5.602631 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 118.71483685156045 10 500 6.925584 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_30/Run_1/Output/library.json
+var = 10
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_30/Run_2/Output/library.json
+var = 0.05492798614884718
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_30/Run_3/Output/library.json
+var = 0.011582860533817576
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_30/Run_4/Output/library.json
+var = 0.009749047265746363
+0.05492798614884718
+0.011582860533817576
+0.009749047265746363
+MINI NR IS:  4.0
+MINI IS:  0.009749047265746363
+Cleaning house
+Done cleaning house
+Generation 31
+Delta = 0.17
+In rando_specs.py: N_unsuccessful_tries = 7.0
+Generation = 31
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1647
+Changing kin param 3 from 0.6004 to 0.5444
+Changing kin param 0 from 0.2004 to 0.1913
+Changing kin param 3 from 0.6004 to 0.5949
+Changing kin param 0 from 0.2004 to 0.1521
+Changing kin param 3 from 0.6004 to 0.6264
+Changing kin param 0 from 0.2004 to 0.1856
+Changing kin param 3 from 0.6004 to 0.5608
+Running
+Running code
+params 44.359740816056835 10 500 5.443719 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 81.84591343998564 10 500 5.948811 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 33.207256747521726 10 500 6.263619 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 71.81133491705432 10 500 5.607731 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_31/Run_1/Output/library.json
+var = 0.03845347973150932
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_31/Run_2/Output/library.json
+var = 0.017029759759918082
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_31/Run_3/Output/library.json
+var = 0.06472341985684676
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_31/Run_4/Output/library.json
+var = 0.017859318211933612
+0.017029759759918082
+0.06472341985684676
+0.017859318211933612
+MINI NR IS:  2.0
+MINI IS:  0.017029759759918082
+Cleaning house
+Done cleaning house
+Generation 32
+Delta = 0.18
+In rando_specs.py: N_unsuccessful_tries = 8.0
+Generation = 32
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1409
+Changing kin param 3 from 0.6004 to 0.6210
+Changing kin param 0 from 0.2004 to 0.2456
+Changing kin param 3 from 0.6004 to 0.6071
+Changing kin param 0 from 0.2004 to 0.1949
+Changing kin param 3 from 0.6004 to 0.5771
+Changing kin param 0 from 0.2004 to 0.1860
+Changing kin param 3 from 0.6004 to 0.5722
+Running
+Running code
+params 25.624535404974207 10 500 6.210011 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 285.63406461808336 10 500 6.070911 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 88.84397883865341 10 500 5.77144 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 72.39457118528408 10 500 5.722013 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_32/Run_1/Output/library.json
+var = 0.077904327894809
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_32/Run_2/Output/library.json
+var = 0.07779310990368621
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_32/Run_3/Output/library.json
+var = 0.009248074169336769
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_32/Run_4/Output/library.json
+var = 0.021061424952625304
+0.07779310990368621
+0.009248074169336769
+0.021061424952625304
+MINI NR IS:  3.0
+MINI IS:  0.009248074169336769
+Cleaning house
+Done cleaning house
+Generation 33
+Delta = 0.19
+In rando_specs.py: N_unsuccessful_tries = 9.0
+Generation = 33
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1841
+Changing kin param 3 from 0.6004 to 0.6926
+Changing kin param 0 from 0.2004 to 0.1785
+Changing kin param 3 from 0.6004 to 0.5817
+Changing kin param 0 from 0.2004 to 0.1289
+Changing kin param 3 from 0.6004 to 0.5312
+Changing kin param 0 from 0.2004 to 0.1571
+Changing kin param 3 from 0.6004 to 0.6044
+Running
+Running code
+params 69.34385795096092 10 500 6.925903 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 60.92239947232581 10 500 5.817017 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 19.46404051853848 10 500 5.311766 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 37.27022374761855 10 500 6.04373 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_33/Run_1/Output/library.json
+var = 0.0380646361196809
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_33/Run_2/Output/library.json
+var = 0.02282534118750075
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_33/Run_3/Output/library.json
+var = 0.06953260941986446
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_33/Run_4/Output/library.json
+var = 0.05571079263179054
+0.02282534118750075
+0.06953260941986446
+0.05571079263179054
+MINI NR IS:  2.0
+MINI IS:  0.02282534118750075
+Cleaning house
+Done cleaning house
+Generation 34
+Delta = 0.2
+In rando_specs.py: N_unsuccessful_tries = 10.0
+Generation = 34
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2453
+Changing kin param 3 from 0.6004 to 0.6145
+Changing kin param 0 from 0.2004 to 0.1704
+Changing kin param 3 from 0.6004 to 0.5876
+Changing kin param 0 from 0.2004 to 0.1881
+Changing kin param 3 from 0.6004 to 0.6486
+Changing kin param 0 from 0.2004 to 0.2047
+Changing kin param 3 from 0.6004 to 0.5411
+Running
+Running code
+params 283.9840836576502 10 500 6.145063 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 50.605066511664276 10 500 5.876175 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 75.97872475886236 10 500 6.485528 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 111.37148231369127 10 500 5.410776 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_34/Run_1/Output/library.json
+var = 0.06975169162940323
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_34/Run_2/Output/library.json
+var = 0.04061130212122658
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_34/Run_3/Output/library.json
+var = 0.022900021440691556
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_34/Run_4/Output/library.json
+var = 0.013706203780426456
+0.04061130212122658
+0.022900021440691556
+0.013706203780426456
+MINI NR IS:  4.0
+MINI IS:  0.013706203780426456
+Cleaning house
+Done cleaning house
+Generation 35
+Delta = 0.21000000000000002
+In rando_specs.py: N_unsuccessful_tries = 11.0
+Generation = 35
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1846
+Changing kin param 3 from 0.6004 to 0.6617
+Changing kin param 0 from 0.2004 to 0.1654
+Changing kin param 3 from 0.6004 to 0.5959
+Changing kin param 0 from 0.2004 to 0.1354
+Changing kin param 3 from 0.6004 to 0.5189
+Changing kin param 0 from 0.2004 to 0.2279
+Changing kin param 3 from 0.6004 to 0.7095
+Running
+Running code
+params 70.15990624359588 10 500 6.616934 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 45.046598222579114 10 500 5.959058 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 22.595606347060325 10 500 5.1886 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 189.96211662523845 10 500 7.094807 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_35/Run_1/Output/library.json
+var = 0.03428335426138408
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_35/Run_2/Output/library.json
+var = 0.05093320042155342
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_35/Run_3/Output/library.json
+var = 0.07120951449215962
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_35/Run_4/Output/library.json
+var = 0.03318511444209377
+0.05093320042155342
+0.07120951449215962
+0.03318511444209377
+MINI NR IS:  4.0
+MINI IS:  0.03318511444209377
+Cleaning house
+Done cleaning house
+Generation 36
+Delta = 0.22000000000000003
+In rando_specs.py: N_unsuccessful_tries = 12.0
+Generation = 36
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1086
+Changing kin param 3 from 0.6004 to 0.6607
+Changing kin param 0 from 0.2004 to 0.2085
+Changing kin param 3 from 0.6004 to 0.5550
+Changing kin param 0 from 0.2004 to 0.1492
+Changing kin param 3 from 0.6004 to 0.6241
+Changing kin param 0 from 0.2004 to 0.1916
+Changing kin param 3 from 0.6004 to 0.6567
+Running
+Running code
+params 12.19329272342108 10 500 6.607408 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 121.48677405169269 10 500 5.550092 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 31.067907254041288 10 500 6.241426 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 82.4155194023212 10 500 6.567168 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_36/Run_1/Output/library.json
+var = 0.10292590801918916
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_36/Run_2/Output/library.json
+var = 0.019791370597675592
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_36/Run_3/Output/library.json
+var = 0.06524791352459085
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_36/Run_4/Output/library.json
+var = 0.02758358495736867
+0.019791370597675592
+0.06524791352459085
+0.02758358495736867
+MINI NR IS:  2.0
+MINI IS:  0.019791370597675592
+Cleaning house
+Done cleaning house
+Generation 37
+Delta = 0.23
+In rando_specs.py: N_unsuccessful_tries = 13.0
+Generation = 37
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1785
+Changing kin param 3 from 0.6004 to 0.6555
+Changing kin param 0 from 0.2004 to 0.1932
+Changing kin param 3 from 0.6004 to 0.6808
+Changing kin param 0 from 0.2004 to 0.1535
+Changing kin param 3 from 0.6004 to 0.5509
+Changing kin param 0 from 0.2004 to 0.1639
+Changing kin param 3 from 0.6004 to 0.5671
+Running
+Running code
+params 61.00016363191679 10 500 6.555425 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 85.56871299741591 10 500 6.808159 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 34.260287256416596 10 500 5.509164 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 43.53805262838804 10 500 5.671015 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_37/Run_1/Output/library.json
+var = 0.03366654490563339
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_37/Run_2/Output/library.json
+var = 0.026416060241433517
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_37/Run_3/Output/library.json
+var = 0.05471329999048793
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_37/Run_4/Output/library.json
+var = 0.0409874940435154
+0.026416060241433517
+0.05471329999048793
+0.0409874940435154
+MINI NR IS:  2.0
+MINI IS:  0.026416060241433517
+Cleaning house
+Done cleaning house
+Generation 38
+Delta = 0.24000000000000002
+In rando_specs.py: N_unsuccessful_tries = 14.0
+Generation = 38
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1754
+Changing kin param 3 from 0.6004 to 0.5791
+Changing kin param 0 from 0.2004 to 0.2221
+Changing kin param 3 from 0.6004 to 0.4971
+Changing kin param 0 from 0.2004 to 0.2431
+Changing kin param 3 from 0.6004 to 0.6337
+Changing kin param 0 from 0.2004 to 0.2553
+Changing kin param 3 from 0.6004 to 0.5177
+Running
+Running code
+params 56.76949095787598 10 500 5.790588 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 166.34356314239503 10 500 4.970749 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 269.73481190282075 10 500 6.337138 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 356.9102331448394 10 500 5.176668 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_38/Run_1/Output/library.json
+var = 0.02966736823535208
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_38/Run_2/Output/library.json
+var = 0.05869279016097151
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_38/Run_3/Output/library.json
+var = 0.0662483968491589
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_38/Run_4/Output/library.json
+var = 0.10631454008576736
+0.05869279016097151
+0.0662483968491589
+0.10631454008576736
+MINI NR IS:  1.0
+MINI IS:  0.02966736823535208
+Cleaning house
+Done cleaning house
+Generation 39
+Delta = 0.25
+In rando_specs.py: N_unsuccessful_tries = 15.0
+Generation = 39
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1712
+Changing kin param 3 from 0.6004 to 0.5973
+Changing kin param 0 from 0.2004 to 0.1389
+Changing kin param 3 from 0.6004 to 0.6033
+Changing kin param 0 from 0.2004 to 0.2944
+Changing kin param 3 from 0.6004 to 0.5123
+Changing kin param 0 from 0.2004 to 0.3041
+Changing kin param 3 from 0.6004 to 0.6899
+Running
+Running code
+params 51.559535958404496 10 500 5.972787 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 24.517941247119584 10 500 6.032976 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 879.3605938593794 10 500 5.123194 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1098.4846688270022 10 500 6.899278 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_39/Run_1/Output/library.json
+var = 0.03676801288449345
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_39/Run_2/Output/library.json
+var = 0.07558777839542855
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_39/Run_3/Output/library.json
+var = 0.1850790828410955
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_39/Run_4/Output/library.json
+var = 0.20220487582424107
+0.07558777839542855
+0.1850790828410955
+0.20220487582424107
+MINI NR IS:  1.0
+MINI IS:  0.03676801288449345
+Cleaning house
+Done cleaning house
+Generation 40
+Delta = 0.26
+In rando_specs.py: N_unsuccessful_tries = 16.0
+Generation = 40
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2588
+Changing kin param 3 from 0.6004 to 0.6870
+Changing kin param 0 from 0.2004 to 0.1388
+Changing kin param 3 from 0.6004 to 0.6099
+Changing kin param 0 from 0.2004 to 0.1514
+Changing kin param 3 from 0.6004 to 0.5827
+Changing kin param 0 from 0.2004 to 0.1884
+Changing kin param 3 from 0.6004 to 0.6079
+Running
+Running code
+params 387.07132577816 10 500 6.869742 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 24.431717608884323 10 500 6.098999 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 32.676008472876724 10 500 5.826976 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 76.52141637256311 10 500 6.079414 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_40/Run_1/Output/library.json
+var = 0.08788708411538756
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_40/Run_2/Output/library.json
+var = 0.07228616870879034
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_40/Run_3/Output/library.json
+var = 0.05979238216174687
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_40/Run_4/Output/library.json
+var = 0.022217572399797235
+0.07228616870879034
+0.05979238216174687
+0.022217572399797235
+MINI NR IS:  4.0
+MINI IS:  0.022217572399797235
+Cleaning house
+Done cleaning house
+Generation 41
+Delta = 0.27
+In rando_specs.py: N_unsuccessful_tries = 17.0
+Generation = 41
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2081
+Changing kin param 3 from 0.6004 to 0.5476
+Changing kin param 0 from 0.2004 to 0.1087
+Changing kin param 3 from 0.6004 to 0.5332
+Changing kin param 0 from 0.2004 to 0.1123
+Changing kin param 3 from 0.6004 to 0.7303
+Changing kin param 0 from 0.2004 to 0.2101
+Changing kin param 3 from 0.6004 to 0.5700
+Running
+Running code
+params 120.4117865304871 10 500 5.476003 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 12.208941140526818 10 500 5.332031 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 13.277429374755433 10 500 7.303328 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 126.2022215780492 10 500 5.700243 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_41/Run_1/Output/library.json
+var = 0.02350146056596402
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_41/Run_2/Output/library.json
+var = 0.08861577727373873
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_41/Run_3/Output/library.json
+var = 0.10536438170792954
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_41/Run_4/Output/library.json
+var = 0.017083951401424033
+0.08861577727373873
+0.10536438170792954
+0.017083951401424033
+MINI NR IS:  4.0
+MINI IS:  0.017083951401424033
+Cleaning house
+Done cleaning house
+Generation 42
+Delta = 0.28
+In rando_specs.py: N_unsuccessful_tries = 18.0
+Generation = 42
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2740
+Changing kin param 3 from 0.6004 to 0.6907
+Changing kin param 0 from 0.2004 to 0.2202
+Changing kin param 3 from 0.6004 to 0.6785
+Changing kin param 0 from 0.2004 to 0.2935
+Changing kin param 3 from 0.6004 to 0.5682
+Changing kin param 0 from 0.2004 to 0.2769
+Changing kin param 3 from 0.6004 to 0.5776
+Running
+Running code
+params 549.7851435026463 10 500 6.906863 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 159.1200842264707 10 500 6.78541 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 860.6726452343978 10 500 5.681877 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 587.8777184325753 10 500 5.775637 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_42/Run_1/Output/library.json
+var = 0.12078925312043096
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_42/Run_2/Output/library.json
+var = 0.027782756886540718
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_42/Run_3/Output/library.json
+var = 0.17307022943173123
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_42/Run_4/Output/library.json
+var = 0.14322125176881445
+0.027782756886540718
+0.17307022943173123
+0.14322125176881445
+MINI NR IS:  2.0
+MINI IS:  0.027782756886540718
+Cleaning house
+Done cleaning house
+Generation 43
+Delta = 0.29000000000000004
+In rando_specs.py: N_unsuccessful_tries = 19.0
+Generation = 43
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1035
+Changing kin param 3 from 0.6004 to 0.6021
+Changing kin param 0 from 0.2004 to 0.2409
+Changing kin param 3 from 0.6004 to 0.6999
+Changing kin param 0 from 0.2004 to 0.0792
+Changing kin param 3 from 0.6004 to 0.5640
+Changing kin param 0 from 0.2004 to 0.2199
+Changing kin param 3 from 0.6004 to 0.5983
+Running
+Running code
+params 10.83410399496959 10 500 6.021291 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 256.57657292658433 10 500 6.999344 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 6.197991838132316 10 500 5.640026 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 158.0367172838257 10 500 5.982722 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_43/Run_1/Output/library.json
+var = 0.0956518079613778
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_43/Run_2/Output/library.json
+var = 0.054439303586826186
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_43/Run_3/Output/library.json
+var = 0.10877813236174219
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_43/Run_4/Output/library.json
+var = 0.028882550996268026
+0.054439303586826186
+0.10877813236174219
+0.028882550996268026
+MINI NR IS:  4.0
+MINI IS:  0.028882550996268026
+Cleaning house
+Done cleaning house
+Generation 44
+Delta = 0.30000000000000004
+In rando_specs.py: N_unsuccessful_tries = 20.0
+Generation = 44
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.3511
+Changing kin param 3 from 0.6004 to 0.6300
+Changing kin param 0 from 0.2004 to 0.2587
+Changing kin param 3 from 0.6004 to 0.7276
+Changing kin param 0 from 0.2004 to 0.2060
+Changing kin param 3 from 0.6004 to 0.7340
+Changing kin param 0 from 0.2004 to 0.0308
+Changing kin param 3 from 0.6004 to 0.5180
+Running
+Running code
+params 3245.876562415266 10 500 6.29971 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 386.71409359578854 10 500 7.276426 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 114.8399513915135 10 500 7.339994 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.031047124251206 10 500 5.180223 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_44/Run_1/Output/library.json
+var = 0.33008046240248345
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_44/Run_2/Output/library.json
+var = 0.0838596135675033
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_44/Run_3/Output/library.json
+var = 0.017533661447252387
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_44/Run_4/Output/library.json
+var = 0.12401497446301074
+0.0838596135675033
+0.017533661447252387
+0.12401497446301074
+MINI NR IS:  3.0
+MINI IS:  0.017533661447252387
+Cleaning house
+Done cleaning house
+Generation 45
+Delta = 0.31000000000000005
+In rando_specs.py: N_unsuccessful_tries = 21.0
+Generation = 45
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1874
+Changing kin param 3 from 0.6004 to 0.4462
+Changing kin param 0 from 0.2004 to 0.2487
+Changing kin param 3 from 0.6004 to 0.5587
+Changing kin param 0 from 0.2004 to 0.2438
+Changing kin param 3 from 0.6004 to 0.6235
+Changing kin param 0 from 0.2004 to 0.2149
+Changing kin param 3 from 0.6004 to 0.5503
+Running
+Running code
+params 74.85175716883528 10 500 4.461855 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 306.7531280164194 10 500 5.586819 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 274.0034303833033 10 500 6.23527 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 140.86756254598623 10 500 5.502594 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_45/Run_1/Output/library.json
+var = 0.03916890495628894
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_45/Run_2/Output/library.json
+var = 0.08652892925287739
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_45/Run_3/Output/library.json
+var = 0.06548306492645341
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_45/Run_4/Output/library.json
+var = 0.033577658935500326
+0.08652892925287739
+0.06548306492645341
+0.033577658935500326
+MINI NR IS:  4.0
+MINI IS:  0.033577658935500326
+Cleaning house
+Done cleaning house
+Generation 46
+Delta = 0.32000000000000006
+In rando_specs.py: N_unsuccessful_tries = 22.0
+Generation = 46
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1912
+Changing kin param 3 from 0.6004 to 0.5700
+Changing kin param 0 from 0.2004 to 0.0557
+Changing kin param 3 from 0.6004 to 0.6082
+Changing kin param 0 from 0.2004 to 0.0767
+Changing kin param 3 from 0.6004 to 0.7438
+Changing kin param 0 from 0.2004 to 0.0731
+Changing kin param 3 from 0.6004 to 0.6287
+Running
+Running code
+params 81.63736902339143 10 500 5.700092 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.604591049672972 10 500 6.081765 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 5.84764500654437 10 500 7.437832 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 5.383193612785289 10 500 6.287495 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_46/Run_1/Output/library.json
+var = 0.011596366305380832
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_46/Run_2/Output/library.json
+var = 0.11769794123330272
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_46/Run_3/Output/library.json
+var = 0.12445850409000343
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_46/Run_4/Output/library.json
+var = 0.11888250358437591
+0.11769794123330272
+0.12445850409000343
+0.11888250358437591
+MINI NR IS:  1.0
+MINI IS:  0.011596366305380832
+Cleaning house
+Done cleaning house
+Generation 47
+Delta = 0.33000000000000007
+In rando_specs.py: N_unsuccessful_tries = 23.0
+Generation = 47
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.2444
+Changing kin param 3 from 0.6004 to 0.5923
+Changing kin param 0 from 0.2004 to 0.3161
+Changing kin param 3 from 0.6004 to 0.6067
+Changing kin param 0 from 0.2004 to 0.3317
+Changing kin param 3 from 0.6004 to 0.5464
+Changing kin param 0 from 0.2004 to 0.2674
+Changing kin param 3 from 0.6004 to 0.7439
+Running
+Running code
+params 277.8778947972059 10 500 5.923115 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1448.5150104380234 10 500 6.066709 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2073.1131193275687 10 500 5.464489 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 472.1152184824019 10 500 7.439417 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_47/Run_1/Output/library.json
+var = 0.07904699476184572
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_47/Run_2/Output/library.json
+var = 0.23191053183744906
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_47/Run_3/Output/library.json
+var = 0.27958544210097996
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_47/Run_4/Output/library.json
+var = 0.10866972914434848
+0.23191053183744906
+0.27958544210097996
+0.10866972914434848
+MINI NR IS:  1.0
+MINI IS:  0.07904699476184572
+Cleaning house
+Done cleaning house
+Generation 48
+Delta = 0.3400000000000001
+In rando_specs.py: N_unsuccessful_tries = 24.0
+Generation = 48
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1402
+Changing kin param 3 from 0.6004 to 0.5875
+Changing kin param 0 from 0.2004 to 0.1622
+Changing kin param 3 from 0.6004 to 0.5440
+Changing kin param 0 from 0.2004 to 0.0806
+Changing kin param 3 from 0.6004 to 0.7482
+Changing kin param 0 from 0.2004 to 0.2038
+Changing kin param 3 from 0.6004 to 0.5091
+Running
+Running code
+params 25.257769755825063 10 500 5.874759 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 41.89035106388348 10 500 5.44021 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 6.394476564001126 10 500 7.482499 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 109.23831687868424 10 500 5.090797 1.0 1.0 1.0
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_48/Run_1/Output/library.json
+var = 0.0717570150009989
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_48/Run_2/Output/library.json
+var = 0.0439270217462308
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_48/Run_3/Output/library.json
+var = 0.12230835577975953
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_48/Run_4/Output/library.json
+var = 10
+0.0439270217462308
+0.12230835577975953
+10
+MINI NR IS:  2.0
+MINI IS:  0.0439270217462308
+Cleaning house
+Done cleaning house
+Generation 49
+Delta = 0.35
+In rando_specs.py: N_unsuccessful_tries = 25.0
+Generation = 49
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.0841
+Changing kin param 3 from 0.6004 to 0.6906
+Changing kin param 0 from 0.2004 to 0.1229
+Changing kin param 3 from 0.6004 to 0.5775
+Changing kin param 0 from 0.2004 to 0.2254
+Changing kin param 3 from 0.6004 to 0.3946
+Changing kin param 0 from 0.2004 to 0.3909
+Changing kin param 3 from 0.6004 to 0.7953
+Running
+Running code
+params 6.930363274878599 10 500 6.905921 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 16.941700504026713 10 500 5.775195 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 179.409319945508 10 500 3.946314 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 8113.14055651867 10 500 7.952565 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_49/Run_1/Output/library.json
+var = 0.11296503630939067
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_49/Run_2/Output/library.json
+var = 0.08399499779418411
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_49/Run_3/Output/library.json
+var = 0.0929099896126771
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_49/Run_4/Output/library.json
+var = 0.46250495146240156
+0.08399499779418411
+0.0929099896126771
+0.46250495146240156
+MINI NR IS:  2.0
+MINI IS:  0.08399499779418411
+Cleaning house
+Done cleaning house
+Generation 50
+Delta = 0.36
+In rando_specs.py: N_unsuccessful_tries = 26.0
+Generation = 50
+Random param update (no gradient used)
+Changing kin param 0 from 0.2004 to 0.1890
+Changing kin param 3 from 0.6004 to 0.6223
+Changing kin param 0 from 0.2004 to 0.1460
+Changing kin param 3 from 0.6004 to 0.6421
+Changing kin param 0 from 0.2004 to 0.0796
+Changing kin param 3 from 0.6004 to 0.6840
+Changing kin param 0 from 0.2004 to 0.1346
+Changing kin param 3 from 0.6004 to 0.7975
+Running
+Running code
+params 77.56217873767241 10 500 6.223012 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 28.82862971800525 10 500 6.421326 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 6.246676277254764 10 500 6.840417 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 22.20414220092038 10 500 7.975089 1.0 1.0 1.0
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_50/Run_1/Output/library.json
+var = 0.01700548781623285
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_50/Run_2/Output/library.json
+var = 0.07636627993864847
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_50/Run_3/Output/library.json
+var = 0.11353472531597573
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_50/Run_4/Output/library.json
+var = 0.095626137931642
+0.07636627993864847
+0.11353472531597573
+0.095626137931642
+MINI NR IS:  1.0
+MINI IS:  0.01700548781623285
+Cleaning house
+Done cleaning house
+Choosing best Gen
+BEST FIT
+23 	 1 0.0005026737001106355
+Copying best Gen
+--------------
+CLEANING UP
+--------------
+-----------------
+DONE CLEANING UP
+-----------------
+Running final big simulation!
+Find results in the folder >>[1m[35m BEST_FIT [0m

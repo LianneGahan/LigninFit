@@ -1,0 +1,240 @@
+rm: das Entfernen von 'family_1/Generation_*' ist nicht möglich: Datei oder Verzeichnis nicht gefunden
+rm: das Entfernen von 'family_1/vars_*.txt' ist nicht möglich: Datei oder Verzeichnis nicht gefunden
+rm: das Entfernen von 'Gridsearch/Run*' ist nicht möglich: Datei oder Verzeichnis nicht gefunden
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_1/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 65
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_1/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_1/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_1/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 65
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_2/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 65
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_2/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_2/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_2/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 65
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_3/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 73
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_3/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_3/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_3/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 73
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_4/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 54
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_4/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_4/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_8/Run_4/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 54
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_27/Run_2/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 40
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_27/Run_2/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_27/Run_2/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_27/Run_2/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 40
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_43/Run_3/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 36
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_43/Run_3/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_43/Run_3/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_43/Run_3/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 36
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_45/Run_2/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 56
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_45/Run_2/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_45/Run_2/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_45/Run_2/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 56
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_47/Run_2/Code/function_library.py", line 185, in generate_analysis_parallel
+    nrings = np.sum([partial_dict_B[smiles_dictionary_id + k]["rings"] for k in range(partial_dict_A[bond_dictionary_id]['Bonds']["b1"]+1)])
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_47/Run_2/Code/function_library.py", line 185, in <listcomp>
+    nrings = np.sum([partial_dict_B[smiles_dictionary_id + k]["rings"] for k in range(partial_dict_A[bond_dictionary_id]['Bonds']["b1"]+1)])
+KeyError: 61
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_47/Run_2/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_47/Run_2/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_47/Run_2/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 61
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_50/Run_4/Code/function_library.py", line 201, in generate_analysis_parallel
+    smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
+KeyError: 61
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_50/Run_4/Code/simulation_main.py", line 80, in <module>
+    simulation_run_analysis(SG_ratio, simulation_time, monomer_addition_rate, minimum_num_monomers, maximum_num_monomers, rxn_rates, number_of_runs, filewriting, filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_50/Run_4/Code/simulation_main.py", line 22, in simulation_run_analysis
+    data_dictionary = generate_analysis(result, number_of_runs, num_cores=int(sys.argv[2]), file_writing=False, savefile_path=filepath)
+  File "/home/gahan/june24/040624_allparametersopen_limitSG/beech_terrell/family_1/Generation_50/Run_4/Code/function_library.py", line 342, in generate_analysis
+    lignin_libraries = pool.starmap(generate_analysis_parallel, [(cur_adjs[i], monolist[i], file_writing, savefile_path) for i, result in enumerate(results)])
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/home/gahan/anaconda3/envs/ligninsims/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+KeyError: 61
+rm: das Entfernen von 'Gridsearch/Run*' ist nicht möglich: Datei oder Verzeichnis nicht gefunden

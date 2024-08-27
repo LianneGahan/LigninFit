@@ -1,0 +1,1661 @@
+{
+  "gridsearch_0": {
+    "id": 0,
+    "bonds": {
+      "bo4": 0.28661963114246813,
+      "bb": 0.0954326030449313,
+      "b5": 0.6145067458843916,
+      "ao4": 0.0,
+      "5o4": 0.0019309320460453026,
+      "b1": 0.00019804431241490284,
+      "55": 0.0013120435697487312
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.0,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_1": {
+    "id": 1,
+    "bonds": {
+      "bo4": 0.4041679671556505,
+      "bb": 0.07032244123790546,
+      "b5": 0.5197474250318119,
+      "ao4": 0.0,
+      "5o4": 0.003817435355693741,
+      "b1": 0.0014645506710523157,
+      "55": 0.00048018054788600515
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.25,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_2": {
+    "id": 2,
+    "bonds": {
+      "bo4": 0.48148148148148145,
+      "bb": 0.06222689566538147,
+      "b5": 0.4465241266503096,
+      "ao4": 0.0,
+      "5o4": 0.005818436733263232,
+      "b1": 0.0037621217431942984,
+      "55": 0.00018693772636990303
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_3": {
+    "id": 3,
+    "bonds": {
+      "bo4": 0.5443975834948136,
+      "bb": 0.057312207910634905,
+      "b5": 0.3831528553516471,
+      "ao4": 0.0,
+      "5o4": 0.0076142710589308105,
+      "b1": 0.0074546905277556134,
+      "55": 6.839165621794141e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.75,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_4": {
+    "id": 4,
+    "bonds": {
+      "bo4": 0.5938757264193115,
+      "bb": 0.05585605721949039,
+      "b5": 0.33053196244970945,
+      "ao4": 0.0,
+      "5o4": 0.009097004917299955,
+      "b1": 0.010594546267322306,
+      "55": 4.470272686633885e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.0,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_5": {
+    "id": 5,
+    "bonds": {
+      "bo4": 0.6606367268936761,
+      "bb": 0.05044735927727589,
+      "b5": 0.2605324878387769,
+      "ao4": 0.0,
+      "5o4": 0.011270847810979846,
+      "b1": 0.0170908617095205,
+      "55": 2.171646977067408e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.5,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_6": {
+    "id": 6,
+    "bonds": {
+      "bo4": 0.7098467620241865,
+      "bb": 0.045397547342245645,
+      "b5": 0.2107925442604833,
+      "ao4": 0.0,
+      "5o4": 0.01249707763915751,
+      "b1": 0.02142356166712716,
+      "55": 4.2507066799855474e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.0,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_7": {
+    "id": 7,
+    "bonds": {
+      "bo4": 0.7357765410059856,
+      "bb": 0.04097448283104064,
+      "b5": 0.18258952010920929,
+      "ao4": 0.0,
+      "5o4": 0.013441142497112254,
+      "b1": 0.027218313556652315,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.5,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_8": {
+    "id": 8,
+    "bonds": {
+      "bo4": 0.7629903826195253,
+      "bb": 0.03691275167785235,
+      "b5": 0.15626513526603472,
+      "ao4": 0.0,
+      "5o4": 0.014218501349200857,
+      "b1": 0.029613229087386703,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 3.0,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_9": {
+    "id": 9,
+    "bonds": {
+      "bo4": 0.8002532059135833,
+      "bb": 0.026831658907130605,
+      "b5": 0.12043616760597893,
+      "ao4": 0.0,
+      "5o4": 0.013701707097933512,
+      "b1": 0.038777260475373686,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 4.0,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_10": {
+    "id": 10,
+    "bonds": {
+      "bo4": 0.8253335585205201,
+      "bb": 0.020672183752744468,
+      "b5": 0.10062489444350617,
+      "ao4": 0.0,
+      "5o4": 0.011991217699712887,
+      "b1": 0.041378145583516296,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 5.0,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_11": {
+    "id": 11,
+    "bonds": {
+      "bo4": 0.8414806347498656,
+      "bb": 0.016305809575040343,
+      "b5": 0.08610139860139861,
+      "ao4": 0.0,
+      "5o4": 0.010758472296933835,
+      "b1": 0.0453536847767617,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 6.0,
+      "monomer_addition_rate": 1,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_12": {
+    "id": 12,
+    "bonds": {
+      "bo4": 0.2886322609362249,
+      "bb": 0.09362249313781251,
+      "b5": 0.6134919261109325,
+      "ao4": 0.0,
+      "5o4": 0.0018051880610301936,
+      "b1": 0.000321471846484829,
+      "55": 0.0021266599075150227
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.0,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_13": {
+    "id": 13,
+    "bonds": {
+      "bo4": 0.38585509748902797,
+      "bb": 0.07600067151113989,
+      "b5": 0.516919682471161,
+      "ao4": 0.0,
+      "5o4": 0.01921001510900065,
+      "b1": 0.0009593016284145142,
+      "55": 0.0010552317912559657
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.25,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_14": {
+    "id": 14,
+    "bonds": {
+      "bo4": 0.4449850559532912,
+      "bb": 0.07685178749333889,
+      "b5": 0.4311994624776998,
+      "ao4": 0.0,
+      "5o4": 0.04469312573851394,
+      "b1": 0.001204791362572693,
+      "55": 0.001065776974583536
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_15": {
+    "id": 15,
+    "bonds": {
+      "bo4": 0.4826395159833845,
+      "bb": 0.09131750045150804,
+      "b5": 0.3528986815965324,
+      "ao4": 0.0,
+      "5o4": 0.06941936066461983,
+      "b1": 0.0028670760339534044,
+      "55": 0.000857865270001806
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.75,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_16": {
+    "id": 16,
+    "bonds": {
+      "bo4": 0.5181657848324515,
+      "bb": 0.10152116402116403,
+      "b5": 0.2879188712522046,
+      "ao4": 0.0,
+      "5o4": 0.08723544973544974,
+      "b1": 0.004475308641975309,
+      "55": 0.0006834215167548501
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.0,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_17": {
+    "id": 17,
+    "bonds": {
+      "bo4": 0.550974978060318,
+      "bb": 0.12339733299086025,
+      "b5": 0.20184507373873584,
+      "ao4": 0.0,
+      "5o4": 0.1157344977418181,
+      "b1": 0.0076842398167769,
+      "55": 0.00036387765149082816
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.5,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_18": {
+    "id": 18,
+    "bonds": {
+      "bo4": 0.5807779551373603,
+      "bb": 0.13385281021591194,
+      "b5": 0.14775686801646642,
+      "ao4": 0.0,
+      "5o4": 0.12746786524405612,
+      "b1": 0.009997479626984794,
+      "55": 0.0001470217592203646
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.0,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_19": {
+    "id": 19,
+    "bonds": {
+      "bo4": 0.6072400822925542,
+      "bb": 0.1371542569772033,
+      "b5": 0.11171837659234014,
+      "ao4": 0.0,
+      "5o4": 0.13025498223228943,
+      "b1": 0.013424492425344443,
+      "55": 0.00020780948026848984
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.5,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_20": {
+    "id": 20,
+    "bonds": {
+      "bo4": 0.6367344140932927,
+      "bb": 0.13219316584981322,
+      "b5": 0.08643794769852967,
+      "ao4": 0.0,
+      "5o4": 0.12629811152620216,
+      "b1": 0.018199266545566712,
+      "55": 0.00013709428659560612
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 3.0,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_21": {
+    "id": 21,
+    "bonds": {
+      "bo4": 0.6774292366131601,
+      "bb": 0.12224809051178369,
+      "b5": 0.059612792549932604,
+      "ao4": 0.0,
+      "5o4": 0.11516154066086673,
+      "b1": 0.02554833966425683,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 4.0,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_22": {
+    "id": 22,
+    "bonds": {
+      "bo4": 0.7001327749974466,
+      "bb": 0.11847615156776632,
+      "b5": 0.04667551833316311,
+      "ao4": 0.0,
+      "5o4": 0.10741156844721343,
+      "b1": 0.02726994178327035,
+      "55": 3.4044871140162734e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 5.0,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_23": {
+    "id": 23,
+    "bonds": {
+      "bo4": 0.7256935001359804,
+      "bb": 0.11041610008158825,
+      "b5": 0.034471036170791405,
+      "ao4": 0.0,
+      "5o4": 0.09759994560783247,
+      "b1": 0.03181941800380745,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 6.0,
+      "monomer_addition_rate": 100,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_24": {
+    "id": 24,
+    "bonds": {
+      "bo4": 0.30266712064464873,
+      "bb": 0.10430144138009306,
+      "b5": 0.46464646464646464,
+      "ao4": 0.0,
+      "5o4": 0.07052547951424355,
+      "b1": 0.0002723867892407218,
+      "55": 0.057587107025309274
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.0,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_25": {
+    "id": 25,
+    "bonds": {
+      "bo4": 0.38284666696116976,
+      "bb": 0.11286831293899369,
+      "b5": 0.3261474577019923,
+      "ao4": 0.0,
+      "5o4": 0.1533109510977603,
+      "b1": 0.00039757918452091706,
+      "55": 0.024429032115563017
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_26": {
+    "id": 26,
+    "bonds": {
+      "bo4": 0.39908536585365856,
+      "bb": 0.13440766550522648,
+      "b5": 0.2684668989547038,
+      "ao4": 0.0,
+      "5o4": 0.18096689895470383,
+      "b1": 0.0004137630662020906,
+      "55": 0.016659407665505225
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.75,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_27": {
+    "id": 27,
+    "bonds": {
+      "bo4": 0.41084527465029,
+      "bb": 0.16376663254861823,
+      "b5": 0.2044950528829751,
+      "ao4": 0.0,
+      "5o4": 0.2092289321050836,
+      "b1": 0.000597065847833504,
+      "55": 0.01106704196519959
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.0,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_28": {
+    "id": 28,
+    "bonds": {
+      "bo4": 0.4206934206934207,
+      "bb": 0.2087192087192087,
+      "b5": 0.12663012663012663,
+      "ao4": 0.0,
+      "5o4": 0.23841323841323842,
+      "b1": 0.000714000714000714,
+      "55": 0.00483000483000483
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.5,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_29": {
+    "id": 29,
+    "bonds": {
+      "bo4": 0.4333035287267888,
+      "bb": 0.24295606246491028,
+      "b5": 0.0696803975795887,
+      "ao4": 0.0,
+      "5o4": 0.2512944209935331,
+      "b1": 0.0010189016655923146,
+      "55": 0.001746688569586825
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.0,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_30": {
+    "id": 30,
+    "bonds": {
+      "bo4": 0.43268275147491064,
+      "bb": 0.2747880146328054,
+      "b5": 0.041487809519781774,
+      "ao4": 0.0,
+      "5o4": 0.24888456577361442,
+      "b1": 0.0015859254403586306,
+      "55": 0.000570933158529107
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.5,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_31": {
+    "id": 31,
+    "bonds": {
+      "bo4": 0.43422760709649505,
+      "bb": 0.3005913745853166,
+      "b5": 0.024195874801673158,
+      "ao4": 0.0,
+      "5o4": 0.23871339968267705,
+      "b1": 0.0020193278523005912,
+      "55": 0.0002524159815375739
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 3.0,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_32": {
+    "id": 32,
+    "bonds": {
+      "bo4": 0.43066160669379544,
+      "bb": 0.34031365735448765,
+      "b5": 0.0154771158154634,
+      "ao4": 0.0,
+      "5o4": 0.21084998399707375,
+      "b1": 0.0026519134927529605,
+      "55": 4.572264642677518e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 4.0,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_33": {
+    "id": 33,
+    "bonds": {
+      "bo4": 0.43375550879421926,
+      "bb": 0.3664985905427403,
+      "b5": 0.010005161392781991,
+      "ao4": 0.0,
+      "5o4": 0.18501607972366696,
+      "b1": 0.004724659546591496,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 5.0,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_34": {
+    "id": 34,
+    "bonds": {
+      "bo4": 0.42991891444646696,
+      "bb": 0.39595399635942413,
+      "b5": 0.007488002647691544,
+      "ao4": 0.0,
+      "5o4": 0.16175740526228694,
+      "b1": 0.004881681284130399,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 6.0,
+      "monomer_addition_rate": 10000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_35": {
+    "id": 35,
+    "bonds": {
+      "bo4": 0.16257058956403886,
+      "bb": 0.18238084481590242,
+      "b5": 0.32193358933815225,
+      "ao4": 0.0,
+      "5o4": 0.25086966342895867,
+      "b1": 0.0,
+      "55": 0.08224531285294782
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.0,
+      "monomer_addition_rate": 1000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_36": {
+    "id": 36,
+    "bonds": {
+      "bo4": 0.1944745520374513,
+      "bb": 0.17491870949888152,
+      "b5": 0.3160528561215783,
+      "ao4": 0.0,
+      "5o4": 0.28051564698014436,
+      "b1": 2.30611350690681e-05,
+      "55": 0.034015174226875444
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.25,
+      "monomer_addition_rate": 1000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_37": {
+    "id": 37,
+    "bonds": {
+      "bo4": 0.2298416620904265,
+      "bb": 0.19318597840014645,
+      "b5": 0.26885410946366467,
+      "ao4": 0.0,
+      "5o4": 0.2897217645982061,
+      "b1": 2.288120080541827e-05,
+      "55": 0.018373604246750868
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 1000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_38": {
+    "id": 38,
+    "bonds": {
+      "bo4": 0.2689676755935083,
+      "bb": 0.2164125720928153,
+      "b5": 0.2091474046586489,
+      "ao4": 0.0,
+      "5o4": 0.29317744892028436,
+      "b1": 2.2354361335896635e-05,
+      "55": 0.012272544373407251
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.75,
+      "monomer_addition_rate": 1000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_39": {
+    "id": 39,
+    "bonds": {
+      "bo4": 0.30019433587352884,
+      "bb": 0.23599799113479047,
+      "b5": 0.15841649016311113,
+      "ao4": 0.0,
+      "5o4": 0.29491014695285717,
+      "b1": 6.550647422320239e-05,
+      "55": 0.01041552940148918
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.0,
+      "monomer_addition_rate": 1000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_40": {
+    "id": 40,
+    "bonds": {
+      "bo4": 0.33070463361609614,
+      "bb": 0.27765463148471803,
+      "b5": 0.08904897906986657,
+      "ao4": 0.0,
+      "5o4": 0.2987126475979368,
+      "b1": 0.0,
+      "55": 0.003879108231382412
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.5,
+      "monomer_addition_rate": 1000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_41": {
+    "id": 41,
+    "bonds": {
+      "bo4": 0.28604045166894154,
+      "bb": 0.09897009554535302,
+      "b5": 0.6113909914381437,
+      "ao4": 0.0,
+      "5o4": 0.0018612731108077925,
+      "b1": 0.00034743764735078797,
+      "55": 0.0013897505894031519
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.0,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_42": {
+    "id": 42,
+    "bonds": {
+      "bo4": 0.3910217836081358,
+      "bb": 0.0724756288362017,
+      "b5": 0.5268022626068118,
+      "ao4": 0.0,
+      "5o4": 0.008256107834877843,
+      "b1": 0.0010590925502467203,
+      "55": 0.0003851245637260802
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.25,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_43": {
+    "id": 43,
+    "bonds": {
+      "bo4": 0.474175888177053,
+      "bb": 0.0675596971461852,
+      "b5": 0.4368782760629004,
+      "ao4": 0.0,
+      "5o4": 0.017891671520093185,
+      "b1": 0.00337798485730926,
+      "55": 0.00011648223645894001
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_44": {
+    "id": 44,
+    "bonds": {
+      "bo4": 0.5294278114983292,
+      "bb": 0.06924458387324103,
+      "b5": 0.36975152879128875,
+      "ao4": 0.0,
+      "5o4": 0.026188365273136466,
+      "b1": 0.005251312828207052,
+      "55": 0.00013639773579758577
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.75,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_45": {
+    "id": 45,
+    "bonds": {
+      "bo4": 0.5686130083478416,
+      "bb": 0.07115753760992813,
+      "b5": 0.31833400294629705,
+      "ao4": 0.0,
+      "5o4": 0.03321280299986608,
+      "b1": 0.008571045935449311,
+      "55": 0.00011160216061782956
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.0,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_46": {
+    "id": 46,
+    "bonds": {
+      "bo4": 0.6230520817529639,
+      "bb": 0.07327857127375972,
+      "b5": 0.24499880794989054,
+      "ao4": 0.0,
+      "5o4": 0.044712715923622096,
+      "b1": 0.013914475823056417,
+      "55": 4.334727670734086e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.5,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_47": {
+    "id": 47,
+    "bonds": {
+      "bo4": 0.6630977418052811,
+      "bb": 0.07197331803794108,
+      "b5": 0.19909502262443438,
+      "ao4": 0.0,
+      "5o4": 0.047925562424319675,
+      "b1": 0.01784462430692754,
+      "55": 6.373080109616978e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.0,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_48": {
+    "id": 48,
+    "bonds": {
+      "bo4": 0.7002484186794147,
+      "bb": 0.0681585704444398,
+      "b5": 0.1576101705529925,
+      "ao4": 0.0,
+      "5o4": 0.051186773270985114,
+      "b1": 0.022796067052167922,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.5,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_49": {
+    "id": 49,
+    "bonds": {
+      "bo4": 0.7205811305128028,
+      "bb": 0.06756850024156257,
+      "b5": 0.13289391952515703,
+      "ao4": 0.0,
+      "5o4": 0.05255711229208365,
+      "b1": 0.026399337428393954,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 3.0,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_50": {
+    "id": 50,
+    "bonds": {
+      "bo4": 0.7647610503996085,
+      "bb": 0.0558228673952047,
+      "b5": 0.10043222965258522,
+      "ao4": 0.0,
+      "5o4": 0.047035557005382485,
+      "b1": 0.03194829554721905,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 4.0,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_51": {
+    "id": 51,
+    "bonds": {
+      "bo4": 0.7892496368120545,
+      "bb": 0.04810973343694044,
+      "b5": 0.08300956113382209,
+      "ao4": 0.0,
+      "5o4": 0.04152167302949424,
+      "b1": 0.03810939558768877,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 5.0,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_52": {
+    "id": 52,
+    "bonds": {
+      "bo4": 0.8119663865546218,
+      "bb": 0.039260504201680674,
+      "b5": 0.07018487394957983,
+      "ao4": 0.0,
+      "5o4": 0.03556302521008403,
+      "b1": 0.043025210084033615,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 6.0,
+      "monomer_addition_rate": 10,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_53": {
+    "id": 53,
+    "bonds": {
+      "bo4": 0.29762878168438267,
+      "bb": 0.09352604492328412,
+      "b5": 0.5784474051272185,
+      "ao4": 0.0,
+      "5o4": 0.014333124909816747,
+      "b1": 0.0004088307440719542,
+      "55": 0.015655812611226012
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.0,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_54": {
+    "id": 54,
+    "bonds": {
+      "bo4": 0.38304420817011753,
+      "bb": 0.07820369334079463,
+      "b5": 0.47910837530311506,
+      "ao4": 0.0,
+      "5o4": 0.04695952247714979,
+      "b1": 0.00037306472673008767,
+      "55": 0.012311135982092894
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.25,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_55": {
+    "id": 55,
+    "bonds": {
+      "bo4": 0.4267492876204261,
+      "bb": 0.0895336740693835,
+      "b5": 0.38762494911574474,
+      "ao4": 0.0,
+      "5o4": 0.08600569903659143,
+      "b1": 0.0006106110633678592,
+      "55": 0.009475779094486408
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_56": {
+    "id": 56,
+    "bonds": {
+      "bo4": 0.44999889695338524,
+      "bb": 0.1107900019854839,
+      "b5": 0.31163272959915284,
+      "ao4": 0.0,
+      "5o4": 0.11963643583577842,
+      "b1": 0.0009927419532749454,
+      "55": 0.006949193672924618
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.75,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_57": {
+    "id": 57,
+    "bonds": {
+      "bo4": 0.4596457759760671,
+      "bb": 0.13403715666934032,
+      "b5": 0.2523358407942943,
+      "ao4": 0.0,
+      "5o4": 0.147282620477357,
+      "b1": 0.001539161915497843,
+      "55": 0.005159444167443474
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.0,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_58": {
+    "id": 58,
+    "bonds": {
+      "bo4": 0.4757544356799966,
+      "bb": 0.17156935309916044,
+      "b5": 0.16363905513143148,
+      "ao4": 0.0,
+      "5o4": 0.18389832300632308,
+      "b1": 0.0026645801171569354,
+      "55": 0.00247425296593144
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.5,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_59": {
+    "id": 59,
+    "bonds": {
+      "bo4": 0.4907139134966128,
+      "bb": 0.19774882751433037,
+      "b5": 0.10344971339239187,
+      "ao4": 0.0,
+      "5o4": 0.20300156331422617,
+      "b1": 0.0039603960396039604,
+      "55": 0.0011255862428348098
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.0,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_60": {
+    "id": 60,
+    "bonds": {
+      "bo4": 0.5049675756568008,
+      "bb": 0.21252494180246093,
+      "b5": 0.06902643831060858,
+      "ao4": 0.0,
+      "5o4": 0.20749501163950781,
+      "b1": 0.005632690389092118,
+      "55": 0.0003533422015297639
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.5,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_61": {
+    "id": 61,
+    "bonds": {
+      "bo4": 0.5242708297034533,
+      "bb": 0.22410008014775062,
+      "b5": 0.042861623166184616,
+      "ao4": 0.0,
+      "5o4": 0.2002299891974771,
+      "b1": 0.008398090392723979,
+      "55": 0.00013938739241035647
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 3.0,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_62": {
+    "id": 62,
+    "bonds": {
+      "bo4": 0.5591388753780109,
+      "bb": 0.22299997885253875,
+      "b5": 0.024848266965550786,
+      "ao4": 0.0,
+      "5o4": 0.1798803053693404,
+      "b1": 0.01306913105081735,
+      "55": 6.344238374183179e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 4.0,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_63": {
+    "id": 63,
+    "bonds": {
+      "bo4": 0.5793499730651822,
+      "bb": 0.22750942718620937,
+      "b5": 0.017489674986532592,
+      "ao4": 0.0,
+      "5o4": 0.1599569042916143,
+      "b1": 0.015694020470461482,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 5.0,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_64": {
+    "id": 64,
+    "bonds": {
+      "bo4": 0.598205165620896,
+      "bb": 0.2293156281920327,
+      "b5": 0.012220925142273457,
+      "ao4": 0.0,
+      "5o4": 0.14271122136290676,
+      "b1": 0.01754705968189114,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 6.0,
+      "monomer_addition_rate": 1000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_65": {
+    "id": 65,
+    "bonds": {
+      "bo4": 0.27282506386984,
+      "bb": 0.1358522701806284,
+      "b5": 0.33738962843440456,
+      "ao4": 0.0,
+      "5o4": 0.2115324279503384,
+      "b1": 0.0001568732912016494,
+      "55": 0.04224373627358702
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.25,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_66": {
+    "id": 66,
+    "bonds": {
+      "bo4": 0.2974816135502563,
+      "bb": 0.1539558725206151,
+      "b5": 0.28627145085803435,
+      "ao4": 0.0,
+      "5o4": 0.23889012703365278,
+      "b1": 0.00022286605749944285,
+      "55": 0.023178069979942054
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_67": {
+    "id": 67,
+    "bonds": {
+      "bo4": 0.3202703595253297,
+      "bb": 0.17632813016005813,
+      "b5": 0.23696087712731997,
+      "ao4": 0.0,
+      "5o4": 0.2513374870654543,
+      "b1": 0.00026419497589220845,
+      "55": 0.014838951145945708
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.75,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_68": {
+    "id": 68,
+    "bonds": {
+      "bo4": 0.33946251768033947,
+      "bb": 0.20302469807420304,
+      "b5": 0.18548580132738549,
+      "ao4": 0.0,
+      "5o4": 0.2631269720378631,
+      "b1": 0.00017408334240017408,
+      "55": 0.008725927537808726
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.0,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_69": {
+    "id": 69,
+    "bonds": {
+      "bo4": 0.36191596279268684,
+      "bb": 0.24546134929968993,
+      "b5": 0.11395274243558216,
+      "ao4": 0.0,
+      "5o4": 0.27565487009515666,
+      "b1": 0.00014968459317865927,
+      "55": 0.002865390783705763
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 1.5,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_70": {
+    "id": 70,
+    "bonds": {
+      "bo4": 0.37894579789841637,
+      "bb": 0.28311699384018585,
+      "b5": 0.06257859624443166,
+      "ao4": 0.0,
+      "5o4": 0.2743142144638404,
+      "b1": 0.00014919965044653323,
+      "55": 0.0008951979026791994
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.0,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_71": {
+    "id": 71,
+    "bonds": {
+      "bo4": 0.377983651226158,
+      "bb": 0.32058855585831064,
+      "b5": 0.03644686648501362,
+      "ao4": 0.0,
+      "5o4": 0.26447956403269757,
+      "b1": 0.00030517711171662126,
+      "55": 0.00019618528610354223
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 2.5,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_72": {
+    "id": 72,
+    "bonds": {
+      "bo4": 0.3701881548803846,
+      "bb": 0.3556915912419724,
+      "b5": 0.022909077252412965,
+      "ao4": 0.0,
+      "5o4": 0.2507605062530514,
+      "b1": 0.0003755586434821797,
+      "55": 7.511172869643595e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 3.0,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_73": {
+    "id": 73,
+    "bonds": {
+      "bo4": 0.3470045972031675,
+      "bb": 0.41370014682167183,
+      "b5": 0.01410450814739933,
+      "ao4": 0.0,
+      "5o4": 0.22461308879100778,
+      "b1": 0.0005776590367535563,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 4.0,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_74": {
+    "id": 74,
+    "bonds": {
+      "bo4": 0.3238196966460158,
+      "bb": 0.4675069429609058,
+      "b5": 0.011108737449262978,
+      "ao4": 0.0,
+      "5o4": 0.19713736381115146,
+      "b1": 0.0004272591326639607,
+      "55": 0.0
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 5.0,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_75": {
+    "id": 75,
+    "bonds": {
+      "bo4": 0.30935379429635873,
+      "bb": 0.5023728212179004,
+      "b5": 0.00758415753758815,
+      "ao4": 0.0,
+      "5o4": 0.17971348738191334,
+      "b1": 0.0009313877677739833,
+      "55": 4.435179846542777e-05
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 6.0,
+      "monomer_addition_rate": 100000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_76": {
+    "id": 76,
+    "bonds": {
+      "bo4": 0.12908734103015013,
+      "bb": 0.2287891530952927,
+      "b5": 0.337844381578612,
+      "ao4": 0.0,
+      "5o4": 0.2210923363152127,
+      "b1": 0.0,
+      "55": 0.08318678798073247
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.0,
+      "monomer_addition_rate": 10000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_77": {
+    "id": 77,
+    "bonds": {
+      "bo4": 0.16007509069230574,
+      "bb": 0.21819427179786396,
+      "b5": 0.3279890408178797,
+      "ao4": 0.0,
+      "5o4": 0.26614069357416476,
+      "b1": 2.5368477130317865e-05,
+      "55": 0.02757553464065552
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.25,
+      "monomer_addition_rate": 10000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  },
+  "gridsearch_78": {
+    "id": 78,
+    "bonds": {
+      "bo4": 0.20782496907366532,
+      "bb": 0.2308681204065297,
+      "b5": 0.2630072525286827,
+      "ao4": 0.0,
+      "5o4": 0.2885730225337764,
+      "b1": 0.0,
+      "55": 0.009726635457345914
+    },
+    "kinetic_params": {
+      "min_monomers": 10,
+      "max_monomers": 500,
+      "sg_ratio": 0.5,
+      "monomer_addition_rate": 10000000,
+      "gg_scaling": 1,
+      "ss_scaling": 1,
+      "sg_scaling": 1
+    }
+  }
+}

@@ -1,0 +1,11 @@
+10       10     500     1.346153846     10	10	10
+#8   100   300    6
+
+
+
+
+
+# mon_add_rate
+# min_monomers
+# max_monomers
+# sg ratio

@@ -1,0 +1,4645 @@
+--------------------------------------------
+number of families: 1
+Generations per family: 50
+Sub-folders per generation: 4
+DELTA: 0.1
+cores to be used: 25
+Number of runs to use in a sample: 50
+Grid search option: 1
+Grid search degrees of freedom: 3 (ignored if Grid search option is not 0)
+--------------------------------------------
+Resume fitting from generation: 29
+removing interrupted Generation number: 29
+Generation 29
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 29
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0.    1.    1.    0.    0.001 0.001 0.001]
+old kins:  [0. 0. 0. 0. 0. 0. 0.]
+new kins:  [0.0572623 1.        1.        0.0295669 0.0020709 0.8601774 0.0393264]
+Gradient values  [-207.59150488192057, -11.88716703, -11.88716703, -402.0430626815798, -5740.097073736057, -13.819436583662858, -302.2693923166118]
+-207.59150488192057
+Not changing kin param 0 from 0.0573 to -11.8872
+-402.0430626815798
+Not changing kin param 3 from 0.0296 to -11.8872
+-5740.097073736057
+Not changing kin param 4 from 0.0021 to -11.8872
+-13.819436583662858
+Not changing kin param 5 from 0.8602 to -11.8872
+-302.2693923166118
+Not changing kin param 6 from 0.0393 to -11.8872
+-207.59150488192057
+Not changing kin param 0 from 0.0573 to -11.8872
+-402.0430626815798
+Not changing kin param 3 from 0.0296 to -11.8872
+-5740.097073736057
+Not changing kin param 4 from 0.0021 to -11.8872
+-13.819436583662858
+Not changing kin param 5 from 0.8602 to -11.8872
+-302.2693923166118
+Not changing kin param 6 from 0.0393 to -11.8872
+-207.59150488192057
+Not changing kin param 0 from 0.0573 to -11.8872
+-402.0430626815798
+Not changing kin param 3 from 0.0296 to -11.8872
+-5740.097073736057
+Not changing kin param 4 from 0.0021 to -11.8872
+-13.819436583662858
+Not changing kin param 5 from 0.8602 to -11.8872
+-302.2693923166118
+Not changing kin param 6 from 0.0393 to -11.8872
+-207.59150488192057
+Not changing kin param 0 from 0.0573 to -11.8872
+-402.0430626815798
+Not changing kin param 3 from 0.0296 to -11.8872
+-5740.097073736057
+Not changing kin param 4 from 0.0021 to -11.8872
+-13.819436583662858
+Not changing kin param 5 from 0.8602 to -11.8872
+-302.2693923166118
+Not changing kin param 6 from 0.0393 to -11.8872
+Running
+Running code
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 3547, Index obtained: 3524
+Expected index: 6409, Index obtained: 6370
+Expected index: 2998, Index obtained: 2977
+Expected index: 6311, Index obtained: 6273
+Expected index: 5854, Index obtained: 5815
+Expected index: 2447, Index obtained: 2433
+Expected index: 4590, Index obtained: 4552
+Expected index: 2391, Index obtained: 2373
+Expected index: 695, Index obtained: 687
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 3259, Index obtained: 3239
+Expected index: 4281, Index obtained: 4254
+Expected index: 920, Index obtained: 915
+Expected index: 3159, Index obtained: 3142
+Expected index: 5040, Index obtained: 5011
+Expected index: 5811, Index obtained: 5780
+Expected index: 1994, Index obtained: 1985
+Expected index: 5106, Index obtained: 5083
+Expected index: 5024, Index obtained: 5002
+Expected index: 6645, Index obtained: 6611
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 2516, Index obtained: 2501
+Expected index: 5344, Index obtained: 5298
+Expected index: 6309, Index obtained: 6282
+Expected index: 2440, Index obtained: 2430
+Expected index: 2711, Index obtained: 2703
+Expected index: 2666, Index obtained: 2658
+Expected index: 682, Index obtained: 680
+Expected index: 3100, Index obtained: 3074
+Expected index: 1819, Index obtained: 1809
+Expected index: 2169, Index obtained: 2157
+Expected index: 2345, Index obtained: 2326
+Expected index: 4455, Index obtained: 4428
+Expected index: 809, Index obtained: 805
+Expected index: 4166, Index obtained: 4144
+Expected index: 6520, Index obtained: 6484
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 2064, Index obtained: 2051
+Expected index: 1530, Index obtained: 1524
+Expected index: 4889, Index obtained: 4864
+Expected index: 5542, Index obtained: 5513
+Expected index: 1616, Index obtained: 1606
+Expected index: 205, Index obtained: 204
+Expected index: 3658, Index obtained: 3637
+Expected index: 3710, Index obtained: 3688
+Expected index: 3187, Index obtained: 3163
+Expected index: 75, Index obtained: 75
+Expected index: 920, Index obtained: 912
+Expected index: 5367, Index obtained: 5341
+Expected index: 2032, Index obtained: 2016
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_29/Run_1/Output/library.json
+var = 0.11834852723182362
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_29/Run_2/Output/library.json
+var = 0.11166288829711306
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_29/Run_3/Output/library.json
+var = 0.11386574465848207
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_29/Run_4/Output/library.json
+var = 0.11681071228032425
+0.11166288829711306
+0.11386574465848207
+0.11681071228032425
+MINI NR IS:  2.0
+MINI IS:  0.11166288829711306
+mini_difference pct = 0.010370033713434526
+Cleaning house
+Done cleaning house
+Generation 30
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 0.0
+Generation = 30
+Gradient param update
+CALCULATING GRADIENT
+Relative mins:  [0.    1.    1.    0.    0.001 0.001 0.001]
+old kins:  [0.0572623 1.        1.        0.0295669 0.0020709 0.8601774 0.0393264]
+new kins:  [0.0572623 1.        1.        0.0295669 0.0020709 0.8601774 0.0393264]
+Gradient values  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+0.0
+Not changing kin param 0 from 0.0573 to 0.0000
+0.0
+Not changing kin param 3 from 0.0296 to 0.0000
+0.0
+Not changing kin param 4 from 0.0021 to 0.0000
+0.0
+Not changing kin param 5 from 0.8602 to 0.0000
+0.0
+Not changing kin param 6 from 0.0393 to 0.0000
+0.0
+Not changing kin param 0 from 0.0573 to 0.0000
+0.0
+Not changing kin param 3 from 0.0296 to 0.0000
+0.0
+Not changing kin param 4 from 0.0021 to 0.0000
+0.0
+Not changing kin param 5 from 0.8602 to 0.0000
+0.0
+Not changing kin param 6 from 0.0393 to 0.0000
+0.0
+Not changing kin param 0 from 0.0573 to 0.0000
+0.0
+Not changing kin param 3 from 0.0296 to 0.0000
+0.0
+Not changing kin param 4 from 0.0021 to 0.0000
+0.0
+Not changing kin param 5 from 0.8602 to 0.0000
+0.0
+Not changing kin param 6 from 0.0393 to 0.0000
+0.0
+Not changing kin param 0 from 0.0573 to 0.0000
+0.0
+Not changing kin param 3 from 0.0296 to 0.0000
+0.0
+Not changing kin param 4 from 0.0021 to 0.0000
+0.0
+Not changing kin param 5 from 0.8602 to 0.0000
+0.0
+Not changing kin param 6 from 0.0393 to 0.0000
+Running
+Running code
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 2445, Index obtained: 2427
+Expected index: 758, Index obtained: 751
+Expected index: 2776, Index obtained: 2757
+Expected index: 6184, Index obtained: 6140
+Expected index: 6023, Index obtained: 5990
+Expected index: 544, Index obtained: 541
+Expected index: 3027, Index obtained: 3014
+Expected index: 5850, Index obtained: 5821
+Expected index: 6035, Index obtained: 5995
+Expected index: 3727, Index obtained: 3711
+Expected index: 3363, Index obtained: 3334
+Expected index: 4953, Index obtained: 4913
+Expected index: 1257, Index obtained: 1248
+Expected index: 5961, Index obtained: 5918
+Expected index: 5361, Index obtained: 5337
+Expected index: 2805, Index obtained: 2788
+Expected index: 1361, Index obtained: 1354
+Expected index: 3236, Index obtained: 3215
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 3881, Index obtained: 3859
+Expected index: 2169, Index obtained: 2154
+Expected index: 5826, Index obtained: 5788
+Expected index: 5839, Index obtained: 5801
+Expected index: 572, Index obtained: 570
+Expected index: 559, Index obtained: 557
+Expected index: 1588, Index obtained: 1578
+Expected index: 3004, Index obtained: 2985
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 1958, Index obtained: 1947
+Expected index: 3544, Index obtained: 3516
+Expected index: 3240, Index obtained: 3225
+Expected index: 5152, Index obtained: 5123
+Expected index: 1028, Index obtained: 1023
+Expected index: 4934, Index obtained: 4894
+Expected index: 2413, Index obtained: 2396
+Expected index: 5872, Index obtained: 5834
+Expected index: 6082, Index obtained: 6043
+Expected index: 1326, Index obtained: 1321
+Expected index: 1326, Index obtained: 1317
+Expected index: 5430, Index obtained: 5400
+Expected index: 699, Index obtained: 698
+Expected index: 6495, Index obtained: 6455
+Expected index: 461, Index obtained: 459
+Expected index: 2901, Index obtained: 2882
+Expected index: 4154, Index obtained: 4135
+Expected index: 5592, Index obtained: 5568
+Expected index: 2814, Index obtained: 2801
+Expected index: 3372, Index obtained: 3351
+Expected index: 5473, Index obtained: 5432
+Expected index: 1705, Index obtained: 1703
+Expected index: 1675, Index obtained: 1673
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 0.393264
+Expected index: 1432, Index obtained: 1425
+Expected index: 2701, Index obtained: 2680
+Expected index: 4284, Index obtained: 4256
+Expected index: 1597, Index obtained: 1592
+Expected index: 2531, Index obtained: 2517
+Expected index: 1580, Index obtained: 1566
+Expected index: 4875, Index obtained: 4841
+Expected index: 47, Index obtained: 47
+Expected index: 6221, Index obtained: 6185
+Expected index: 5829, Index obtained: 5794
+Expected index: 5751, Index obtained: 5718
+Expected index: 5764, Index obtained: 5731
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_30/Run_1/Output/library.json
+var = 0.11383692087036149
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_30/Run_2/Output/library.json
+var = 0.11305839251130229
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_30/Run_3/Output/library.json
+var = 0.11326405097171453
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_30/Run_4/Output/library.json
+var = 0.11478957842512835
+0.11305839251130229
+0.11326405097171453
+0.11478957842512835
+MINI NR IS:  2.0
+MINI IS:  0.11305839251130229
+Cleaning house
+Done cleaning house
+Generation 31
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 1.0
+Generation = 31
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0788
+Changing kin param 3 from 0.0296 to 0.0361
+Not changing kin param 4 from 0.0021 to -0.0299
+Changing kin param 5 from 0.8602 to 0.8944
+Changing kin param 6 from 0.0393 to 0.0494
+Changing kin param 0 from 0.0573 to 0.0541
+Changing kin param 3 from 0.0296 to 0.0675
+Changing kin param 4 from 0.0021 to 0.0020
+Changing kin param 5 from 0.8602 to 0.8399
+Changing kin param 6 from 0.0393 to 0.0235
+Changing kin param 0 from 0.0573 to 0.0904
+Changing kin param 3 from 0.0296 to 0.0265
+Not changing kin param 4 from 0.0021 to -0.0192
+Changing kin param 5 from 0.8602 to 0.8751
+Changing kin param 6 from 0.0393 to 0.0286
+Changing kin param 0 from 0.0573 to 0.0623
+Changing kin param 3 from 0.0296 to 0.0352
+Changing kin param 4 from 0.0021 to 0.0437
+Changing kin param 5 from 0.8602 to 0.8248
+Changing kin param 6 from 0.0393 to 0.0095
+Running
+Running code
+params 6.135839628486597 10 500 0.361414 0.020709 8.944367 0.494432
+Expected index: 3791, Index obtained: 3770
+Expected index: 4070, Index obtained: 4048
+Expected index: 2916, Index obtained: 2906
+Expected index: 3927, Index obtained: 3902
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.471906332784708 10 500 0.674639 0.019625 8.398666 0.234745
+Expected index: 2846, Index obtained: 2825
+Expected index: 2831, Index obtained: 2810
+Expected index: 2788, Index obtained: 2767
+Expected index: 4303, Index obtained: 4274
+Expected index: 4981, Index obtained: 4948
+Expected index: 4951, Index obtained: 4918
+Expected index: 4820, Index obtained: 4787
+Expected index: 4792, Index obtained: 4759
+Expected index: 4893, Index obtained: 4860
+Expected index: 4966, Index obtained: 4933
+Expected index: 4936, Index obtained: 4903
+Expected index: 4996, Index obtained: 4963
+Expected index: 5289, Index obtained: 5255
+Expected index: 5371, Index obtained: 5337
+Expected index: 5076, Index obtained: 5042
+Expected index: 5274, Index obtained: 5240
+Expected index: 5231, Index obtained: 5197
+Expected index: 1969, Index obtained: 1964
+Expected index: 1321, Index obtained: 1316
+Expected index: 1784, Index obtained: 1779
+Expected index: 1859, Index obtained: 1854
+Expected index: 1829, Index obtained: 1824
+Expected index: 1900, Index obtained: 1895
+Expected index: 3672, Index obtained: 3654
+Expected index: 3758, Index obtained: 3740
+Expected index: 3642, Index obtained: 3624
+Expected index: 3788, Index obtained: 3770
+Expected index: 3773, Index obtained: 3755
+Expected index: 3573, Index obtained: 3555
+Expected index: 4038, Index obtained: 4019
+Expected index: 3872, Index obtained: 3854
+Expected index: 4137, Index obtained: 4116
+Expected index: 4066, Index obtained: 4045
+Expected index: 3844, Index obtained: 3826
+Expected index: 5060, Index obtained: 5035
+Expected index: 5045, Index obtained: 5020
+Expected index: 5213, Index obtained: 5187
+Expected index: 5282, Index obtained: 5255
+Expected index: 1452, Index obtained: 1447
+Expected index: 4894, Index obtained: 4874
+Expected index: 1067, Index obtained: 1065
+Expected index: 2634, Index obtained: 2628
+Expected index: 4715, Index obtained: 4697
+Expected index: 6366, Index obtained: 6343
+Expected index: 6381, Index obtained: 6358
+Expected index: 1426, Index obtained: 1424
+Expected index: 4444, Index obtained: 4433
+Expected index: 5017, Index obtained: 5004
+Expected index: 5060, Index obtained: 5047
+Expected index: 838, Index obtained: 838
+Expected index: 823, Index obtained: 823
+Expected index: 1990, Index obtained: 1984
+Expected index: 3026, Index obtained: 3013
+Expected index: 3966, Index obtained: 3947
+Expected index: 2197, Index obtained: 2193
+Expected index: 2100, Index obtained: 2096
+Expected index: 2156, Index obtained: 2152
+Expected index: 2436, Index obtained: 2431
+Expected index: 2115, Index obtained: 2111
+Expected index: 2464, Index obtained: 2459
+Expected index: 1902, Index obtained: 1898
+Expected index: 2615, Index obtained: 2609
+Expected index: 3015, Index obtained: 3009
+Expected index: 2972, Index obtained: 2966
+Expected index: 2714, Index obtained: 2708
+Expected index: 2860, Index obtained: 2853
+Expected index: 2832, Index obtained: 2825
+Expected index: 2772, Index obtained: 2765
+Expected index: 4657, Index obtained: 4643
+Expected index: 4797, Index obtained: 4783
+Expected index: 5045, Index obtained: 5031
+Expected index: 4840, Index obtained: 4826
+Expected index: 5176, Index obtained: 5160
+Expected index: 5206, Index obtained: 5190
+Expected index: 5743, Index obtained: 5727
+Expected index: 1558, Index obtained: 1555
+Expected index: 3213, Index obtained: 3197
+Expected index: 3772, Index obtained: 3753
+Expected index: 3133, Index obtained: 3121
+Expected index: 3066, Index obtained: 3054
+Expected index: 189, Index obtained: 189
+Expected index: 1742, Index obtained: 1740
+Expected index: 2513, Index obtained: 2508
+Expected index: 2541, Index obtained: 2536
+Expected index: 2317, Index obtained: 2312
+Expected index: 2722, Index obtained: 2715
+Expected index: 2707, Index obtained: 2700
+Expected index: 2763, Index obtained: 2755
+Expected index: 144, Index obtained: 144
+Expected index: 187, Index obtained: 187
+Expected index: 523, Index obtained: 522
+Expected index: 1401, Index obtained: 1399
+Expected index: 374, Index obtained: 374
+Expected index: 301, Index obtained: 301
+Expected index: 612, Index obtained: 610
+Expected index: 3662, Index obtained: 3650
+Expected index: 3677, Index obtained: 3665
+Expected index: 3647, Index obtained: 3635
+Expected index: 6800, Index obtained: 6779
+Expected index: 6815, Index obtained: 6794
+Expected index: 6772, Index obtained: 6751
+Expected index: 6757, Index obtained: 6736
+Expected index: 6632, Index obtained: 6611
+Expected index: 6548, Index obtained: 6527
+Expected index: 6011, Index obtained: 5988
+Expected index: 6170, Index obtained: 6145
+Expected index: 6097, Index obtained: 6072
+Expected index: 6127, Index obtained: 6102
+Expected index: 6142, Index obtained: 6117
+Expected index: 2830, Index obtained: 2811
+Expected index: 2746, Index obtained: 2727
+Expected index: 2802, Index obtained: 2783
+Expected index: 3737, Index obtained: 3717
+Expected index: 3696, Index obtained: 3676
+Expected index: 3653, Index obtained: 3633
+Expected index: 3681, Index obtained: 3661
+Expected index: 3610, Index obtained: 3590
+Expected index: 5579, Index obtained: 5550
+Expected index: 1936, Index obtained: 1929
+Expected index: 5614, Index obtained: 5584
+Expected index: 5644, Index obtained: 5614
+Expected index: 5761, Index obtained: 5731
+Expected index: 465, Index obtained: 461
+Expected index: 523, Index obtained: 519
+Expected index: 1236, Index obtained: 1227
+Expected index: 1208, Index obtained: 1199
+Expected index: 4175, Index obtained: 4162
+Expected index: 4285, Index obtained: 4271
+Expected index: 4257, Index obtained: 4243
+Expected index: 5391, Index obtained: 5368
+Expected index: 5249, Index obtained: 5226
+Expected index: 929, Index obtained: 924
+Expected index: 2575, Index obtained: 2569
+Expected index: 2681, Index obtained: 2675
+Expected index: 2325, Index obtained: 2319
+Expected index: 4677, Index obtained: 4653
+Expected index: 1876, Index obtained: 1870
+Expected index: 1816, Index obtained: 1810
+Expected index: 1861, Index obtained: 1855
+Expected index: 1760, Index obtained: 1754
+Expected index: 1831, Index obtained: 1825
+Expected index: 4376, Index obtained: 4365
+Expected index: 4559, Index obtained: 4548
+Expected index: 4223, Index obtained: 4212
+Expected index: 6057, Index obtained: 6042
+Expected index: 6324, Index obtained: 6307
+Expected index: 6309, Index obtained: 6292
+Expected index: 6352, Index obtained: 6335
+Expected index: 446, Index obtained: 446
+Expected index: 476, Index obtained: 476
+Expected index: 5473, Index obtained: 5450
+Expected index: 6739, Index obtained: 6706
+Expected index: 6683, Index obtained: 6650
+Expected index: 2956, Index obtained: 2946
+Expected index: 3925, Index obtained: 3910
+Expected index: 4026, Index obtained: 4010
+Expected index: 5046, Index obtained: 5027
+Expected index: 1979, Index obtained: 1971
+Expected index: 1476, Index obtained: 1470
+Expected index: 1448, Index obtained: 1442
+Expected index: 2547, Index obtained: 2540
+Expected index: 2230, Index obtained: 2223
+Expected index: 2452, Index obtained: 2445
+Expected index: 3626, Index obtained: 3614
+Expected index: 3544, Index obtained: 3532
+Expected index: 3514, Index obtained: 3502
+Expected index: 3585, Index obtained: 3573
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 8.016891390559357 10 500 0.264508 0.020709 8.750809 0.286396
+Expected index: 2322, Index obtained: 2309
+Expected index: 2384, Index obtained: 2373
+Expected index: 2529, Index obtained: 2514
+Expected index: 1659, Index obtained: 1647
+Expected index: 3388, Index obtained: 3367
+Expected index: 4228, Index obtained: 4198
+Expected index: 5938, Index obtained: 5896
+Expected index: 3978, Index obtained: 3950
+Expected index: 6172, Index obtained: 6124
+Expected index: 1281, Index obtained: 1270
+Expected index: 4073, Index obtained: 4049
+Expected index: 6486, Index obtained: 6436
+Expected index: 6540, Index obtained: 6490
+Expected index: 520, Index obtained: 519
+Expected index: 2548, Index obtained: 2522
+Expected index: 5737, Index obtained: 5693
+Expected index: 5830, Index obtained: 5784
+Expected index: 5245, Index obtained: 5216
+Expected index: 5850, Index obtained: 5814
+Expected index: 436, Index obtained: 433
+Expected index: 373, Index obtained: 372
+Expected index: 548, Index obtained: 546
+Expected index: 3238, Index obtained: 3212
+Expected index: 6629, Index obtained: 6576
+Expected index: 3254, Index obtained: 3234
+Expected index: 892, Index obtained: 885
+Expected index: 4317, Index obtained: 4298
+Expected index: 5948, Index obtained: 5905
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 4.202260780482115 10 500 0.351542 0.437382 8.248328 0.095165
+Expected index: 3038, Index obtained: 3031
+Expected index: 2167, Index obtained: 2160
+Expected index: 2152, Index obtained: 2145
+Expected index: 2094, Index obtained: 2087
+Expected index: 4129, Index obtained: 4108
+Expected index: 3889, Index obtained: 3883
+Expected index: 5111, Index obtained: 5098
+Expected index: 1945, Index obtained: 1942
+Expected index: 4809, Index obtained: 4788
+Expected index: 4169, Index obtained: 4148
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_31/Run_1/Output/library.json
+var = 0.12078698553808735
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_31/Run_2/Output/library.json
+var = 0.11771493327032474
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_31/Run_3/Output/library.json
+var = 0.11594010187032441
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_31/Run_4/Output/library.json
+var = 0.31216762412968324
+0.11771493327032474
+0.11594010187032441
+0.31216762412968324
+MINI NR IS:  3.0
+MINI IS:  0.11594010187032441
+Cleaning house
+Done cleaning house
+Generation 32
+Delta = 0.1
+In rando_specs.py: N_unsuccessful_tries = 2.0
+Generation = 32
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0648
+Changing kin param 3 from 0.0296 to 0.0096
+Not changing kin param 4 from 0.0021 to -0.0064
+Changing kin param 5 from 0.8602 to 0.8733
+Changing kin param 6 from 0.0393 to 0.0425
+Changing kin param 0 from 0.0573 to 0.0827
+Not changing kin param 3 from 0.0296 to -0.0180
+Changing kin param 4 from 0.0021 to 0.0062
+Changing kin param 5 from 0.8602 to 0.8179
+Changing kin param 6 from 0.0393 to 0.0602
+Changing kin param 0 from 0.0573 to 0.0517
+Changing kin param 3 from 0.0296 to 0.0218
+Not changing kin param 4 from 0.0021 to -0.0232
+Changing kin param 5 from 0.8602 to 0.8600
+Changing kin param 6 from 0.0393 to 0.0452
+Changing kin param 0 from 0.0573 to 0.0360
+Not changing kin param 3 from 0.0296 to -0.0079
+Not changing kin param 4 from 0.0021 to -0.0029
+Changing kin param 5 from 0.8602 to 0.8799
+Changing kin param 6 from 0.0393 to 0.0222
+Running
+Running code
+params 4.44634338883702 10 500 0.096409 0.020709 8.73333 0.425449
+Expected index: 597, Index obtained: 592
+Expected index: 387, Index obtained: 386
+Expected index: 5684, Index obtained: 5639
+Expected index: 3763, Index obtained: 3731
+Expected index: 4726, Index obtained: 4683
+Expected index: 4830, Index obtained: 4786
+Expected index: 5997, Index obtained: 5939
+Expected index: 3237, Index obtained: 3209
+Expected index: 5823, Index obtained: 5773
+Expected index: 2949, Index obtained: 2927
+Expected index: 4215, Index obtained: 4184
+Expected index: 4189, Index obtained: 4158
+Expected index: 5291, Index obtained: 5247
+Expected index: 2839, Index obtained: 2822
+Expected index: 3363, Index obtained: 3343
+Expected index: 4112, Index obtained: 4085
+Expected index: 5376, Index obtained: 5343
+Expected index: 2291, Index obtained: 2272
+Expected index: 4560, Index obtained: 4527
+Expected index: 4939, Index obtained: 4909
+Expected index: 3901, Index obtained: 3868
+Expected index: 2908, Index obtained: 2886
+Expected index: 5297, Index obtained: 5254
+Expected index: 2913, Index obtained: 2892
+Expected index: 6348, Index obtained: 6299
+Expected index: 3635, Index obtained: 3616
+Expected index: 3222, Index obtained: 3208
+Expected index: 575, Index obtained: 570
+Expected index: 2594, Index obtained: 2567
+Expected index: 5434, Index obtained: 5405
+Expected index: 2878, Index obtained: 2843
+Expected index: 3066, Index obtained: 3029
+Expected index: 4865, Index obtained: 4825
+Expected index: 5350, Index obtained: 5302
+Expected index: 5733, Index obtained: 5682
+Expected index: 4362, Index obtained: 4334
+Expected index: 1841, Index obtained: 1827
+Expected index: 1932, Index obtained: 1916
+Expected index: 3257, Index obtained: 3229
+Expected index: 597, Index obtained: 592
+Expected index: 4824, Index obtained: 4784
+Expected index: 6304, Index obtained: 6253
+Expected index: 3556, Index obtained: 3533
+Expected index: 3660, Index obtained: 3637
+Expected index: 3842, Index obtained: 3816
+Expected index: 999, Index obtained: 993
+Expected index: 3345, Index obtained: 3318
+Expected index: 2691, Index obtained: 2671
+Expected index: 5939, Index obtained: 5891
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 6.71840220761971 10 500 0.295669 0.062451 8.179297 0.602087
+Expected index: 1713, Index obtained: 1705
+Expected index: 2379, Index obtained: 2369
+Expected index: 401, Index obtained: 401
+Expected index: 4221, Index obtained: 4201
+Expected index: 4980, Index obtained: 4955
+Expected index: 4331, Index obtained: 4311
+Expected index: 1197, Index obtained: 1192
+Expected index: 6196, Index obtained: 6151
+Expected index: 2624, Index obtained: 2606
+Expected index: 1480, Index obtained: 1471
+Expected index: 1442, Index obtained: 1435
+Expected index: 1438, Index obtained: 1424
+Expected index: 4851, Index obtained: 4819
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.288387585772489 10 500 0.218227 0.020709 8.600174 0.451589
+Expected index: 1424, Index obtained: 1412
+Expected index: 2987, Index obtained: 2968
+Expected index: 542, Index obtained: 542
+Expected index: 1686, Index obtained: 1676
+Expected index: 2528, Index obtained: 2510
+Expected index: 2149, Index obtained: 2134
+Expected index: 2554, Index obtained: 2535
+Expected index: 6338, Index obtained: 6291
+Expected index: 4494, Index obtained: 4469
+Expected index: 5397, Index obtained: 5363
+Expected index: 3357, Index obtained: 3334
+Expected index: 3757, Index obtained: 3730
+Expected index: 4713, Index obtained: 4679
+Expected index: 1459, Index obtained: 1454
+Expected index: 4439, Index obtained: 4408
+Expected index: 497, Index obtained: 494
+Expected index: 1213, Index obtained: 1203
+Expected index: 4493, Index obtained: 4465
+Expected index: 5559, Index obtained: 5524
+Expected index: 3252, Index obtained: 3226
+Expected index: 5360, Index obtained: 5317
+Expected index: 3549, Index obtained: 3521
+Expected index: 6406, Index obtained: 6356
+Expected index: 793, Index obtained: 789
+Expected index: 3258, Index obtained: 3234
+Expected index: 4952, Index obtained: 4914
+Expected index: 4294, Index obtained: 4266
+Expected index: 5078, Index obtained: 5042
+Expected index: 3575, Index obtained: 3537
+Expected index: 4109, Index obtained: 4069
+Expected index: 4689, Index obtained: 4644
+Expected index: 5608, Index obtained: 5572
+Expected index: 3207, Index obtained: 3187
+Expected index: 4136, Index obtained: 4109
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.2884213979729675 10 500 0.295669 0.020709 8.799005 0.221882
+Expected index: 910, Index obtained: 904
+Expected index: 3482, Index obtained: 3456
+Expected index: 3791, Index obtained: 3761
+Expected index: 1010, Index obtained: 1007
+Expected index: 6010, Index obtained: 5964
+Expected index: 1359, Index obtained: 1349
+Expected index: 1035, Index obtained: 1029
+Expected index: 3879, Index obtained: 3851
+Expected index: 5294, Index obtained: 5253
+Expected index: 6560, Index obtained: 6509
+Expected index: 5601, Index obtained: 5556
+Expected index: 3737, Index obtained: 3707
+Expected index: 937, Index obtained: 927
+Expected index: 4718, Index obtained: 4694
+Expected index: 4940, Index obtained: 4915
+Expected index: 6298, Index obtained: 6258
+Expected index: 6456, Index obtained: 6413
+Expected index: 3055, Index obtained: 3032
+Expected index: 2923, Index obtained: 2899
+Expected index: 3521, Index obtained: 3501
+Expected index: 5446, Index obtained: 5399
+Expected index: 1577, Index obtained: 1563
+Expected index: 4187, Index obtained: 4159
+Expected index: 2427, Index obtained: 2411
+Expected index: 5155, Index obtained: 5116
+Expected index: 1940, Index obtained: 1924
+Expected index: 4457, Index obtained: 4424
+Expected index: 5423, Index obtained: 5382
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_32/Run_1/Output/library.json
+var = 0.1527159497624345
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_32/Run_2/Output/library.json
+var = 0.17327982620969495
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_32/Run_3/Output/library.json
+var = 0.12082160577331778
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_32/Run_4/Output/library.json
+var = 0.12126858471982858
+0.17327982620969495
+0.12082160577331778
+0.12126858471982858
+MINI NR IS:  3.0
+MINI IS:  0.12082160577331778
+Cleaning house
+Done cleaning house
+Generation 33
+Delta = 0.13
+In rando_specs.py: N_unsuccessful_tries = 3.0
+Generation = 33
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0715
+Changing kin param 3 from 0.0296 to 0.0029
+Changing kin param 4 from 0.0021 to 0.0199
+Changing kin param 5 from 0.8602 to 0.9210
+Changing kin param 6 from 0.0393 to 0.0651
+Changing kin param 0 from 0.0573 to 0.0402
+Changing kin param 3 from 0.0296 to 0.0329
+Changing kin param 4 from 0.0021 to 0.0122
+Changing kin param 5 from 0.8602 to 0.8969
+Changing kin param 6 from 0.0393 to 0.0358
+Changing kin param 0 from 0.0573 to 0.0065
+Changing kin param 3 from 0.0296 to 0.0270
+Changing kin param 4 from 0.0021 to 0.0152
+Changing kin param 5 from 0.8602 to 0.8287
+Not changing kin param 6 from 0.0393 to -0.0144
+Changing kin param 0 from 0.0573 to 0.0573
+Changing kin param 3 from 0.0296 to 0.0379
+Changing kin param 4 from 0.0021 to 0.0377
+Changing kin param 5 from 0.8602 to 0.8169
+Changing kin param 6 from 0.0393 to 0.0356
+Running
+Running code
+params 5.187653972297326 10 500 0.029389 0.198544 9.210046 0.650695
+Expected index: 5120, Index obtained: 5099
+Expected index: 1028, Index obtained: 1021
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.5237132043526604 10 500 0.328733 0.12186 8.968973 0.35783
+Expected index: 181, Index obtained: 180
+Expected index: 5365, Index obtained: 5345
+Expected index: 4054, Index obtained: 4032
+Expected index: 1930, Index obtained: 1927
+Expected index: 5440, Index obtained: 5422
+Expected index: 2360, Index obtained: 2355
+Expected index: 2353, Index obtained: 2339
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1.1601576284074722 10 500 0.26971 0.152407 8.286892 0.393264
+Expected index: 4849, Index obtained: 4821
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.741433237197995 10 500 0.378986 0.376671 8.168853 0.355915
+Expected index: 5333, Index obtained: 5330
+Expected index: 1844, Index obtained: 1839
+Expected index: 5242, Index obtained: 5237
+Expected index: 3761, Index obtained: 3760
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_33/Run_1/Output/library.json
+var = 0.3860645845868873
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_33/Run_2/Output/library.json
+var = 0.24695553060951783
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_33/Run_3/Output/library.json
+var = 0.2917705002581154
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_33/Run_4/Output/library.json
+var = 0.34903175892902605
+0.24695553060951783
+0.2917705002581154
+0.34903175892902605
+MINI NR IS:  2.0
+MINI IS:  0.24695553060951783
+Cleaning house
+Done cleaning house
+Generation 34
+Delta = 0.14
+In rando_specs.py: N_unsuccessful_tries = 4.0
+Generation = 34
+Random param update (no gradient used)
+Not changing kin param 0 from 0.0573 to -0.0286
+Changing kin param 3 from 0.0296 to 0.0157
+Changing kin param 4 from 0.0021 to 0.0309
+Changing kin param 5 from 0.8602 to 0.8522
+Changing kin param 6 from 0.0393 to 0.0413
+Changing kin param 0 from 0.0573 to 0.0614
+Changing kin param 3 from 0.0296 to 0.0197
+Changing kin param 4 from 0.0021 to 0.0234
+Changing kin param 5 from 0.8602 to 0.7981
+Changing kin param 6 from 0.0393 to 0.0265
+Changing kin param 0 from 0.0573 to 0.0276
+Changing kin param 3 from 0.0296 to 0.0532
+Not changing kin param 4 from 0.0021 to -0.0329
+Changing kin param 5 from 0.8602 to 0.8660
+Changing kin param 6 from 0.0393 to 0.0456
+Not changing kin param 0 from 0.0573 to -0.0110
+Changing kin param 3 from 0.0296 to 0.0450
+Changing kin param 4 from 0.0021 to 0.0173
+Changing kin param 5 from 0.8602 to 0.8442
+Not changing kin param 6 from 0.0393 to -0.0211
+Running
+Running code
+params 3.7378597329563275 10 500 0.157454 0.308585 8.522251 0.413324
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 4.110626332649674 10 500 0.196736 0.23372 7.981382 0.265125
+Expected index: 282, Index obtained: 282
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1.8886000637072837 10 500 0.531637 0.020709 8.659722 0.455558
+Expected index: 6596, Index obtained: 6575
+Expected index: 1260, Index obtained: 1255
+Expected index: 1535, Index obtained: 1534
+Expected index: 4080, Index obtained: 4067
+Expected index: 3994, Index obtained: 3981
+Expected index: 6108, Index obtained: 6083
+Expected index: 6095, Index obtained: 6070
+Expected index: 1026, Index obtained: 1024
+Expected index: 5929, Index obtained: 5903
+Expected index: 5103, Index obtained: 5089
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.449726 0.17293 8.44172 0.393264
+Expected index: 5880, Index obtained: 5868
+Expected index: 2150, Index obtained: 2147
+Expected index: 2178, Index obtained: 2175
+Expected index: 2288, Index obtained: 2284
+Expected index: 3300, Index obtained: 3286
+Expected index: 3227, Index obtained: 3213
+Expected index: 3242, Index obtained: 3228
+Expected index: 4703, Index obtained: 4687
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_34/Run_1/Output/library.json
+var = 0.4261518798139396
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_34/Run_2/Output/library.json
+var = 0.3662302908465356
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_34/Run_3/Output/library.json
+var = 0.1333570471158482
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_34/Run_4/Output/library.json
+var = 0.2628814488007375
+0.3662302908465356
+0.1333570471158482
+0.2628814488007375
+MINI NR IS:  3.0
+MINI IS:  0.1333570471158482
+Cleaning house
+Done cleaning house
+Generation 35
+Delta = 0.15000000000000002
+In rando_specs.py: N_unsuccessful_tries = 5.0
+Generation = 35
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0682
+Changing kin param 3 from 0.0296 to 0.0557
+Not changing kin param 4 from 0.0021 to -0.0116
+Changing kin param 5 from 0.8602 to 0.8343
+Changing kin param 6 from 0.0393 to 0.0758
+Changing kin param 0 from 0.0573 to 0.0911
+Changing kin param 3 from 0.0296 to 0.0343
+Changing kin param 4 from 0.0021 to 0.0142
+Changing kin param 5 from 0.8602 to 0.9109
+Changing kin param 6 from 0.0393 to 0.0451
+Changing kin param 0 from 0.0573 to 0.1138
+Changing kin param 3 from 0.0296 to 0.0567
+Changing kin param 4 from 0.0021 to 0.0637
+Changing kin param 5 from 0.8602 to 0.8760
+Not changing kin param 6 from 0.0393 to -0.0021
+Changing kin param 0 from 0.0573 to 0.0694
+Changing kin param 3 from 0.0296 to 0.0041
+Changing kin param 4 from 0.0021 to 0.0052
+Changing kin param 5 from 0.8602 to 0.8854
+Not changing kin param 6 from 0.0393 to -0.0430
+Running
+Running code
+params 4.808083485906125 10 500 0.557118 0.020709 8.343199 0.757515
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 8.148825164781709 10 500 0.343197 0.142452 9.108601 0.451116
+Expected index: 4315, Index obtained: 4300
+Expected index: 4706, Index obtained: 4688
+Expected index: 335, Index obtained: 335
+Expected index: 73, Index obtained: 73
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 13.744976447459697 10 500 0.566853 0.637148 8.759748 0.393264
+Expected index: 5699, Index obtained: 5697
+Expected index: 4515, Index obtained: 4513
+Expected index: 4203, Index obtained: 4201
+Expected index: 5048, Index obtained: 5043
+Expected index: 5917, Index obtained: 5915
+Expected index: 2346, Index obtained: 2344
+Expected index: 2361, Index obtained: 2359
+Expected index: 2389, Index obtained: 2387
+Expected index: 4973, Index obtained: 4970
+Expected index: 4773, Index obtained: 4770
+Expected index: 6162, Index obtained: 6157
+Expected index: 6716, Index obtained: 6710
+Expected index: 6731, Index obtained: 6725
+Expected index: 1170, Index obtained: 1169
+Expected index: 2422, Index obtained: 2420
+Expected index: 2297, Index obtained: 2295
+Expected index: 2450, Index obtained: 2448
+Expected index: 2196, Index obtained: 2194
+Expected index: 2465, Index obtained: 2463
+Expected index: 467, Index obtained: 467
+Expected index: 3582, Index obtained: 3581
+Expected index: 3479, Index obtained: 3478
+Expected index: 2394, Index obtained: 2394
+Expected index: 2297, Index obtained: 2297
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 4.939568358566954 10 500 0.04062 0.052183 8.85382 0.393264
+Expected index: 337, Index obtained: 335
+Expected index: 1695, Index obtained: 1678
+Expected index: 2769, Index obtained: 2744
+Expected index: 2834, Index obtained: 2808
+Expected index: 2886, Index obtained: 2858
+Expected index: 3081, Index obtained: 3050
+Expected index: 3291, Index obtained: 3257
+Expected index: 5726, Index obtained: 5670
+Expected index: 2465, Index obtained: 2450
+Expected index: 3860, Index obtained: 3834
+Expected index: 5169, Index obtained: 5120
+Expected index: 4948, Index obtained: 4921
+Expected index: 2754, Index obtained: 2731
+Expected index: 6102, Index obtained: 6054
+Expected index: 1942, Index obtained: 1926
+Expected index: 3105, Index obtained: 3074
+Expected index: 5959, Index obtained: 5906
+Expected index: 1006, Index obtained: 994
+Expected index: 5829, Index obtained: 5769
+Expected index: 959, Index obtained: 952
+Expected index: 1063, Index obtained: 1053
+Expected index: 3060, Index obtained: 3037
+Expected index: 5085, Index obtained: 5039
+Expected index: 5412, Index obtained: 5363
+Expected index: 781, Index obtained: 772
+Expected index: 4642, Index obtained: 4600
+Expected index: 4525, Index obtained: 4500
+Expected index: 6004, Index obtained: 5968
+Expected index: 497, Index obtained: 492
+Expected index: 1281, Index obtained: 1267
+Expected index: 1740, Index obtained: 1722
+Expected index: 6323, Index obtained: 6267
+Expected index: 1277, Index obtained: 1273
+Expected index: 3070, Index obtained: 3049
+Expected index: 1970, Index obtained: 1954
+Expected index: 2282, Index obtained: 2265
+Expected index: 2451, Index obtained: 2432
+Expected index: 3798, Index obtained: 3770
+Expected index: 4071, Index obtained: 4041
+Expected index: 4324, Index obtained: 4291
+Expected index: 2169, Index obtained: 2154
+Expected index: 3321, Index obtained: 3293
+Expected index: 5755, Index obtained: 5706
+Expected index: 192, Index obtained: 192
+Expected index: 2181, Index obtained: 2163
+Expected index: 2740, Index obtained: 2718
+Expected index: 3143, Index obtained: 3118
+Expected index: 5756, Index obtained: 5715
+Expected index: 6304, Index obtained: 6255
+Expected index: 1013, Index obtained: 1013
+Expected index: 2804, Index obtained: 2789
+Expected index: 1494, Index obtained: 1478
+Expected index: 2161, Index obtained: 2151
+Expected index: 3259, Index obtained: 3227
+Expected index: 3467, Index obtained: 3431
+Expected index: 5084, Index obtained: 5030
+Expected index: 5489, Index obtained: 5432
+Expected index: 3183, Index obtained: 3157
+Expected index: 3993, Index obtained: 3956
+Expected index: 5756, Index obtained: 5704
+Expected index: 3172, Index obtained: 3136
+Expected index: 3447, Index obtained: 3409
+Expected index: 3707, Index obtained: 3662
+Expected index: 4396, Index obtained: 4343
+Expected index: 3967, Index obtained: 3920
+Expected index: 4649, Index obtained: 4595
+Expected index: 4885, Index obtained: 4827
+Expected index: 5188, Index obtained: 5128
+Expected index: 5372, Index obtained: 5312
+Expected index: 5333, Index obtained: 5273
+Expected index: 6349, Index obtained: 6275
+Expected index: 3943, Index obtained: 3915
+Expected index: 4190, Index obtained: 4161
+Expected index: 4463, Index obtained: 4429
+Expected index: 1017, Index obtained: 1004
+Expected index: 2516, Index obtained: 2492
+Expected index: 5734, Index obtained: 5684
+Expected index: 4974, Index obtained: 4935
+Expected index: 5537, Index obtained: 5494
+Expected index: 716, Index obtained: 712
+Expected index: 1543, Index obtained: 1527
+Expected index: 2678, Index obtained: 2649
+Expected index: 3077, Index obtained: 3053
+Expected index: 3857, Index obtained: 3823
+Expected index: 4145, Index obtained: 4110
+Expected index: 4719, Index obtained: 4675
+Expected index: 4745, Index obtained: 4700
+Expected index: 5676, Index obtained: 5625
+Expected index: 6150, Index obtained: 6095
+Expected index: 6204, Index obtained: 6149
+Expected index: 2002, Index obtained: 1973
+Expected index: 2145, Index obtained: 2113
+Expected index: 2340, Index obtained: 2306
+Expected index: 2604, Index obtained: 2569
+Expected index: 2565, Index obtained: 2530
+Expected index: 2963, Index obtained: 2926
+Expected index: 3987, Index obtained: 3941
+Expected index: 5332, Index obtained: 5273
+Expected index: 5410, Index obtained: 5351
+Expected index: 5358, Index obtained: 5299
+Expected index: 571, Index obtained: 566
+Expected index: 937, Index obtained: 925
+Expected index: 2427, Index obtained: 2396
+Expected index: 2845, Index obtained: 2813
+Expected index: 2570, Index obtained: 2538
+Expected index: 3796, Index obtained: 3756
+Expected index: 5442, Index obtained: 5386
+Expected index: 872, Index obtained: 869
+Expected index: 2044, Index obtained: 2028
+Expected index: 3287, Index obtained: 3259
+Expected index: 3536, Index obtained: 3506
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_35/Run_1/Output/library.json
+var = 0.15185714829780475
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_35/Run_2/Output/library.json
+var = 0.2672457309843726
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_35/Run_3/Output/library.json
+var = 0.28182311031393503
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_35/Run_4/Output/library.json
+var = 0.17379669695500224
+0.2672457309843726
+0.28182311031393503
+0.17379669695500224
+MINI NR IS:  1.0
+MINI IS:  0.15185714829780475
+Cleaning house
+Done cleaning house
+Generation 36
+Delta = 0.16000000000000003
+In rando_specs.py: N_unsuccessful_tries = 6.0
+Generation = 36
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0470
+Changing kin param 3 from 0.0296 to 0.0416
+Not changing kin param 4 from 0.0021 to -0.0012
+Changing kin param 5 from 0.8602 to 0.8212
+Changing kin param 6 from 0.0393 to 0.0234
+Changing kin param 0 from 0.0573 to 0.1720
+Changing kin param 3 from 0.0296 to 0.0924
+Not changing kin param 4 from 0.0021 to -0.0190
+Changing kin param 5 from 0.8602 to 0.8281
+Not changing kin param 6 from 0.0393 to -0.0122
+Changing kin param 0 from 0.0573 to 0.0486
+Changing kin param 3 from 0.0296 to 0.0445
+Not changing kin param 4 from 0.0021 to -0.0507
+Changing kin param 5 from 0.8602 to 0.8001
+Changing kin param 6 from 0.0393 to 0.1181
+Changing kin param 0 from 0.0573 to 0.0428
+Changing kin param 3 from 0.0296 to 0.0131
+Changing kin param 4 from 0.0021 to 0.0592
+Changing kin param 5 from 0.8602 to 0.8430
+Changing kin param 6 from 0.0393 to 0.0495
+Running
+Running code
+params 2.9486348895848375 10 500 0.416321 0.020709 8.211866 0.233919
+Expected index: 649, Index obtained: 648
+Expected index: 209, Index obtained: 209
+Expected index: 6544, Index obtained: 6515
+Expected index: 6209, Index obtained: 6181
+Expected index: 824, Index obtained: 818
+Expected index: 6378, Index obtained: 6331
+Expected index: 6471, Index obtained: 6423
+Expected index: 6553, Index obtained: 6504
+Expected index: 3684, Index obtained: 3660
+Expected index: 4262, Index obtained: 4237
+Expected index: 856, Index obtained: 853
+Expected index: 841, Index obtained: 838
+Expected index: 2655, Index obtained: 2637
+Expected index: 2670, Index obtained: 2652
+Expected index: 2543, Index obtained: 2528
+Expected index: 2534, Index obtained: 2529
+Expected index: 6611, Index obtained: 6586
+Expected index: 6596, Index obtained: 6571
+Expected index: 6699, Index obtained: 6673
+Expected index: 6626, Index obtained: 6601
+Expected index: 6755, Index obtained: 6728
+Expected index: 6656, Index obtained: 6631
+Expected index: 4561, Index obtained: 4523
+Expected index: 737, Index obtained: 732
+Expected index: 5722, Index obtained: 5682
+Expected index: 4650, Index obtained: 4617
+Expected index: 2713, Index obtained: 2704
+Expected index: 4012, Index obtained: 3988
+Expected index: 4265, Index obtained: 4236
+Expected index: 6276, Index obtained: 6244
+Expected index: 6377, Index obtained: 6345
+Expected index: 6319, Index obtained: 6287
+Expected index: 3617, Index obtained: 3598
+Expected index: 5322, Index obtained: 5293
+Expected index: 5079, Index obtained: 5051
+Expected index: 2966, Index obtained: 2946
+Expected index: 2938, Index obtained: 2918
+Expected index: 103, Index obtained: 103
+Expected index: 3823, Index obtained: 3805
+Expected index: 3808, Index obtained: 3790
+Expected index: 1103, Index obtained: 1094
+Expected index: 5219, Index obtained: 5177
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 52.42144643316006 10 500 0.923958 0.020709 8.280899 0.393264
+Expected index: 1294, Index obtained: 1293
+Expected index: 1440, Index obtained: 1439
+Expected index: 5110, Index obtained: 5108
+Expected index: 5095, Index obtained: 5093
+Expected index: 5248, Index obtained: 5245
+Expected index: 4994, Index obtained: 4992
+Expected index: 5218, Index obtained: 5215
+Expected index: 4667, Index obtained: 4665
+Expected index: 5009, Index obtained: 5007
+Expected index: 5233, Index obtained: 5230
+Expected index: 4927, Index obtained: 4925
+Expected index: 4738, Index obtained: 4736
+Expected index: 4497, Index obtained: 4495
+Expected index: 4796, Index obtained: 4794
+Expected index: 4624, Index obtained: 4622
+Expected index: 4826, Index obtained: 4824
+Expected index: 5263, Index obtained: 5260
+Expected index: 4871, Index obtained: 4869
+Expected index: 3612, Index obtained: 3610
+Expected index: 5203, Index obtained: 5200
+Expected index: 3776, Index obtained: 3774
+Expected index: 1867, Index obtained: 1865
+Expected index: 3388, Index obtained: 3386
+Expected index: 3360, Index obtained: 3358
+Expected index: 2862, Index obtained: 2860
+Expected index: 2582, Index obtained: 2580
+Expected index: 2597, Index obtained: 2595
+Expected index: 2905, Index obtained: 2903
+Expected index: 3968, Index obtained: 3966
+Expected index: 4356, Index obtained: 4353
+Expected index: 4147, Index obtained: 4144
+Expected index: 3791, Index obtained: 3789
+Expected index: 4274, Index obtained: 4271
+Expected index: 2778, Index obtained: 2776
+Expected index: 4190, Index obtained: 4187
+Expected index: 4302, Index obtained: 4299
+Expected index: 3470, Index obtained: 3468
+Expected index: 4089, Index obtained: 4086
+Expected index: 3101, Index obtained: 3099
+Expected index: 4074, Index obtained: 4071
+Expected index: 4425, Index obtained: 4421
+Expected index: 3899, Index obtained: 3897
+Expected index: 4479, Index obtained: 4475
+Expected index: 4748, Index obtained: 4744
+Expected index: 4578, Index obtained: 4574
+Expected index: 4259, Index obtained: 4256
+Expected index: 3858, Index obtained: 3856
+Expected index: 4666, Index obtained: 4662
+Expected index: 4608, Index obtained: 4604
+Expected index: 4623, Index obtained: 4619
+Expected index: 4509, Index obtained: 4505
+Expected index: 4593, Index obtained: 4589
+Expected index: 739, Index obtained: 737
+Expected index: 4670, Index obtained: 4669
+Expected index: 4489, Index obtained: 4488
+Expected index: 4067, Index obtained: 4066
+Expected index: 3304, Index obtained: 3303
+Expected index: 4739, Index obtained: 4738
+Expected index: 4627, Index obtained: 4626
+Expected index: 2319, Index obtained: 2319
+Expected index: 4461, Index obtained: 4460
+Expected index: 4517, Index obtained: 4515
+Expected index: 4125, Index obtained: 4123
+Expected index: 4819, Index obtained: 4817
+Expected index: 4642, Index obtained: 4640
+Expected index: 2934, Index obtained: 2933
+Expected index: 4711, Index obtained: 4709
+Expected index: 217, Index obtained: 217
+Expected index: 159, Index obtained: 159
+Expected index: 458, Index obtained: 458
+Expected index: 312, Index obtained: 312
+Expected index: 357, Index obtained: 357
+Expected index: 415, Index obtained: 415
+Expected index: 512, Index obtained: 512
+Expected index: 5128, Index obtained: 5125
+Expected index: 4986, Index obtained: 4983
+Expected index: 5322, Index obtained: 5319
+Expected index: 4816, Index obtained: 4813
+Expected index: 4943, Index obtained: 4940
+Expected index: 5158, Index obtained: 5155
+Expected index: 4928, Index obtained: 4925
+Expected index: 5402, Index obtained: 5398
+Expected index: 4581, Index obtained: 4578
+Expected index: 5214, Index obtained: 5211
+Expected index: 5576, Index obtained: 5572
+Expected index: 5604, Index obtained: 5600
+Expected index: 5417, Index obtained: 5413
+Expected index: 5488, Index obtained: 5484
+Expected index: 4730, Index obtained: 4727
+Expected index: 4467, Index obtained: 4464
+Expected index: 5518, Index obtained: 5514
+Expected index: 5070, Index obtained: 5067
+Expected index: 4553, Index obtained: 4550
+Expected index: 5113, Index obtained: 5110
+Expected index: 5548, Index obtained: 5544
+Expected index: 5533, Index obtained: 5529
+Expected index: 5503, Index obtained: 5499
+Expected index: 6522, Index obtained: 6517
+Expected index: 5458, Index obtained: 5454
+Expected index: 6380, Index obtained: 6375
+Expected index: 5229, Index obtained: 5226
+Expected index: 6007, Index obtained: 6002
+Expected index: 5042, Index obtained: 5039
+Expected index: 5632, Index obtained: 5627
+Expected index: 6464, Index obtained: 6459
+Expected index: 4202, Index obtained: 4199
+Expected index: 4385, Index obtained: 4382
+Expected index: 5001, Index obtained: 4998
+Expected index: 3408, Index obtained: 3408
+Expected index: 2837, Index obtained: 2837
+Expected index: 3380, Index obtained: 3380
+Expected index: 2441, Index obtained: 2441
+Expected index: 3117, Index obtained: 3117
+Expected index: 5280, Index obtained: 5279
+Expected index: 4894, Index obtained: 4893
+Expected index: 3365, Index obtained: 3365
+Expected index: 3018, Index obtained: 3018
+Expected index: 5170, Index obtained: 5169
+Expected index: 4099, Index obtained: 4098
+Expected index: 4780, Index obtained: 4779
+Expected index: 4810, Index obtained: 4809
+Expected index: 4952, Index obtained: 4951
+Expected index: 4937, Index obtained: 4936
+Expected index: 5226, Index obtained: 5225
+Expected index: 5295, Index obtained: 5294
+Expected index: 4056, Index obtained: 4055
+Expected index: 5114, Index obtained: 5113
+Expected index: 4545, Index obtained: 4543
+Expected index: 4663, Index obtained: 4661
+Expected index: 4648, Index obtained: 4646
+Expected index: 4618, Index obtained: 4616
+Expected index: 4573, Index obtained: 4571
+Expected index: 4588, Index obtained: 4586
+Expected index: 4717, Index obtained: 4715
+Expected index: 4487, Index obtained: 4485
+Expected index: 4691, Index obtained: 4688
+Expected index: 4803, Index obtained: 4800
+Expected index: 5053, Index obtained: 5050
+Expected index: 4861, Index obtained: 4858
+Expected index: 4818, Index obtained: 4815
+Expected index: 3709, Index obtained: 3706
+Expected index: 4366, Index obtained: 4363
+Expected index: 4917, Index obtained: 4914
+Expected index: 5109, Index obtained: 5106
+Expected index: 5219, Index obtained: 5215
+Expected index: 5353, Index obtained: 5349
+Expected index: 5381, Index obtained: 5377
+Expected index: 5081, Index obtained: 5078
+Expected index: 2772, Index obtained: 2769
+Expected index: 2690, Index obtained: 2687
+Expected index: 2507, Index obtained: 2504
+Expected index: 2757, Index obtained: 2754
+Expected index: 2856, Index obtained: 2853
+Expected index: 5718, Index obtained: 5713
+Expected index: 6546, Index obtained: 6536
+Expected index: 6531, Index obtained: 6521
+Expected index: 6501, Index obtained: 6491
+Expected index: 1353, Index obtained: 1352
+Expected index: 2246, Index obtained: 2244
+Expected index: 2502, Index obtained: 2500
+Expected index: 2345, Index obtained: 2343
+Expected index: 1919, Index obtained: 1917
+Expected index: 2104, Index obtained: 2102
+Expected index: 2401, Index obtained: 2399
+Expected index: 2373, Index obtained: 2370
+Expected index: 2612, Index obtained: 2608
+Expected index: 2582, Index obtained: 2578
+Expected index: 2913, Index obtained: 2909
+Expected index: 2657, Index obtained: 2653
+Expected index: 2825, Index obtained: 2821
+Expected index: 3094, Index obtained: 3089
+Expected index: 2810, Index obtained: 2806
+Expected index: 2416, Index obtained: 2413
+Expected index: 2431, Index obtained: 2428
+Expected index: 2218, Index obtained: 2215
+Expected index: 2883, Index obtained: 2879
+Expected index: 2446, Index obtained: 2443
+Expected index: 2898, Index obtained: 2894
+Expected index: 3193, Index obtained: 3188
+Expected index: 2982, Index obtained: 2977
+Expected index: 2061, Index obtained: 2058
+Expected index: 2597, Index obtained: 2593
+Expected index: 3165, Index obtained: 3160
+Expected index: 3208, Index obtained: 3203
+Expected index: 2795, Index obtained: 2791
+Expected index: 2855, Index obtained: 2851
+Expected index: 3051, Index obtained: 3046
+Expected index: 2627, Index obtained: 2623
+Expected index: 3066, Index obtained: 3061
+Expected index: 2752, Index obtained: 2748
+Expected index: 3109, Index obtained: 3104
+Expected index: 2780, Index obtained: 2776
+Expected index: 393, Index obtained: 393
+Expected index: 363, Index obtained: 363
+Expected index: 449, Index obtained: 449
+Expected index: 348, Index obtained: 348
+Expected index: 421, Index obtained: 421
+Expected index: 378, Index obtained: 378
+Expected index: 167, Index obtained: 167
+Expected index: 1089, Index obtained: 1088
+Expected index: 1059, Index obtained: 1058
+Expected index: 813, Index obtained: 812
+Expected index: 1177, Index obtained: 1176
+Expected index: 1888, Index obtained: 1886
+Expected index: 1802, Index obtained: 1800
+Expected index: 1845, Index obtained: 1843
+Expected index: 1744, Index obtained: 1742
+Expected index: 4991, Index obtained: 4988
+Expected index: 6836, Index obtained: 6833
+Expected index: 6793, Index obtained: 6790
+Expected index: 6358, Index obtained: 6355
+Expected index: 1108, Index obtained: 1108
+Expected index: 1164, Index obtained: 1164
+Expected index: 1123, Index obtained: 1123
+Expected index: 1039, Index obtained: 1039
+Expected index: 716, Index obtained: 716
+Expected index: 953, Index obtained: 953
+Expected index: 1009, Index obtained: 1009
+Expected index: 1067, Index obtained: 1067
+Expected index: 4915, Index obtained: 4914
+Expected index: 5270, Index obtained: 5269
+Expected index: 5044, Index obtained: 5043
+Expected index: 5001, Index obtained: 5000
+Expected index: 5072, Index obtained: 5071
+Expected index: 5341, Index obtained: 5340
+Expected index: 5311, Index obtained: 5310
+Expected index: 5156, Index obtained: 5155
+Expected index: 5102, Index obtained: 5101
+Expected index: 4818, Index obtained: 4817
+Expected index: 5242, Index obtained: 5241
+Expected index: 5326, Index obtained: 5325
+Expected index: 5507, Index obtained: 5505
+Expected index: 6089, Index obtained: 6087
+Expected index: 6059, Index obtained: 6057
+Expected index: 6158, Index obtained: 6156
+Expected index: 6546, Index obtained: 6543
+Expected index: 6505, Index obtained: 6502
+Expected index: 6561, Index obtained: 6558
+Expected index: 985, Index obtained: 985
+Expected index: 1291, Index obtained: 1291
+Expected index: 1412, Index obtained: 1412
+Expected index: 1276, Index obtained: 1276
+Expected index: 6554, Index obtained: 6552
+Expected index: 6524, Index obtained: 6522
+Expected index: 6179, Index obtained: 6177
+Expected index: 6539, Index obtained: 6537
+Expected index: 6569, Index obtained: 6567
+Expected index: 5455, Index obtained: 5451
+Expected index: 5653, Index obtained: 5648
+Expected index: 5612, Index obtained: 5607
+Expected index: 5541, Index obtained: 5536
+Expected index: 314, Index obtained: 314
+Expected index: 3032, Index obtained: 3031
+Expected index: 3276, Index obtained: 3275
+Expected index: 3181, Index obtained: 3180
+Expected index: 3601, Index obtained: 3599
+Expected index: 3711, Index obtained: 3709
+Expected index: 3829, Index obtained: 3827
+Expected index: 3726, Index obtained: 3724
+Expected index: 3756, Index obtained: 3754
+Expected index: 3771, Index obtained: 3769
+Expected index: 3683, Index obtained: 3681
+Expected index: 3573, Index obtained: 3571
+Expected index: 1612, Index obtained: 1607
+Expected index: 6220, Index obtained: 6208
+Expected index: 6605, Index obtained: 6593
+Expected index: 6538, Index obtained: 6526
+Expected index: 598, Index obtained: 598
+Expected index: 1496, Index obtained: 1495
+Expected index: 2036, Index obtained: 2035
+Expected index: 1978, Index obtained: 1977
+Expected index: 1920, Index obtained: 1919
+Expected index: 1905, Index obtained: 1904
+Expected index: 1875, Index obtained: 1874
+Expected index: 1890, Index obtained: 1889
+Expected index: 1763, Index obtained: 1762
+Expected index: 2348, Index obtained: 2346
+Expected index: 1935, Index obtained: 1934
+Expected index: 2133, Index obtained: 2131
+Expected index: 1778, Index obtained: 1777
+Expected index: 2378, Index obtained: 2376
+Expected index: 2176, Index obtained: 2174
+Expected index: 2206, Index obtained: 2204
+Expected index: 2006, Index obtained: 2005
+Expected index: 1845, Index obtained: 1844
+Expected index: 2236, Index obtained: 2234
+Expected index: 3708, Index obtained: 3705
+Expected index: 3639, Index obtained: 3636
+Expected index: 3245, Index obtained: 3242
+Expected index: 2812, Index obtained: 2809
+Expected index: 3454, Index obtained: 3451
+Expected index: 3484, Index obtained: 3481
+Expected index: 3301, Index obtained: 3298
+Expected index: 3357, Index obtained: 3354
+Expected index: 3738, Index obtained: 3735
+Expected index: 4171, Index obtained: 4167
+Expected index: 4227, Index obtained: 4223
+Expected index: 4518, Index obtained: 4514
+Expected index: 4546, Index obtained: 4542
+Expected index: 4143, Index obtained: 4139
+Expected index: 3594, Index obtained: 3591
+Expected index: 4255, Index obtained: 4251
+Expected index: 3846, Index obtained: 3842
+Expected index: 4100, Index obtained: 4096
+Expected index: 4298, Index obtained: 4294
+Expected index: 4199, Index obtained: 4195
+Expected index: 4313, Index obtained: 4309
+Expected index: 4443, Index obtained: 4439
+Expected index: 1657, Index obtained: 1656
+Expected index: 1961, Index obtained: 1960
+Expected index: 2058, Index obtained: 2057
+Expected index: 2099, Index obtained: 2098
+Expected index: 2114, Index obtained: 2113
+Expected index: 2030, Index obtained: 2029
+Expected index: 3732, Index obtained: 3730
+Expected index: 3549, Index obtained: 3547
+Expected index: 3702, Index obtained: 3700
+Expected index: 3659, Index obtained: 3657
+Expected index: 4012, Index obtained: 4009
+Expected index: 3762, Index obtained: 3760
+Expected index: 3803, Index obtained: 3801
+Expected index: 3958, Index obtained: 3955
+Expected index: 4042, Index obtained: 4039
+Expected index: 3861, Index obtained: 3859
+Expected index: 4027, Index obtained: 4023
+Expected index: 3831, Index obtained: 3828
+Expected index: 4458, Index obtained: 4451
+Expected index: 4400, Index obtained: 4393
+Expected index: 4357, Index obtained: 4350
+Expected index: 4428, Index obtained: 4421
+Expected index: 1388, Index obtained: 1388
+Expected index: 766, Index obtained: 766
+Expected index: 400, Index obtained: 400
+Expected index: 1501, Index obtained: 1501
+Expected index: 1458, Index obtained: 1458
+Expected index: 3718, Index obtained: 3717
+Expected index: 3940, Index obtained: 3938
+Expected index: 4056, Index obtained: 4054
+Expected index: 4623, Index obtained: 4620
+Expected index: 2169, Index obtained: 2168
+Expected index: 1887, Index obtained: 1886
+Expected index: 2333, Index obtained: 2332
+Expected index: 2363, Index obtained: 2362
+Expected index: 2290, Index obtained: 2289
+Expected index: 2044, Index obtained: 2043
+Expected index: 5109, Index obtained: 5101
+Expected index: 5357, Index obtained: 5349
+Expected index: 122, Index obtained: 122
+Expected index: 178, Index obtained: 178
+Expected index: 94, Index obtained: 94
+Expected index: 236, Index obtained: 236
+Expected index: 221, Index obtained: 221
+Expected index: 206, Index obtained: 206
+Expected index: 1162, Index obtained: 1161
+Expected index: 1132, Index obtained: 1131
+Expected index: 372, Index obtained: 371
+Expected index: 934, Index obtained: 933
+Expected index: 736, Index obtained: 735
+Expected index: 1147, Index obtained: 1146
+Expected index: 566, Index obtained: 565
+Expected index: 1117, Index obtained: 1116
+Expected index: 1102, Index obtained: 1101
+Expected index: 1087, Index obtained: 1086
+Expected index: 1046, Index obtained: 1044
+Expected index: 4136, Index obtained: 4131
+Expected index: 6041, Index obtained: 6031
+Expected index: 191, Index obtained: 191
+Expected index: 5995, Index obtained: 5992
+Expected index: 5941, Index obtained: 5938
+Expected index: 6167, Index obtained: 6164
+Expected index: 6137, Index obtained: 6134
+Expected index: 6010, Index obtained: 6007
+Expected index: 6152, Index obtained: 6149
+Expected index: 6109, Index obtained: 6106
+Expected index: 6068, Index obtained: 6065
+Expected index: 6223, Index obtained: 6220
+Expected index: 5312, Index obtained: 5309
+Expected index: 5760, Index obtained: 5757
+Expected index: 3419, Index obtained: 3416
+Expected index: 5872, Index obtained: 5869
+Expected index: 5631, Index obtained: 5628
+Expected index: 5745, Index obtained: 5742
+Expected index: 4989, Index obtained: 4986
+Expected index: 5900, Index obtained: 5897
+Expected index: 6195, Index obtained: 6192
+Expected index: 5476, Index obtained: 5473
+Expected index: 2752, Index obtained: 2752
+Expected index: 2339, Index obtained: 2339
+Expected index: 2554, Index obtained: 2554
+Expected index: 2653, Index obtained: 2653
+Expected index: 2309, Index obtained: 2309
+Expected index: 2922, Index obtained: 2922
+Expected index: 2952, Index obtained: 2952
+Expected index: 2980, Index obtained: 2980
+Expected index: 2638, Index obtained: 2638
+Expected index: 2995, Index obtained: 2995
+Expected index: 2881, Index obtained: 2881
+Expected index: 2722, Index obtained: 2722
+Expected index: 2838, Index obtained: 2838
+Expected index: 3984, Index obtained: 3983
+Expected index: 3771, Index obtained: 3770
+Expected index: 3687, Index obtained: 3686
+Expected index: 4014, Index obtained: 4013
+Expected index: 3885, Index obtained: 3884
+Expected index: 4070, Index obtained: 4068
+Expected index: 3928, Index obtained: 3927
+Expected index: 3801, Index obtained: 3800
+Expected index: 3730, Index obtained: 3729
+Expected index: 3023, Index obtained: 3022
+Expected index: 3900, Index obtained: 3899
+Expected index: 2767, Index obtained: 2767
+Expected index: 3715, Index obtained: 3714
+Expected index: 4055, Index obtained: 4053
+Expected index: 3616, Index obtained: 3615
+Expected index: 3999, Index obtained: 3998
+Expected index: 4085, Index obtained: 4083
+Expected index: 760, Index obtained: 760
+Expected index: 889, Index obtained: 889
+Expected index: 1005, Index obtained: 1005
+Expected index: 1948, Index obtained: 1947
+Expected index: 2028, Index obtained: 2027
+Expected index: 2082, Index obtained: 2081
+Expected index: 1593, Index obtained: 1592
+Expected index: 5792, Index obtained: 5789
+Expected index: 5734, Index obtained: 5731
+Expected index: 6027, Index obtained: 6024
+Expected index: 5986, Index obtained: 5983
+Expected index: 5835, Index obtained: 5832
+Expected index: 5342, Index obtained: 5339
+Expected index: 6284, Index obtained: 6280
+Expected index: 5971, Index obtained: 5968
+Expected index: 6269, Index obtained: 6265
+Expected index: 6491, Index obtained: 6486
+Expected index: 232, Index obtained: 232
+Expected index: 262, Index obtained: 262
+Expected index: 202, Index obtained: 202
+Expected index: 758, Index obtained: 757
+Expected index: 687, Index obtained: 686
+Expected index: 4628, Index obtained: 4623
+Expected index: 4585, Index obtained: 4580
+Expected index: 189, Index obtained: 189
+Expected index: 66, Index obtained: 66
+Expected index: 135, Index obtained: 135
+Expected index: 4248, Index obtained: 4246
+Expected index: 4525, Index obtained: 4523
+Expected index: 4704, Index obtained: 4702
+Expected index: 4409, Index obtained: 4407
+Expected index: 4263, Index obtained: 4261
+Expected index: 4760, Index obtained: 4757
+Expected index: 5122, Index obtained: 5119
+Expected index: 4689, Index obtained: 4687
+Expected index: 5053, Index obtained: 5050
+Expected index: 4661, Index obtained: 4659
+Expected index: 4997, Index obtained: 4994
+Expected index: 4926, Index obtained: 4923
+Expected index: 4982, Index obtained: 4979
+Expected index: 830, Index obtained: 830
+Expected index: 626, Index obtained: 626
+Expected index: 641, Index obtained: 641
+Expected index: 800, Index obtained: 800
+Expected index: 938, Index obtained: 938
+Expected index: 953, Index obtained: 953
+Expected index: 712, Index obtained: 712
+Expected index: 923, Index obtained: 923
+Expected index: 772, Index obtained: 772
+Expected index: 4632, Index obtained: 4630
+Expected index: 4341, Index obtained: 4339
+Expected index: 4218, Index obtained: 4216
+Expected index: 3482, Index obtained: 3482
+Expected index: 4249, Index obtained: 4249
+Expected index: 3960, Index obtained: 3960
+Expected index: 4305, Index obtained: 4305
+Expected index: 3118, Index obtained: 3115
+Expected index: 2799, Index obtained: 2796
+Expected index: 4389, Index obtained: 4384
+Expected index: 3407, Index obtained: 3402
+Expected index: 4240, Index obtained: 4235
+Expected index: 4432, Index obtained: 4427
+Expected index: 4574, Index obtained: 4568
+Expected index: 4516, Index obtained: 4510
+Expected index: 3783, Index obtained: 3778
+Expected index: 4589, Index obtained: 4583
+Expected index: 748, Index obtained: 748
+Expected index: 1181, Index obtained: 1181
+Expected index: 694, Index obtained: 694
+Expected index: 1224, Index obtained: 1224
+Expected index: 1196, Index obtained: 1196
+Expected index: 1108, Index obtained: 1108
+Expected index: 1252, Index obtained: 1252
+Expected index: 1295, Index obtained: 1295
+Expected index: 1151, Index obtained: 1151
+Expected index: 789, Index obtained: 789
+Expected index: 1166, Index obtained: 1166
+Expected index: 1136, Index obtained: 1136
+Expected index: 972, Index obtained: 972
+Expected index: 1310, Index obtained: 1310
+Expected index: 1280, Index obtained: 1280
+Expected index: 1644, Index obtained: 1643
+Expected index: 2028, Index obtained: 2027
+Expected index: 1726, Index obtained: 1725
+Expected index: 1892, Index obtained: 1891
+Expected index: 5089, Index obtained: 5087
+Expected index: 5735, Index obtained: 5733
+Expected index: 5916, Index obtained: 5914
+Expected index: 5455, Index obtained: 5453
+Expected index: 5160, Index obtained: 5158
+Expected index: 5371, Index obtained: 5369
+Expected index: 5694, Index obtained: 5692
+Expected index: 4757, Index obtained: 4755
+Expected index: 5847, Index obtained: 5845
+Expected index: 2821, Index obtained: 2820
+Expected index: 2961, Index obtained: 2960
+Expected index: 2453, Index obtained: 2452
+Expected index: 3030, Index obtained: 3029
+Expected index: 2197, Index obtained: 2196
+Expected index: 3002, Index obtained: 3001
+Expected index: 2946, Index obtained: 2945
+Expected index: 3058, Index obtained: 3057
+Expected index: 3073, Index obtained: 3072
+Expected index: 2849, Index obtained: 2848
+Expected index: 2341, Index obtained: 2340
+Expected index: 5972, Index obtained: 5970
+Expected index: 6151, Index obtained: 6149
+Expected index: 5690, Index obtained: 5688
+Expected index: 6330, Index obtained: 6328
+Expected index: 5746, Index obtained: 5744
+Expected index: 4957, Index obtained: 4955
+Expected index: 5373, Index obtained: 5371
+Expected index: 6259, Index obtained: 6257
+Expected index: 6123, Index obtained: 6121
+Expected index: 6287, Index obtained: 6285
+Expected index: 6302, Index obtained: 6300
+Expected index: 1049, Index obtained: 1049
+Expected index: 1516, Index obtained: 1516
+Expected index: 1572, Index obtained: 1572
+Expected index: 1721, Index obtained: 1721
+Expected index: 3807, Index obtained: 3802
+Expected index: 3740, Index obtained: 3737
+Expected index: 3329, Index obtained: 3326
+Expected index: 3127, Index obtained: 3124
+Expected index: 3389, Index obtained: 3386
+Expected index: 2418, Index obtained: 2415
+Expected index: 3359, Index obtained: 3356
+Expected index: 3811, Index obtained: 3808
+Expected index: 3856, Index obtained: 3853
+Expected index: 4035, Index obtained: 4031
+Expected index: 2229, Index obtained: 2226
+Expected index: 2972, Index obtained: 2969
+Expected index: 3826, Index obtained: 3823
+Expected index: 3781, Index obtained: 3778
+Expected index: 3626, Index obtained: 3623
+Expected index: 3680, Index obtained: 3677
+Expected index: 3112, Index obtained: 3109
+Expected index: 3695, Index obtained: 3692
+Expected index: 3499, Index obtained: 3496
+Expected index: 3611, Index obtained: 3608
+Expected index: 3710, Index obtained: 3707
+Expected index: 3841, Index obtained: 3838
+Expected index: 3241, Index obtained: 3238
+Expected index: 4020, Index obtained: 4016
+Expected index: 3271, Index obtained: 3268
+Expected index: 3568, Index obtained: 3565
+Expected index: 3374, Index obtained: 3371
+Expected index: 3540, Index obtained: 3537
+Expected index: 6102, Index obtained: 6097
+Expected index: 6739, Index obtained: 6724
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.0609060516009503 10 500 0.444534 0.020709 8.00139 1.181471
+Expected index: 1426, Index obtained: 1420
+Expected index: 5729, Index obtained: 5707
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.678033466841329 10 500 0.130504 0.592265 8.429782 0.494991
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_36/Run_1/Output/library.json
+var = 0.1267025319896052
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_36/Run_2/Output/library.json
+var = 0.15580602044704422
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_36/Run_3/Output/library.json
+var = 0.16367008690426713
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_36/Run_4/Output/library.json
+var = 0.48783043900261264
+0.15580602044704422
+0.16367008690426713
+0.48783043900261264
+MINI NR IS:  1.0
+MINI IS:  0.1267025319896052
+Cleaning house
+Done cleaning house
+Generation 37
+Delta = 0.17
+In rando_specs.py: N_unsuccessful_tries = 7.0
+Generation = 37
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0588
+Changing kin param 3 from 0.0296 to 0.0266
+Changing kin param 4 from 0.0021 to 0.0275
+Changing kin param 5 from 0.8602 to 0.8651
+Changing kin param 6 from 0.0393 to 0.0326
+Changing kin param 0 from 0.0573 to 0.0893
+Changing kin param 3 from 0.0296 to 0.0151
+Changing kin param 4 from 0.0021 to 0.0185
+Changing kin param 5 from 0.8602 to 0.8351
+Changing kin param 6 from 0.0393 to 0.0177
+Changing kin param 0 from 0.0573 to 0.0511
+Not changing kin param 3 from 0.0296 to -0.0604
+Changing kin param 4 from 0.0021 to 0.0331
+Changing kin param 5 from 0.8602 to 0.8957
+Changing kin param 6 from 0.0393 to 0.0314
+Not changing kin param 0 from 0.0573 to -0.0106
+Changing kin param 3 from 0.0296 to 0.0619
+Not changing kin param 4 from 0.0021 to -0.0166
+Changing kin param 5 from 0.8602 to 0.8533
+Changing kin param 6 from 0.0393 to 0.0512
+Running
+Running code
+params 3.87180075341246 10 500 0.265845 0.274817 8.650793 0.325762
+Expected index: 3112, Index obtained: 3109
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 7.814748395728092 10 500 0.151377 0.18537 8.350531 0.177164
+Expected index: 4927, Index obtained: 4911
+Expected index: 4997, Index obtained: 4978
+Expected index: 6402, Index obtained: 6374
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.2415296618503304 10 500 0.295669 0.330543 8.957058 0.313601
+Expected index: 2081, Index obtained: 2079
+Expected index: 2263, Index obtained: 2256
+Expected index: 844, Index obtained: 844
+Expected index: 3080, Index obtained: 3072
+Expected index: 3187, Index obtained: 3186
+Expected index: 2074, Index obtained: 2071
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.618557 0.020709 8.533365 0.512499
+Expected index: 792, Index obtained: 792
+Expected index: 835, Index obtained: 835
+Expected index: 932, Index obtained: 932
+Expected index: 917, Index obtained: 917
+Expected index: 430, Index obtained: 430
+Expected index: 3428, Index obtained: 3415
+Expected index: 3458, Index obtained: 3445
+Expected index: 931, Index obtained: 930
+Expected index: 2434, Index obtained: 2426
+Expected index: 2393, Index obtained: 2385
+Expected index: 5259, Index obtained: 5239
+Expected index: 3517, Index obtained: 3505
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_37/Run_1/Output/library.json
+var = 0.3698953859024511
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_37/Run_2/Output/library.json
+var = 0.33213436672284097
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_37/Run_3/Output/library.json
+var = 0.3714786384921722
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_37/Run_4/Output/library.json
+var = 0.141569314044699
+0.33213436672284097
+0.3714786384921722
+0.141569314044699
+MINI NR IS:  4.0
+MINI IS:  0.141569314044699
+Cleaning house
+Done cleaning house
+Generation 38
+Delta = 0.18
+In rando_specs.py: N_unsuccessful_tries = 8.0
+Generation = 38
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0706
+Not changing kin param 3 from 0.0296 to -0.0555
+Changing kin param 4 from 0.0021 to 0.0198
+Changing kin param 5 from 0.8602 to 0.7852
+Changing kin param 6 from 0.0393 to 0.0553
+Changing kin param 0 from 0.0573 to 0.0371
+Not changing kin param 3 from 0.0296 to -0.0232
+Not changing kin param 4 from 0.0021 to -0.0362
+Changing kin param 5 from 0.8602 to 0.8489
+Changing kin param 6 from 0.0393 to 0.1015
+Changing kin param 0 from 0.0573 to 0.0264
+Changing kin param 3 from 0.0296 to 0.0417
+Changing kin param 4 from 0.0021 to 0.0509
+Changing kin param 5 from 0.8602 to 0.8299
+Not changing kin param 6 from 0.0393 to -0.0122
+Changing kin param 0 from 0.0573 to 0.0401
+Not changing kin param 3 from 0.0296 to -0.0492
+Not changing kin param 4 from 0.0021 to -0.0064
+Changing kin param 5 from 0.8602 to 0.8859
+Changing kin param 6 from 0.0393 to 0.0387
+Running
+Running code
+params 5.084426809135289 10 500 0.295669 0.197894 7.851547 0.552587
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.3500278007972453 10 500 0.295669 0.020709 8.488906 1.015265
+Expected index: 4423, Index obtained: 4386
+Expected index: 1888, Index obtained: 1879
+Expected index: 3974, Index obtained: 3943
+Expected index: 2709, Index obtained: 2692
+Expected index: 5531, Index obtained: 5509
+Expected index: 2319, Index obtained: 2308
+Expected index: 3738, Index obtained: 3721
+Expected index: 4829, Index obtained: 4804
+Expected index: 3577, Index obtained: 3561
+Expected index: 896, Index obtained: 891
+Expected index: 3785, Index obtained: 3764
+Expected index: 643, Index obtained: 640
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1.8348433828676547 10 500 0.417186 0.5089 8.298608 0.393264
+Expected index: 4047, Index obtained: 4043
+Expected index: 3599, Index obtained: 3596
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.5205075344800205 10 500 0.295669 0.020709 8.858831 0.387026
+Expected index: 3134, Index obtained: 3116
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_38/Run_1/Output/library.json
+var = 0.32704833390349797
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_38/Run_2/Output/library.json
+var = 0.13463158080565585
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_38/Run_3/Output/library.json
+var = 0.3447166013033143
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_38/Run_4/Output/library.json
+var = 0.11472342604615283
+0.13463158080565585
+0.3447166013033143
+0.11472342604615283
+MINI NR IS:  4.0
+MINI IS:  0.11472342604615283
+Cleaning house
+Done cleaning house
+Generation 39
+Delta = 0.19
+In rando_specs.py: N_unsuccessful_tries = 9.0
+Generation = 39
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0482
+Not changing kin param 3 from 0.0296 to -0.0039
+Changing kin param 4 from 0.0021 to 0.0098
+Changing kin param 5 from 0.8602 to 0.8330
+Not changing kin param 6 from 0.0393 to -0.0508
+Changing kin param 0 from 0.0573 to 0.0937
+Changing kin param 3 from 0.0296 to 0.0353
+Not changing kin param 4 from 0.0021 to -0.0321
+Changing kin param 5 from 0.8602 to 0.8268
+Changing kin param 6 from 0.0393 to 0.0502
+Changing kin param 0 from 0.0573 to 0.0355
+Changing kin param 3 from 0.0296 to 0.0270
+Changing kin param 4 from 0.0021 to 0.0174
+Changing kin param 5 from 0.8602 to 0.9526
+Changing kin param 6 from 0.0393 to 0.0179
+Changing kin param 0 from 0.0573 to 0.0596
+Changing kin param 3 from 0.0296 to 0.0680
+Not changing kin param 4 from 0.0021 to -0.0117
+Changing kin param 5 from 0.8602 to 0.8743
+Changing kin param 6 from 0.0393 to 0.0412
+Running
+Running code
+params 3.034492021846786 10 500 0.295669 0.097767 8.330336 0.393264
+Expected index: 6612, Index obtained: 6563
+Expected index: 2913, Index obtained: 2903
+Expected index: 4176, Index obtained: 4148
+Expected index: 1599, Index obtained: 1593
+Expected index: 4357, Index obtained: 4338
+Expected index: 4057, Index obtained: 4028
+Expected index: 4114, Index obtained: 4093
+Expected index: 3821, Index obtained: 3804
+Expected index: 1795, Index obtained: 1784
+Expected index: 2211, Index obtained: 2200
+Expected index: 2181, Index obtained: 2170
+Expected index: 2196, Index obtained: 2185
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 8.659503657767562 10 500 0.353197 0.020709 8.26825 0.501966
+Expected index: 3114, Index obtained: 3104
+Expected index: 5480, Index obtained: 5455
+Expected index: 5661, Index obtained: 5636
+Expected index: 4415, Index obtained: 4387
+Expected index: 4746, Index obtained: 4713
+Expected index: 1542, Index obtained: 1538
+Expected index: 341, Index obtained: 339
+Expected index: 1070, Index obtained: 1063
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.2636068525911437 10 500 0.270483 0.173833 9.526337 0.179063
+Expected index: 4313, Index obtained: 4294
+Expected index: 3378, Index obtained: 3365
+Expected index: 3509, Index obtained: 3490
+Expected index: 4966, Index obtained: 4949
+Expected index: 5625, Index obtained: 5596
+Expected index: 4861, Index obtained: 4835
+Expected index: 4986, Index obtained: 4959
+Expected index: 3451, Index obtained: 3432
+Expected index: 6604, Index obtained: 6574
+Expected index: 2776, Index obtained: 2763
+Expected index: 2731, Index obtained: 2719
+Expected index: 1165, Index obtained: 1161
+Expected index: 3941, Index obtained: 3917
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.943210848749725 10 500 0.680201 0.020709 8.74274 0.412153
+Expected index: 3002, Index obtained: 2996
+Expected index: 3058, Index obtained: 3052
+Expected index: 3239, Index obtained: 3232
+Expected index: 6068, Index obtained: 6057
+Expected index: 5885, Index obtained: 5874
+Expected index: 6025, Index obtained: 6014
+Expected index: 5726, Index obtained: 5715
+Expected index: 5969, Index obtained: 5958
+Expected index: 5814, Index obtained: 5803
+Expected index: 3411, Index obtained: 3405
+Expected index: 5765, Index obtained: 5744
+Expected index: 5463, Index obtained: 5446
+Expected index: 1443, Index obtained: 1443
+Expected index: 1195, Index obtained: 1195
+Expected index: 1458, Index obtained: 1458
+Expected index: 4600, Index obtained: 4591
+Expected index: 6575, Index obtained: 6559
+Expected index: 2501, Index obtained: 2492
+Expected index: 2486, Index obtained: 2477
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_39/Run_1/Output/library.json
+var = 0.22463323283526568
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_39/Run_2/Output/library.json
+var = 0.117782181075468
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_39/Run_3/Output/library.json
+var = 0.28873778890978824
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_39/Run_4/Output/library.json
+var = 0.1278022921961131
+0.117782181075468
+0.28873778890978824
+0.1278022921961131
+MINI NR IS:  2.0
+MINI IS:  0.117782181075468
+Cleaning house
+Done cleaning house
+Generation 40
+Delta = 0.2
+In rando_specs.py: N_unsuccessful_tries = 10.0
+Generation = 40
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0901
+Not changing kin param 3 from 0.0296 to -0.0458
+Not changing kin param 4 from 0.0021 to -0.0125
+Changing kin param 5 from 0.8602 to 0.8442
+Changing kin param 6 from 0.0393 to 0.0758
+Changing kin param 0 from 0.0573 to 0.0129
+Not changing kin param 3 from 0.0296 to -0.0281
+Changing kin param 4 from 0.0021 to 0.0027
+Changing kin param 5 from 0.8602 to 0.8459
+Not changing kin param 6 from 0.0393 to -0.0099
+Changing kin param 0 from 0.0573 to 0.0931
+Changing kin param 3 from 0.0296 to 0.0156
+Changing kin param 4 from 0.0021 to 0.0171
+Changing kin param 5 from 0.8602 to 0.7438
+Not changing kin param 6 from 0.0393 to -0.0390
+Not changing kin param 0 from 0.0573 to -0.0065
+Not changing kin param 3 from 0.0296 to -0.0692
+Not changing kin param 4 from 0.0021 to -0.0450
+Changing kin param 5 from 0.8602 to 0.9121
+Changing kin param 6 from 0.0393 to 0.0264
+Running
+Running code
+params 7.968874733515825 10 500 0.295669 0.020709 8.442364 0.757703
+Expected index: 2783, Index obtained: 2768
+Expected index: 198, Index obtained: 198
+Expected index: 1628, Index obtained: 1617
+Expected index: 1736, Index obtained: 1723
+Expected index: 5172, Index obtained: 5137
+Expected index: 2317, Index obtained: 2304
+Expected index: 3191, Index obtained: 3171
+Expected index: 2311, Index obtained: 2297
+Expected index: 6286, Index obtained: 6243
+Expected index: 5513, Index obtained: 5480
+Expected index: 6579, Index obtained: 6540
+Expected index: 453, Index obtained: 451
+Expected index: 5637, Index obtained: 5607
+Expected index: 1482, Index obtained: 1471
+Expected index: 1577, Index obtained: 1573
+Expected index: 1556, Index obtained: 1553
+Expected index: 1476, Index obtained: 1466
+Expected index: 3041, Index obtained: 3027
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1.3443984404478677 10 500 0.295669 0.026868 8.458869 0.393264
+Expected index: 2505, Index obtained: 2489
+Expected index: 821, Index obtained: 817
+Expected index: 6537, Index obtained: 6496
+Expected index: 4484, Index obtained: 4464
+Expected index: 1115, Index obtained: 1110
+Expected index: 5200, Index obtained: 5179
+Expected index: 5213, Index obtained: 5192
+Expected index: 2987, Index obtained: 2970
+Expected index: 3860, Index obtained: 3836
+Expected index: 6343, Index obtained: 6305
+Expected index: 2165, Index obtained: 2154
+Expected index: 2150, Index obtained: 2139
+Expected index: 3967, Index obtained: 3949
+Expected index: 5748, Index obtained: 5722
+Expected index: 6413, Index obtained: 6380
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 8.533240776699513 10 500 0.156202 0.171114 7.437525 0.393264
+Expected index: 6495, Index obtained: 6464
+Expected index: 4631, Index obtained: 4610
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 9.121079 0.263976
+Expected index: 3688, Index obtained: 3656
+Expected index: 2261, Index obtained: 2244
+Expected index: 3255, Index obtained: 3231
+Expected index: 1344, Index obtained: 1338
+Expected index: 2932, Index obtained: 2912
+Expected index: 964, Index obtained: 960
+Expected index: 3835, Index obtained: 3813
+Expected index: 4868, Index obtained: 4834
+Expected index: 1088, Index obtained: 1083
+Expected index: 364, Index obtained: 364
+Expected index: 943, Index obtained: 939
+Expected index: 1796, Index obtained: 1792
+Expected index: 4863, Index obtained: 4833
+Expected index: 3473, Index obtained: 3452
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_40/Run_1/Output/library.json
+var = 0.12656383984564037
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_40/Run_2/Output/library.json
+var = 0.12061446375539708
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_40/Run_3/Output/library.json
+var = 0.3276096237203234
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_40/Run_4/Output/library.json
+var = 0.11742810458492361
+0.12061446375539708
+0.3276096237203234
+0.11742810458492361
+MINI NR IS:  4.0
+MINI IS:  0.11742810458492361
+Cleaning house
+Done cleaning house
+Generation 41
+Delta = 0.21000000000000002
+In rando_specs.py: N_unsuccessful_tries = 11.0
+Generation = 41
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0644
+Changing kin param 3 from 0.0296 to 0.0175
+Not changing kin param 4 from 0.0021 to -0.0754
+Changing kin param 5 from 0.8602 to 0.8394
+Changing kin param 6 from 0.0393 to 0.0357
+Changing kin param 0 from 0.0573 to 0.0437
+Changing kin param 3 from 0.0296 to 0.1011
+Changing kin param 4 from 0.0021 to 0.0327
+Changing kin param 5 from 0.8602 to 0.8354
+Changing kin param 6 from 0.0393 to 0.0727
+Changing kin param 0 from 0.0573 to 0.0704
+Changing kin param 3 from 0.0296 to 0.0355
+Changing kin param 4 from 0.0021 to 0.0182
+Changing kin param 5 from 0.8602 to 0.8207
+Changing kin param 6 from 0.0393 to 0.0987
+Changing kin param 0 from 0.0573 to 0.1156
+Not changing kin param 3 from 0.0296 to -0.0008
+Not changing kin param 4 from 0.0021 to -0.0112
+Changing kin param 5 from 0.8602 to 0.8258
+Not changing kin param 6 from 0.0393 to -0.0353
+Running
+Running code
+params 4.409882317474995 10 500 0.17491 0.020709 8.394455 0.357296
+Expected index: 2250, Index obtained: 2233
+Expected index: 4194, Index obtained: 4165
+Expected index: 4419, Index obtained: 4386
+Expected index: 5472, Index obtained: 5434
+Expected index: 1052, Index obtained: 1047
+Expected index: 5909, Index obtained: 5884
+Expected index: 1877, Index obtained: 1865
+Expected index: 2991, Index obtained: 2969
+Expected index: 4983, Index obtained: 4950
+Expected index: 6054, Index obtained: 6013
+Expected index: 3410, Index obtained: 3386
+Expected index: 3579, Index obtained: 3552
+Expected index: 4572, Index obtained: 4534
+Expected index: 5221, Index obtained: 5175
+Expected index: 5029, Index obtained: 4999
+Expected index: 5225, Index obtained: 5197
+Expected index: 1929, Index obtained: 1908
+Expected index: 6267, Index obtained: 6221
+Expected index: 6386, Index obtained: 6338
+Expected index: 2962, Index obtained: 2940
+Expected index: 3855, Index obtained: 3830
+Expected index: 4497, Index obtained: 4462
+Expected index: 1493, Index obtained: 1480
+Expected index: 452, Index obtained: 448
+Expected index: 4111, Index obtained: 4087
+Expected index: 5258, Index obtained: 5221
+Expected index: 6251, Index obtained: 6206
+Expected index: 3011, Index obtained: 2981
+Expected index: 4299, Index obtained: 4270
+Expected index: 6541, Index obtained: 6499
+Expected index: 4259, Index obtained: 4230
+Expected index: 2772, Index obtained: 2751
+Expected index: 1947, Index obtained: 1935
+Expected index: 4944, Index obtained: 4908
+Expected index: 5121, Index obtained: 5083
+Expected index: 5649, Index obtained: 5609
+Expected index: 6335, Index obtained: 6286
+Expected index: 607, Index obtained: 601
+Expected index: 1165, Index obtained: 1154
+Expected index: 1018, Index obtained: 1007
+Expected index: 1957, Index obtained: 1937
+Expected index: 2063, Index obtained: 2041
+Expected index: 304, Index obtained: 303
+Expected index: 867, Index obtained: 860
+Expected index: 1472, Index obtained: 1457
+Expected index: 2775, Index obtained: 2757
+Expected index: 5813, Index obtained: 5773
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.737057996949999 10 500 1.010537 0.327029 8.354424 0.726858
+Expected index: 2621, Index obtained: 2621
+Expected index: 2722, Index obtained: 2722
+Expected index: 2380, Index obtained: 2380
+Expected index: 2606, Index obtained: 2606
+Expected index: 2014, Index obtained: 2014
+Expected index: 2481, Index obtained: 2481
+Expected index: 2139, Index obtained: 2139
+Expected index: 2636, Index obtained: 2636
+Expected index: 2410, Index obtained: 2410
+Expected index: 2509, Index obtained: 2509
+Expected index: 2666, Index obtained: 2666
+Expected index: 2322, Index obtained: 2322
+Expected index: 2253, Index obtained: 2253
+Expected index: 2453, Index obtained: 2453
+Expected index: 2395, Index obtained: 2395
+Expected index: 2223, Index obtained: 2223
+Expected index: 669, Index obtained: 669
+Expected index: 5548, Index obtained: 5548
+Expected index: 4210, Index obtained: 4210
+Expected index: 5451, Index obtained: 5451
+Expected index: 5365, Index obtained: 5365
+Expected index: 5576, Index obtained: 5576
+Expected index: 4863, Index obtained: 4863
+Expected index: 5436, Index obtained: 5436
+Expected index: 1809, Index obtained: 1809
+Expected index: 4479, Index obtained: 4479
+Expected index: 5479, Index obtained: 5479
+Expected index: 2388, Index obtained: 2388
+Expected index: 5029, Index obtained: 5029
+Expected index: 4766, Index obtained: 4766
+Expected index: 5395, Index obtained: 5395
+Expected index: 5113, Index obtained: 5113
+Expected index: 5014, Index obtained: 5014
+Expected index: 5283, Index obtained: 5283
+Expected index: 3863, Index obtained: 3863
+Expected index: 5591, Index obtained: 5591
+Expected index: 5227, Index obtained: 5227
+Expected index: 3263, Index obtained: 3263
+Expected index: 5651, Index obtained: 5651
+Expected index: 4723, Index obtained: 4723
+Expected index: 5636, Index obtained: 5636
+Expected index: 6005, Index obtained: 6005
+Expected index: 5334, Index obtained: 5334
+Expected index: 6033, Index obtained: 6033
+Expected index: 5349, Index obtained: 5349
+Expected index: 5091, Index obtained: 5091
+Expected index: 3359, Index obtained: 3359
+Expected index: 6078, Index obtained: 6078
+Expected index: 6048, Index obtained: 6048
+Expected index: 5621, Index obtained: 5621
+Expected index: 5990, Index obtained: 5990
+Expected index: 5735, Index obtained: 5735
+Expected index: 4919, Index obtained: 4919
+Expected index: 4820, Index obtained: 4820
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 5.060984415852294 10 500 0.355092 0.18212 8.206897 0.986974
+Expected index: 5499, Index obtained: 5489
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 14.331181623953075 10 500 0.295669 0.020709 8.257527 0.393264
+Expected index: 5183, Index obtained: 5161
+Expected index: 4997, Index obtained: 4962
+Expected index: 1054, Index obtained: 1049
+Expected index: 6103, Index obtained: 6057
+Expected index: 4539, Index obtained: 4515
+Expected index: 5246, Index obtained: 5215
+Expected index: 2165, Index obtained: 2159
+Expected index: 4956, Index obtained: 4929
+Expected index: 2724, Index obtained: 2711
+Expected index: 4300, Index obtained: 4280
+Expected index: 4343, Index obtained: 4323
+Expected index: 6616, Index obtained: 6574
+Expected index: 5530, Index obtained: 5488
+Expected index: 3777, Index obtained: 3746
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_41/Run_1/Output/library.json
+var = 0.12785890745171796
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_41/Run_2/Output/library.json
+var = 0.26073004339464106
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_41/Run_3/Output/library.json
+var = 0.32941233176829204
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_41/Run_4/Output/library.json
+var = 0.11583851023037392
+0.26073004339464106
+0.32941233176829204
+0.11583851023037392
+MINI NR IS:  4.0
+MINI IS:  0.11583851023037392
+Cleaning house
+Done cleaning house
+Generation 42
+Delta = 0.22000000000000003
+In rando_specs.py: N_unsuccessful_tries = 12.0
+Generation = 42
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0764
+Changing kin param 3 from 0.0296 to 0.0087
+Not changing kin param 4 from 0.0021 to -0.1005
+Changing kin param 5 from 0.8602 to 0.8158
+Not changing kin param 6 from 0.0393 to -0.1130
+Changing kin param 0 from 0.0573 to 0.0549
+Changing kin param 3 from 0.0296 to 0.0165
+Changing kin param 4 from 0.0021 to 0.0640
+Changing kin param 5 from 0.8602 to 0.8224
+Changing kin param 6 from 0.0393 to 0.0781
+Not changing kin param 0 from 0.0573 to -0.0391
+Not changing kin param 3 from 0.0296 to -0.0175
+Not changing kin param 4 from 0.0021 to -0.0655
+Changing kin param 5 from 0.8602 to 0.9260
+Changing kin param 6 from 0.0393 to 0.0718
+Not changing kin param 0 from 0.0573 to -0.0301
+Not changing kin param 3 from 0.0296 to -0.0723
+Changing kin param 4 from 0.0021 to 0.0075
+Changing kin param 5 from 0.8602 to 0.8666
+Changing kin param 6 from 0.0393 to 0.0555
+Running
+Running code
+params 5.813758667602966 10 500 0.087007 0.020709 8.158475 0.393264
+Expected index: 4537, Index obtained: 4501
+Expected index: 5169, Index obtained: 5137
+Expected index: 4235, Index obtained: 4206
+Expected index: 582, Index obtained: 573
+Expected index: 835, Index obtained: 823
+Expected index: 4190, Index obtained: 4146
+Expected index: 2256, Index obtained: 2239
+Expected index: 5815, Index obtained: 5765
+Expected index: 2941, Index obtained: 2917
+Expected index: 2824, Index obtained: 2800
+Expected index: 3809, Index obtained: 3778
+Expected index: 4711, Index obtained: 4670
+Expected index: 1203, Index obtained: 1195
+Expected index: 3543, Index obtained: 3519
+Expected index: 640, Index obtained: 635
+Expected index: 2720, Index obtained: 2696
+Expected index: 5275, Index obtained: 5229
+Expected index: 3025, Index obtained: 3003
+Expected index: 4883, Index obtained: 4851
+Expected index: 3103, Index obtained: 3080
+Expected index: 3116, Index obtained: 3093
+Expected index: 6077, Index obtained: 6031
+Expected index: 6051, Index obtained: 6005
+Expected index: 1928, Index obtained: 1913
+Expected index: 4179, Index obtained: 4145
+Expected index: 1328, Index obtained: 1322
+Expected index: 1653, Index obtained: 1642
+Expected index: 4242, Index obtained: 4205
+Expected index: 4229, Index obtained: 4192
+Expected index: 1298, Index obtained: 1287
+Expected index: 4540, Index obtained: 4495
+Expected index: 5081, Index obtained: 5025
+Expected index: 5912, Index obtained: 5845
+Expected index: 190, Index obtained: 190
+Expected index: 3831, Index obtained: 3793
+Expected index: 1268, Index obtained: 1254
+Expected index: 1517, Index obtained: 1500
+Expected index: 1582, Index obtained: 1563
+Expected index: 2488, Index obtained: 2467
+Expected index: 534, Index obtained: 533
+Expected index: 993, Index obtained: 985
+Expected index: 1071, Index obtained: 1062
+Expected index: 3472, Index obtained: 3435
+Expected index: 4704, Index obtained: 4658
+Expected index: 4717, Index obtained: 4670
+Expected index: 556, Index obtained: 555
+Expected index: 569, Index obtained: 568
+Expected index: 751, Index obtained: 748
+Expected index: 3828, Index obtained: 3805
+Expected index: 5726, Index obtained: 5688
+Expected index: 1753, Index obtained: 1738
+Expected index: 3396, Index obtained: 3369
+Expected index: 4907, Index obtained: 4871
+Expected index: 5524, Index obtained: 5479
+Expected index: 5498, Index obtained: 5454
+Expected index: 1372, Index obtained: 1365
+Expected index: 2757, Index obtained: 2740
+Expected index: 3588, Index obtained: 3562
+Expected index: 4478, Index obtained: 4442
+Expected index: 5846, Index obtained: 5796
+Expected index: 6405, Index obtained: 6349
+Expected index: 4372, Index obtained: 4346
+Expected index: 1278, Index obtained: 1269
+Expected index: 6274, Index obtained: 6231
+Expected index: 1896, Index obtained: 1879
+Expected index: 1857, Index obtained: 1840
+Expected index: 3569, Index obtained: 3541
+Expected index: 5550, Index obtained: 5508
+Expected index: 1184, Index obtained: 1166
+Expected index: 1870, Index obtained: 1847
+Expected index: 3309, Index obtained: 3268
+Expected index: 6305, Index obtained: 6236
+Expected index: 2666, Index obtained: 2643
+Expected index: 3679, Index obtained: 3653
+Expected index: 6179, Index obtained: 6145
+Expected index: 2697, Index obtained: 2682
+Expected index: 2775, Index obtained: 2758
+Expected index: 3052, Index obtained: 3033
+Expected index: 3957, Index obtained: 3924
+Expected index: 4113, Index obtained: 4077
+Expected index: 4347, Index obtained: 4309
+Expected index: 4295, Index obtained: 4257
+Expected index: 5103, Index obtained: 5061
+Expected index: 5382, Index obtained: 5336
+Expected index: 6215, Index obtained: 6161
+Expected index: 1992, Index obtained: 1974
+Expected index: 2544, Index obtained: 2522
+Expected index: 5933, Index obtained: 5883
+Expected index: 677, Index obtained: 672
+Expected index: 3101, Index obtained: 3072
+Expected index: 3222, Index obtained: 3191
+Expected index: 5075, Index obtained: 5033
+Expected index: 5809, Index obtained: 5758
+Expected index: 5978, Index obtained: 5925
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.5398919008727145 10 500 0.164802 0.639788 8.223792 0.781084
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 9.259884 0.717544
+Expected index: 1216, Index obtained: 1209
+Expected index: 4685, Index obtained: 4663
+Expected index: 6393, Index obtained: 6363
+Expected index: 4101, Index obtained: 4080
+Expected index: 3489, Index obtained: 3473
+Expected index: 617, Index obtained: 615
+Expected index: 3588, Index obtained: 3575
+Expected index: 2843, Index obtained: 2823
+Expected index: 2577, Index obtained: 2566
+Expected index: 4314, Index obtained: 4294
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.075094 8.665895 0.554836
+Expected index: 4507, Index obtained: 4484
+Expected index: 700, Index obtained: 693
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_42/Run_1/Output/library.json
+var = 0.16875728500978607
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_42/Run_2/Output/library.json
+var = 0.4885054111236478
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_42/Run_3/Output/library.json
+var = 0.12842577820402207
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_42/Run_4/Output/library.json
+var = 0.1937056585414419
+0.4885054111236478
+0.12842577820402207
+0.1937056585414419
+MINI NR IS:  3.0
+MINI IS:  0.12842577820402207
+Cleaning house
+Done cleaning house
+Generation 43
+Delta = 0.23
+In rando_specs.py: N_unsuccessful_tries = 13.0
+Generation = 43
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0674
+Not changing kin param 3 from 0.0296 to -0.0360
+Changing kin param 4 from 0.0021 to 0.0351
+Changing kin param 5 from 0.8602 to 0.8492
+Changing kin param 6 from 0.0393 to 0.0170
+Changing kin param 0 from 0.0573 to 0.1202
+Changing kin param 3 from 0.0296 to 0.0466
+Not changing kin param 4 from 0.0021 to -0.0879
+Changing kin param 5 from 0.8602 to 0.8368
+Changing kin param 6 from 0.0393 to 0.0546
+Changing kin param 0 from 0.0573 to 0.0029
+Changing kin param 3 from 0.0296 to 0.0400
+Not changing kin param 4 from 0.0021 to -0.0123
+Changing kin param 5 from 0.8602 to 0.9114
+Not changing kin param 6 from 0.0393 to -0.0049
+Changing kin param 0 from 0.0573 to 0.1389
+Changing kin param 3 from 0.0296 to 0.0908
+Changing kin param 4 from 0.0021 to 0.0689
+Changing kin param 5 from 0.8602 to 0.8433
+Changing kin param 6 from 0.0393 to 0.1178
+Running
+Running code
+params 4.7235226260238585 10 500 0.295669 0.350955 8.491871 0.170391
+Expected index: 4159, Index obtained: 4146
+Expected index: 4166, Index obtained: 4157
+Expected index: 1728, Index obtained: 1723
+Expected index: 2654, Index obtained: 2642
+Expected index: 4883, Index obtained: 4867
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 15.937859720609348 10 500 0.466068 0.020709 8.368332 0.545795
+Expected index: 6243, Index obtained: 6223
+Expected index: 6221, Index obtained: 6196
+Expected index: 2905, Index obtained: 2885
+Expected index: 3008, Index obtained: 3003
+Expected index: 1825, Index obtained: 1815
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1.0697418834342283 10 500 0.400248 0.020709 9.113901 0.393264
+Expected index: 1559, Index obtained: 1556
+Expected index: 5373, Index obtained: 5354
+Expected index: 1418, Index obtained: 1413
+Expected index: 612, Index obtained: 610
+Expected index: 1701, Index obtained: 1687
+Expected index: 2555, Index obtained: 2545
+Expected index: 879, Index obtained: 875
+Expected index: 3121, Index obtained: 3103
+Expected index: 3440, Index obtained: 3421
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 24.50896660136001 10 500 0.908331 0.689009 8.433495 1.177884
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_43/Run_1/Output/library.json
+var = 0.34710188544670517
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_43/Run_2/Output/library.json
+var = 0.13313368455162172
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_43/Run_3/Output/library.json
+var = 0.12097031811971998
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_43/Run_4/Output/library.json
+var = 0.32544819451550916
+0.13313368455162172
+0.12097031811971998
+0.32544819451550916
+MINI NR IS:  3.0
+MINI IS:  0.12097031811971998
+Cleaning house
+Done cleaning house
+Generation 44
+Delta = 0.24000000000000002
+In rando_specs.py: N_unsuccessful_tries = 14.0
+Generation = 44
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.1751
+Not changing kin param 3 from 0.0296 to -0.1271
+Changing kin param 4 from 0.0021 to 0.0697
+Changing kin param 5 from 0.8602 to 0.8510
+Changing kin param 6 from 0.0393 to 0.0503
+Changing kin param 0 from 0.0573 to 0.1321
+Changing kin param 3 from 0.0296 to 0.0054
+Changing kin param 4 from 0.0021 to 0.1182
+Changing kin param 5 from 0.8602 to 0.8645
+Not changing kin param 6 from 0.0393 to -0.0244
+Changing kin param 0 from 0.0573 to 0.1314
+Not changing kin param 3 from 0.0296 to -0.0244
+Changing kin param 4 from 0.0021 to 0.0552
+Changing kin param 5 from 0.8602 to 0.8564
+Changing kin param 6 from 0.0393 to 0.0154
+Changing kin param 0 from 0.0573 to 0.0810
+Changing kin param 3 from 0.0296 to 0.0287
+Changing kin param 4 from 0.0021 to 0.0490
+Changing kin param 5 from 0.8602 to 0.9028
+Changing kin param 6 from 0.0393 to 0.0894
+Running
+Running code
+params 56.37544720593797 10 500 0.295669 0.697333 8.509646 0.502776
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 20.94980572722934 10 500 0.05431 1.181616 8.644806 0.393264
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 20.597001470494206 10 500 0.295669 0.55152 8.564378 0.153859
+Expected index: 1460, Index obtained: 1455
+Expected index: 1430, Index obtained: 1425
+Expected index: 5528, Index obtained: 5522
+Expected index: 1067, Index obtained: 1066
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 6.454134327921218 10 500 0.287243 0.490212 9.028003 0.894411
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_44/Run_1/Output/library.json
+var = 0.4218999531748718
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_44/Run_2/Output/library.json
+var = 0.5896441577492921
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_44/Run_3/Output/library.json
+var = 0.3651559348790124
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_44/Run_4/Output/library.json
+var = 0.42820405066293016
+0.5896441577492921
+0.3651559348790124
+0.42820405066293016
+MINI NR IS:  3.0
+MINI IS:  0.3651559348790124
+Cleaning house
+Done cleaning house
+Generation 45
+Delta = 0.25
+In rando_specs.py: N_unsuccessful_tries = 15.0
+Generation = 45
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.2042
+Not changing kin param 3 from 0.0296 to -0.0377
+Changing kin param 4 from 0.0021 to 0.0121
+Changing kin param 5 from 0.8602 to 0.8197
+Not changing kin param 6 from 0.0393 to -0.0422
+Changing kin param 0 from 0.0573 to 0.0098
+Changing kin param 3 from 0.0296 to 0.0746
+Changing kin param 4 from 0.0021 to 0.1064
+Changing kin param 5 from 0.8602 to 0.8362
+Changing kin param 6 from 0.0393 to 0.0289
+Changing kin param 0 from 0.0573 to 0.1661
+Not changing kin param 3 from 0.0296 to -0.0276
+Changing kin param 4 from 0.0021 to 0.0275
+Changing kin param 5 from 0.8602 to 0.8125
+Changing kin param 6 from 0.0393 to 0.0286
+Changing kin param 0 from 0.0573 to 0.0812
+Changing kin param 3 from 0.0296 to 0.0422
+Changing kin param 4 from 0.0021 to 0.0314
+Changing kin param 5 from 0.8602 to 0.7669
+Changing kin param 6 from 0.0393 to 0.0783
+Running
+Running code
+params 110.03022473503438 10 500 0.295669 0.121013 8.196754 0.393264
+Expected index: 674, Index obtained: 670
+Expected index: 6574, Index obtained: 6542
+Expected index: 2838, Index obtained: 2828
+params 1.2532248561967678 10 500 0.746225 1.063549 8.361643 0.289311
+Expected index: 4422, Index obtained: 4419
+Expected index: 4562, Index obtained: 4558
+Expected index: 6546, Index obtained: 6535
+Expected index: 874, Index obtained: 874
+Expected index: 846, Index obtained: 846
+Expected index: 3010, Index obtained: 3006
+Expected index: 2659, Index obtained: 2655
+Expected index: 2969, Index obtained: 2965
+Expected index: 3025, Index obtained: 3021
+Expected index: 4239, Index obtained: 4232
+Expected index: 887, Index obtained: 886
+Expected index: 766, Index obtained: 766
+Expected index: 807, Index obtained: 807
+Expected index: 2812, Index obtained: 2810
+Expected index: 2685, Index obtained: 2683
+Expected index: 4956, Index obtained: 4950
+Expected index: 4902, Index obtained: 4896
+Expected index: 2886, Index obtained: 2886
+Expected index: 2970, Index obtained: 2970
+Expected index: 2714, Index obtained: 2714
+Expected index: 3093, Index obtained: 3092
+Expected index: 3794, Index obtained: 3792
+Expected index: 3824, Index obtained: 3822
+Expected index: 3867, Index obtained: 3864
+Expected index: 6564, Index obtained: 6554
+Expected index: 6549, Index obtained: 6539
+Expected index: 6506, Index obtained: 6496
+Expected index: 2107, Index obtained: 2105
+Expected index: 4121, Index obtained: 4118
+Expected index: 3192, Index obtained: 3189
+Expected index: 3849, Index obtained: 3846
+Expected index: 4289, Index obtained: 4286
+Expected index: 4317, Index obtained: 4313
+Expected index: 4274, Index obtained: 4271
+Expected index: 4427, Index obtained: 4423
+Expected index: 4485, Index obtained: 4481
+Expected index: 4470, Index obtained: 4466
+Expected index: 3597, Index obtained: 3594
+Expected index: 4700, Index obtained: 4695
+Expected index: 5014, Index obtained: 5009
+Expected index: 4956, Index obtained: 4951
+Expected index: 4541, Index obtained: 4536
+Expected index: 4513, Index obtained: 4508
+Expected index: 4655, Index obtained: 4650
+Expected index: 4745, Index obtained: 4740
+Expected index: 4999, Index obtained: 4994
+Expected index: 4790, Index obtained: 4785
+Expected index: 5704, Index obtained: 5698
+Expected index: 5971, Index obtained: 5964
+Expected index: 5426, Index obtained: 5420
+Expected index: 5624, Index obtained: 5618
+Expected index: 5930, Index obtained: 5923
+Expected index: 5900, Index obtained: 5893
+Expected index: 5915, Index obtained: 5908
+Expected index: 1100, Index obtained: 1100
+Expected index: 1753, Index obtained: 1752
+Expected index: 1678, Index obtained: 1677
+Expected index: 1693, Index obtained: 1692
+Expected index: 2686, Index obtained: 2685
+Expected index: 2843, Index obtained: 2841
+Expected index: 2800, Index obtained: 2798
+Expected index: 2828, Index obtained: 2826
+Expected index: 2770, Index obtained: 2768
+Expected index: 2858, Index obtained: 2856
+Expected index: 2873, Index obtained: 2871
+Expected index: 3399, Index obtained: 3396
+Expected index: 1681, Index obtained: 1679
+Expected index: 6243, Index obtained: 6235
+Expected index: 6187, Index obtained: 6179
+Expected index: 6301, Index obtained: 6293
+Expected index: 3964, Index obtained: 3961
+Expected index: 3936, Index obtained: 3933
+Expected index: 4967, Index obtained: 4962
+Expected index: 4995, Index obtained: 4990
+Expected index: 1323, Index obtained: 1322
+Expected index: 1366, Index obtained: 1365
+Expected index: 1646, Index obtained: 1644
+Expected index: 2264, Index obtained: 2261
+Expected index: 2249, Index obtained: 2246
+Expected index: 2163, Index obtained: 2160
+Expected index: 2148, Index obtained: 2145
+Expected index: 2118, Index obtained: 2115
+Expected index: 2475, Index obtained: 2471
+Expected index: 2320, Index obtained: 2316
+Expected index: 2544, Index obtained: 2540
+Expected index: 2234, Index obtained: 2231
+Expected index: 2279, Index obtained: 2276
+Expected index: 2602, Index obtained: 2598
+Expected index: 2587, Index obtained: 2583
+Expected index: 3156, Index obtained: 3151
+Expected index: 3227, Index obtained: 3222
+Expected index: 3315, Index obtained: 3310
+Expected index: 3061, Index obtained: 3056
+Expected index: 3345, Index obtained: 3340
+Expected index: 3360, Index obtained: 3355
+Expected index: 3212, Index obtained: 3207
+Expected index: 3285, Index obtained: 3280
+Expected index: 3791, Index obtained: 3785
+Expected index: 3300, Index obtained: 3295
+Expected index: 3718, Index obtained: 3712
+Expected index: 3761, Index obtained: 3755
+Expected index: 3608, Index obtained: 3602
+Expected index: 2867, Index obtained: 2862
+Expected index: 3593, Index obtained: 3587
+Expected index: 3776, Index obtained: 3770
+Expected index: 4072, Index obtained: 4071
+Expected index: 4016, Index obtained: 4015
+Expected index: 708, Index obtained: 708
+Expected index: 962, Index obtained: 961
+Expected index: 865, Index obtained: 864
+Expected index: 1018, Index obtained: 1017
+Expected index: 947, Index obtained: 946
+Expected index: 1183, Index obtained: 1181
+Expected index: 1026, Index obtained: 1024
+Expected index: 2151, Index obtained: 2151
+Expected index: 2759, Index obtained: 2758
+Expected index: 6335, Index obtained: 6330
+Expected index: 6180, Index obtained: 6175
+Expected index: 4734, Index obtained: 4731
+Expected index: 4445, Index obtained: 4442
+Expected index: 4290, Index obtained: 4287
+Expected index: 4706, Index obtained: 4703
+Expected index: 4529, Index obtained: 4526
+Expected index: 4262, Index obtained: 4259
+Expected index: 4180, Index obtained: 4177
+Expected index: 4402, Index obtained: 4399
+Expected index: 3967, Index obtained: 3964
+Expected index: 4488, Index obtained: 4485
+Expected index: 5189, Index obtained: 5185
+Expected index: 5232, Index obtained: 5228
+Expected index: 5217, Index obtained: 5213
+Expected index: 5092, Index obtained: 5088
+Expected index: 4387, Index obtained: 4384
+Expected index: 3169, Index obtained: 3161
+Expected index: 1209, Index obtained: 1208
+Expected index: 2868, Index obtained: 2864
+Expected index: 3036, Index obtained: 3031
+Expected index: 2909, Index obtained: 2904
+Expected index: 2797, Index obtained: 2793
+Expected index: 3957, Index obtained: 3951
+Expected index: 4924, Index obtained: 4917
+Expected index: 4881, Index obtained: 4874
+Expected index: 2256, Index obtained: 2254
+Expected index: 5445, Index obtained: 5442
+Expected index: 6367, Index obtained: 6362
+Expected index: 6427, Index obtained: 6422
+Expected index: 6630, Index obtained: 6625
+Expected index: 1246, Index obtained: 1246
+Expected index: 4058, Index obtained: 4055
+Expected index: 5137, Index obtained: 5132
+Expected index: 5180, Index obtained: 5175
+Expected index: 2558, Index obtained: 2556
+Expected index: 3237, Index obtained: 3234
+Expected index: 4433, Index obtained: 4426
+Expected index: 2234, Index obtained: 2234
+Expected index: 2206, Index obtained: 2206
+Expected index: 4571, Index obtained: 4567
+Expected index: 4601, Index obtained: 4597
+Expected index: 5524, Index obtained: 5518
+Expected index: 1673, Index obtained: 1668
+Expected index: 1658, Index obtained: 1653
+Expected index: 1688, Index obtained: 1683
+Expected index: 1617, Index obtained: 1612
+Expected index: 3065, Index obtained: 3058
+Expected index: 3155, Index obtained: 3148
+Expected index: 3196, Index obtained: 3189
+Expected index: 3125, Index obtained: 3118
+Expected index: 3211, Index obtained: 3204
+Expected index: 3451, Index obtained: 3448
+Expected index: 6478, Index obtained: 6471
+Expected index: 2204, Index obtained: 2201
+Expected index: 2219, Index obtained: 2216
+Expected index: 2120, Index obtained: 2117
+Expected index: 4383, Index obtained: 4382
+Expected index: 4413, Index obtained: 4412
+Expected index: 4454, Index obtained: 4453
+Expected index: 4353, Index obtained: 4352
+Expected index: 4325, Index obtained: 4323
+Expected index: 6551, Index obtained: 6544
+Expected index: 6521, Index obtained: 6514
+Expected index: 2856, Index obtained: 2855
+Expected index: 2841, Index obtained: 2840
+Expected index: 2871, Index obtained: 2870
+Expected index: 3491, Index obtained: 3487
+Expected index: 3560, Index obtained: 3556
+Expected index: 4618, Index obtained: 4612
+Expected index: 4588, Index obtained: 4582
+Expected index: 4543, Index obtained: 4537
+Expected index: 2322, Index obtained: 2320
+Expected index: 2449, Index obtained: 2447
+Expected index: 2464, Index obtained: 2462
+Expected index: 2126, Index obtained: 2124
+Expected index: 2537, Index obtained: 2535
+Expected index: 2507, Index obtained: 2505
+Expected index: 2522, Index obtained: 2520
+Expected index: 2492, Index obtained: 2490
+Expected index: 2675, Index obtained: 2671
+Expected index: 2744, Index obtained: 2740
+Expected index: 2981, Index obtained: 2976
+Expected index: 3338, Index obtained: 3332
+Expected index: 3564, Index obtained: 3558
+Expected index: 3480, Index obtained: 3474
+Expected index: 3549, Index obtained: 3543
+Expected index: 3024, Index obtained: 3019
+Expected index: 3381, Index obtained: 3375
+Expected index: 3508, Index obtained: 3502
+Expected index: 3450, Index obtained: 3444
+Expected index: 3282, Index obtained: 3276
+Expected index: 3803, Index obtained: 3796
+Expected index: 3620, Index obtained: 3613
+Expected index: 3592, Index obtained: 3586
+Expected index: 6043, Index obtained: 6033
+Expected index: 6058, Index obtained: 6048
+Expected index: 415, Index obtained: 414
+Expected index: 1521, Index obtained: 1518
+Expected index: 1506, Index obtained: 1503
+Expected index: 1760, Index obtained: 1756
+Expected index: 6363, Index obtained: 6353
+Expected index: 2886, Index obtained: 2886
+Expected index: 1607, Index obtained: 1607
+Expected index: 1661, Index obtained: 1661
+Expected index: 2047, Index obtained: 2045
+Expected index: 2381, Index obtained: 2378
+Expected index: 2581, Index obtained: 2581
+Expected index: 2469, Index obtained: 2469
+Expected index: 2258, Index obtained: 2258
+Expected index: 4843, Index obtained: 4842
+Expected index: 4858, Index obtained: 4857
+Expected index: 4888, Index obtained: 4887
+Expected index: 2382, Index obtained: 2380
+Expected index: 2212, Index obtained: 2210
+Expected index: 2270, Index obtained: 2268
+Expected index: 2425, Index obtained: 2423
+Expected index: 2858, Index obtained: 2854
+Expected index: 2561, Index obtained: 2557
+Expected index: 2959, Index obtained: 2955
+Expected index: 2916, Index obtained: 2912
+Expected index: 2931, Index obtained: 2927
+Expected index: 2800, Index obtained: 2796
+Expected index: 2621, Index obtained: 2617
+Expected index: 3707, Index obtained: 3702
+Expected index: 3737, Index obtained: 3731
+Expected index: 3640, Index obtained: 3634
+Expected index: 4178, Index obtained: 4171
+Expected index: 3946, Index obtained: 3939
+Expected index: 4107, Index obtained: 4100
+Expected index: 3821, Index obtained: 3814
+Expected index: 4049, Index obtained: 4042
+Expected index: 4019, Index obtained: 4012
+Expected index: 6645, Index obtained: 6634
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 45.77738707766365 10 500 0.295669 0.275183 8.125169 0.286438
+Expected index: 6242, Index obtained: 6232
+Expected index: 6563, Index obtained: 6553
+Expected index: 3781, Index obtained: 3774
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 6.483775962229895 10 500 0.421965 0.31419 7.668749 0.782881
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_45/Run_1/Output/library.json
+var = 10
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_45/Run_2/Output/library.json
+var = 0.20212732068991826
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_45/Run_3/Output/library.json
+var = 0.3445530039836298
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_45/Run_4/Output/library.json
+var = 0.35106840884842716
+0.20212732068991826
+0.3445530039836298
+0.35106840884842716
+MINI NR IS:  2.0
+MINI IS:  0.20212732068991826
+Cleaning house
+Done cleaning house
+Generation 46
+Delta = 0.26
+In rando_specs.py: N_unsuccessful_tries = 16.0
+Generation = 46
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0303
+Changing kin param 3 from 0.0296 to 0.0511
+Changing kin param 4 from 0.0021 to 0.0542
+Changing kin param 5 from 0.8602 to 0.9316
+Not changing kin param 6 from 0.0393 to -0.0169
+Changing kin param 0 from 0.0573 to 0.0349
+Not changing kin param 3 from 0.0296 to -0.0183
+Changing kin param 4 from 0.0021 to 0.0641
+Changing kin param 5 from 0.8602 to 0.8312
+Changing kin param 6 from 0.0393 to 0.1366
+Changing kin param 0 from 0.0573 to 0.0198
+Changing kin param 3 from 0.0296 to 0.0161
+Not changing kin param 4 from 0.0021 to -0.0898
+Changing kin param 5 from 0.8602 to 0.8771
+Changing kin param 6 from 0.0393 to 0.0310
+Not changing kin param 0 from 0.0573 to -0.0026
+Not changing kin param 3 from 0.0296 to -0.1197
+Not changing kin param 4 from 0.0021 to -0.1346
+Not changing kin param 5 from 0.8602 to 1.0082
+Changing kin param 6 from 0.0393 to 0.1961
+Running
+Running code
+params 2.007853398345789 10 500 0.510944 0.542254 9.315548 0.393264
+Expected index: 4495, Index obtained: 4493
+Expected index: 532, Index obtained: 532
+Expected index: 3881, Index obtained: 3880
+Expected index: 5571, Index obtained: 5570
+Expected index: 5556, Index obtained: 5555
+Expected index: 5541, Index obtained: 5540
+Expected index: 3434, Index obtained: 3431
+Expected index: 5490, Index obtained: 5486
+Expected index: 5275, Index obtained: 5271
+Expected index: 5361, Index obtained: 5357
+Expected index: 5447, Index obtained: 5443
+Expected index: 5432, Index obtained: 5428
+Expected index: 5475, Index obtained: 5471
+Expected index: 5520, Index obtained: 5516
+Expected index: 2675, Index obtained: 2673
+Expected index: 926, Index obtained: 926
+Expected index: 5116, Index obtained: 5115
+Expected index: 5056, Index obtained: 5055
+Expected index: 3480, Index obtained: 3478
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.2311357753631444 10 500 0.295669 0.641012 8.311573 1.365689
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 1.5793085989287357 10 500 0.161247 0.020709 8.771043 0.31042
+Expected index: 681, Index obtained: 674
+Expected index: 3724, Index obtained: 3697
+Expected index: 913, Index obtained: 906
+Expected index: 3557, Index obtained: 3520
+Expected index: 4830, Index obtained: 4784
+Expected index: 164, Index obtained: 164
+Expected index: 5062, Index obtained: 5020
+Expected index: 4989, Index obtained: 4947
+Expected index: 5160, Index obtained: 5117
+Expected index: 2962, Index obtained: 2942
+Expected index: 2975, Index obtained: 2955
+Expected index: 5372, Index obtained: 5329
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.295669 0.020709 8.601774 1.960782
+Expected index: 5493, Index obtained: 5469
+Expected index: 6323, Index obtained: 6296
+Expected index: 3335, Index obtained: 3313
+Expected index: 4278, Index obtained: 4252
+Expected index: 5355, Index obtained: 5324
+Expected index: 1556, Index obtained: 1545
+Expected index: 5994, Index obtained: 5959
+Expected index: 1691, Index obtained: 1680
+Expected index: 3880, Index obtained: 3861
+Expected index: 4731, Index obtained: 4706
+Expected index: 5526, Index obtained: 5501
+Expected index: 6410, Index obtained: 6378
+Expected index: 3493, Index obtained: 3474
+Expected index: 4450, Index obtained: 4427
+Expected index: 6575, Index obtained: 6545
+Expected index: 5617, Index obtained: 5604
+Expected index: 6298, Index obtained: 6281
+Expected index: 3007, Index obtained: 2984
+Expected index: 3022, Index obtained: 2999
+Expected index: 4752, Index obtained: 4723
+Expected index: 4737, Index obtained: 4708
+Expected index: 5163, Index obtained: 5133
+Expected index: 6280, Index obtained: 6245
+Expected index: 4133, Index obtained: 4117
+Expected index: 4336, Index obtained: 4319
+Expected index: 4351, Index obtained: 4334
+Expected index: 4798, Index obtained: 4779
+Expected index: 4716, Index obtained: 4697
+Expected index: 6286, Index obtained: 6261
+Expected index: 4708, Index obtained: 4685
+Expected index: 6559, Index obtained: 6524
+Expected index: 5305, Index obtained: 5277
+Expected index: 5411, Index obtained: 5379
+Expected index: 6346, Index obtained: 6310
+Expected index: 2706, Index obtained: 2697
+Expected index: 4140, Index obtained: 4125
+Expected index: 5833, Index obtained: 5808
+Expected index: 3457, Index obtained: 3448
+Expected index: 3828, Index obtained: 3807
+Expected index: 3813, Index obtained: 3792
+Expected index: 4219, Index obtained: 4195
+Expected index: 4191, Index obtained: 4167
+Expected index: 5951, Index obtained: 5923
+Expected index: 5936, Index obtained: 5908
+Expected index: 4931, Index obtained: 4909
+Expected index: 5469, Index obtained: 5446
+Expected index: 6196, Index obtained: 6172
+Expected index: 4037, Index obtained: 4019
+Expected index: 5664, Index obtained: 5635
+Expected index: 5915, Index obtained: 5882
+Expected index: 4796, Index obtained: 4768
+Expected index: 4408, Index obtained: 4382
+Expected index: 5857, Index obtained: 5825
+Expected index: 5812, Index obtained: 5780
+Expected index: 6417, Index obtained: 6383
+Expected index: 6633, Index obtained: 6598
+Expected index: 3301, Index obtained: 3293
+Expected index: 3370, Index obtained: 3362
+Expected index: 5151, Index obtained: 5131
+Expected index: 3055, Index obtained: 3037
+Expected index: 3083, Index obtained: 3065
+Expected index: 4472, Index obtained: 4452
+Expected index: 6506, Index obtained: 6483
+Expected index: 3277, Index obtained: 3267
+Expected index: 6498, Index obtained: 6477
+Expected index: 4744, Index obtained: 4724
+Expected index: 4774, Index obtained: 4754
+Expected index: 6582, Index obtained: 6558
+Expected index: 6498, Index obtained: 6474
+Expected index: 6554, Index obtained: 6530
+Expected index: 1198, Index obtained: 1195
+Expected index: 5228, Index obtained: 5202
+Expected index: 4333, Index obtained: 4315
+Expected index: 5337, Index obtained: 5306
+Expected index: 6214, Index obtained: 6180
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_46/Run_1/Output/library.json
+var = 0.29931222658265294
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_46/Run_2/Output/library.json
+var = 0.45559830375291677
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_46/Run_3/Output/library.json
+var = 0.13376616841608877
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_46/Run_4/Output/library.json
+var = 10
+0.45559830375291677
+0.13376616841608877
+10
+MINI NR IS:  3.0
+MINI IS:  0.13376616841608877
+Cleaning house
+Done cleaning house
+Generation 47
+Delta = 0.27
+In rando_specs.py: N_unsuccessful_tries = 17.0
+Generation = 47
+Random param update (no gradient used)
+Not changing kin param 0 from 0.0573 to -0.0021
+Changing kin param 3 from 0.0296 to 0.0544
+Not changing kin param 4 from 0.0021 to -0.0404
+Changing kin param 5 from 0.8602 to 0.8564
+Not changing kin param 6 from 0.0393 to -0.0216
+Changing kin param 0 from 0.0573 to 0.1568
+Changing kin param 3 from 0.0296 to 0.0771
+Not changing kin param 4 from 0.0021 to -0.0222
+Changing kin param 5 from 0.8602 to 0.9057
+Changing kin param 6 from 0.0393 to 0.0059
+Changing kin param 0 from 0.0573 to 0.0869
+Not changing kin param 3 from 0.0296 to -0.0780
+Not changing kin param 4 from 0.0021 to -0.0009
+Changing kin param 5 from 0.8602 to 0.8641
+Changing kin param 6 from 0.0393 to 0.1157
+Changing kin param 0 from 0.0573 to 0.0954
+Not changing kin param 3 from 0.0296 to -0.0265
+Not changing kin param 4 from 0.0021 to -0.0447
+Changing kin param 5 from 0.8602 to 0.8315
+Changing kin param 6 from 0.0393 to 0.0173
+Running
+Running code
+params 3.7378597329563275 10 500 0.543839 0.020709 8.564146 0.393264
+Expected index: 2536, Index obtained: 2532
+Expected index: 2616, Index obtained: 2612
+Expected index: 2120, Index obtained: 2112
+Expected index: 2193, Index obtained: 2185
+Expected index: 5028, Index obtained: 5011
+Expected index: 771, Index obtained: 770
+Expected index: 713, Index obtained: 712
+Expected index: 5191, Index obtained: 5175
+Expected index: 5219, Index obtained: 5203
+Expected index: 5551, Index obtained: 5533
+Expected index: 5536, Index obtained: 5518
+Expected index: 560, Index obtained: 559
+Expected index: 5815, Index obtained: 5796
+Expected index: 820, Index obtained: 814
+Expected index: 1984, Index obtained: 1975
+Expected index: 1844, Index obtained: 1835
+Expected index: 1874, Index obtained: 1865
+Expected index: 1999, Index obtained: 1990
+Expected index: 2014, Index obtained: 2005
+Expected index: 2044, Index obtained: 2035
+Expected index: 2029, Index obtained: 2020
+Expected index: 1956, Index obtained: 1947
+Expected index: 2570, Index obtained: 2560
+Expected index: 2600, Index obtained: 2590
+Expected index: 5474, Index obtained: 5453
+Expected index: 2938, Index obtained: 2926
+Expected index: 2908, Index obtained: 2896
+Expected index: 6290, Index obtained: 6262
+Expected index: 3911, Index obtained: 3901
+Expected index: 967, Index obtained: 967
+Expected index: 896, Index obtained: 896
+Expected index: 685, Index obtained: 685
+Expected index: 997, Index obtained: 997
+Expected index: 926, Index obtained: 926
+Expected index: 881, Index obtained: 881
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 36.99022729956511 10 500 0.771033 0.020709 9.057105 0.059464
+Expected index: 1151, Index obtained: 1146
+Expected index: 1209, Index obtained: 1204
+Expected index: 1351, Index obtained: 1345
+Expected index: 1379, Index obtained: 1373
+Expected index: 1502, Index obtained: 1495
+Expected index: 1586, Index obtained: 1576
+Expected index: 2638, Index obtained: 2617
+Expected index: 2580, Index obtained: 2559
+Expected index: 2565, Index obtained: 2544
+Expected index: 2623, Index obtained: 2602
+Expected index: 2961, Index obtained: 2939
+Expected index: 2653, Index obtained: 2632
+Expected index: 3045, Index obtained: 3022
+Expected index: 3002, Index obtained: 2980
+Expected index: 3146, Index obtained: 3123
+Expected index: 3103, Index obtained: 3080
+Expected index: 3088, Index obtained: 3065
+Expected index: 3200, Index obtained: 3176
+Expected index: 3030, Index obtained: 3007
+Expected index: 3118, Index obtained: 3095
+Expected index: 3450, Index obtained: 3423
+Expected index: 3310, Index obtained: 3285
+Expected index: 3325, Index obtained: 3300
+Expected index: 6448, Index obtained: 6393
+Expected index: 6575, Index obtained: 6520
+Expected index: 1635, Index obtained: 1623
+Expected index: 1592, Index obtained: 1580
+Expected index: 1564, Index obtained: 1552
+Expected index: 1607, Index obtained: 1595
+Expected index: 2642, Index obtained: 2620
+Expected index: 2429, Index obtained: 2407
+Expected index: 3689, Index obtained: 3657
+Expected index: 3631, Index obtained: 3599
+Expected index: 3558, Index obtained: 3526
+Expected index: 3704, Index obtained: 3672
+Expected index: 3840, Index obtained: 3805
+Expected index: 4654, Index obtained: 4612
+Expected index: 4697, Index obtained: 4654
+Expected index: 5460, Index obtained: 5411
+Expected index: 5951, Index obtained: 5900
+Expected index: 906, Index obtained: 892
+Expected index: 1426, Index obtained: 1408
+Expected index: 3362, Index obtained: 3321
+Expected index: 6311, Index obtained: 6224
+Expected index: 702, Index obtained: 700
+Expected index: 915, Index obtained: 912
+Expected index: 1098, Index obtained: 1093
+Expected index: 1083, Index obtained: 1078
+Expected index: 1027, Index obtained: 1022
+Expected index: 2631, Index obtained: 2611
+Expected index: 3245, Index obtained: 3221
+Expected index: 2976, Index obtained: 2952
+Expected index: 3288, Index obtained: 3264
+Expected index: 3329, Index obtained: 3304
+Expected index: 3385, Index obtained: 3360
+Expected index: 3568, Index obtained: 3540
+Expected index: 3553, Index obtained: 3525
+Expected index: 4484, Index obtained: 4447
+Expected index: 6607, Index obtained: 6551
+Expected index: 6891, Index obtained: 6834
+Expected index: 6861, Index obtained: 6804
+Expected index: 329, Index obtained: 329
+Expected index: 241, Index obtained: 241
+Expected index: 1374, Index obtained: 1367
+Expected index: 1415, Index obtained: 1408
+Expected index: 3856, Index obtained: 3822
+Expected index: 4475, Index obtained: 4434
+Expected index: 5403, Index obtained: 5350
+Expected index: 5532, Index obtained: 5478
+Expected index: 5463, Index obtained: 5409
+Expected index: 5433, Index obtained: 5378
+Expected index: 5418, Index obtained: 5363
+Expected index: 5590, Index obtained: 5535
+Expected index: 6073, Index obtained: 6009
+Expected index: 4050, Index obtained: 3992
+Expected index: 5116, Index obtained: 5043
+Expected index: 5866, Index obtained: 5787
+Expected index: 6274, Index obtained: 6187
+Expected index: 6546, Index obtained: 6456
+Expected index: 2573, Index obtained: 2539
+Expected index: 3791, Index obtained: 3745
+Expected index: 4310, Index obtained: 4258
+Expected index: 6608, Index obtained: 6533
+Expected index: 3260, Index obtained: 3232
+Expected index: 3245, Index obtained: 3216
+Expected index: 3215, Index obtained: 3186
+Expected index: 3230, Index obtained: 3200
+Expected index: 4674, Index obtained: 4633
+Expected index: 908, Index obtained: 899
+Expected index: 1283, Index obtained: 1270
+Expected index: 3971, Index obtained: 3927
+Expected index: 5542, Index obtained: 5481
+Expected index: 387, Index obtained: 383
+Expected index: 1913, Index obtained: 1883
+Expected index: 1840, Index obtained: 1810
+Expected index: 1984, Index obtained: 1954
+Expected index: 2169, Index obtained: 2138
+Expected index: 2154, Index obtained: 2122
+Expected index: 2212, Index obtained: 2179
+Expected index: 1898, Index obtained: 1866
+Expected index: 2408, Index obtained: 2373
+Expected index: 2096, Index obtained: 2063
+Expected index: 2449, Index obtained: 2414
+Expected index: 2111, Index obtained: 2078
+Expected index: 2477, Index obtained: 2442
+Expected index: 3625, Index obtained: 3576
+Expected index: 4058, Index obtained: 4006
+Expected index: 4097, Index obtained: 4041
+Expected index: 783, Index obtained: 777
+Expected index: 826, Index obtained: 819
+Expected index: 2059, Index obtained: 2027
+Expected index: 2292, Index obtained: 2257
+Expected index: 3174, Index obtained: 3131
+Expected index: 4898, Index obtained: 4835
+Expected index: 967, Index obtained: 962
+Expected index: 3802, Index obtained: 3767
+Expected index: 4509, Index obtained: 4464
+Expected index: 5001, Index obtained: 4953
+Expected index: 4835, Index obtained: 4787
+Expected index: 6245, Index obtained: 6180
+Expected index: 6696, Index obtained: 6627
+Expected index: 6670, Index obtained: 6601
+Expected index: 2663, Index obtained: 2645
+Expected index: 3523, Index obtained: 3498
+Expected index: 4273, Index obtained: 4240
+Expected index: 6212, Index obtained: 6163
+Expected index: 6369, Index obtained: 6320
+Expected index: 6595, Index obtained: 6546
+Expected index: 6184, Index obtained: 6135
+Expected index: 6384, Index obtained: 6335
+Expected index: 6141, Index obtained: 6092
+Expected index: 6565, Index obtained: 6516
+Expected index: 684, Index obtained: 678
+Expected index: 1054, Index obtained: 1045
+Expected index: 996, Index obtained: 987
+Expected index: 1084, Index obtained: 1075
+Expected index: 1194, Index obtained: 1184
+Expected index: 1237, Index obtained: 1227
+Expected index: 2559, Index obtained: 2532
+Expected index: 5247, Index obtained: 5187
+Expected index: 5299, Index obtained: 5238
+Expected index: 5476, Index obtained: 5413
+Expected index: 1819, Index obtained: 1804
+Expected index: 2824, Index obtained: 2793
+Expected index: 5983, Index obtained: 5914
+Expected index: 6489, Index obtained: 6419
+Expected index: 6153, Index obtained: 6083
+Expected index: 6420, Index obtained: 6350
+Expected index: 6741, Index obtained: 6669
+Expected index: 6756, Index obtained: 6684
+Expected index: 6784, Index obtained: 6711
+Expected index: 6687, Index obtained: 6615
+Expected index: 187, Index obtained: 187
+Expected index: 202, Index obtained: 202
+Expected index: 232, Index obtained: 231
+Expected index: 303, Index obtained: 302
+Expected index: 557, Index obtained: 555
+Expected index: 639, Index obtained: 633
+Expected index: 581, Index obtained: 575
+Expected index: 566, Index obtained: 560
+Expected index: 1526, Index obtained: 1509
+Expected index: 1511, Index obtained: 1494
+Expected index: 1483, Index obtained: 1466
+Expected index: 2226, Index obtained: 2200
+Expected index: 2295, Index obtained: 2269
+Expected index: 2211, Index obtained: 2185
+Expected index: 2368, Index obtained: 2341
+Expected index: 2454, Index obtained: 2427
+Expected index: 2396, Index obtained: 2369
+Expected index: 2411, Index obtained: 2384
+Expected index: 2723, Index obtained: 2694
+Expected index: 2484, Index obtained: 2457
+Expected index: 2665, Index obtained: 2636
+Expected index: 2607, Index obtained: 2577
+Expected index: 2975, Index obtained: 2941
+Expected index: 2904, Index obtained: 2871
+Expected index: 2889, Index obtained: 2856
+Expected index: 2751, Index obtained: 2720
+Expected index: 2874, Index obtained: 2841
+Expected index: 3109, Index obtained: 3072
+Expected index: 4152, Index obtained: 4101
+Expected index: 4642, Index obtained: 4586
+Expected index: 885, Index obtained: 884
+Expected index: 928, Index obtained: 927
+Expected index: 913, Index obtained: 912
+Expected index: 1066, Index obtained: 1063
+Expected index: 1290, Index obtained: 1283
+Expected index: 1840, Index obtained: 1831
+Expected index: 2816, Index obtained: 2798
+Expected index: 2889, Index obtained: 2871
+Expected index: 2904, Index obtained: 2885
+Expected index: 3171, Index obtained: 3150
+Expected index: 5842, Index obtained: 5800
+Expected index: 1028, Index obtained: 1023
+Expected index: 1043, Index obtained: 1038
+Expected index: 1193, Index obtained: 1187
+Expected index: 2352, Index obtained: 2335
+Expected index: 2167, Index obtained: 2150
+Expected index: 2311, Index obtained: 2294
+Expected index: 2688, Index obtained: 2669
+Expected index: 3740, Index obtained: 3715
+Expected index: 3785, Index obtained: 3760
+Expected index: 3755, Index obtained: 3730
+Expected index: 3669, Index obtained: 3644
+Expected index: 4033, Index obtained: 4007
+Expected index: 1584, Index obtained: 1570
+Expected index: 2899, Index obtained: 2870
+Expected index: 6276, Index obtained: 6215
+Expected index: 1531, Index obtained: 1520
+Expected index: 1486, Index obtained: 1474
+Expected index: 3498, Index obtained: 3468
+Expected index: 3836, Index obtained: 3802
+Expected index: 3737, Index obtained: 3703
+Expected index: 3707, Index obtained: 3673
+Expected index: 4591, Index obtained: 4551
+Expected index: 5710, Index obtained: 5657
+Expected index: 743, Index obtained: 736
+Expected index: 773, Index obtained: 766
+Expected index: 713, Index obtained: 706
+Expected index: 2791, Index obtained: 2761
+Expected index: 3205, Index obtained: 3168
+Expected index: 5345, Index obtained: 5283
+Expected index: 5946, Index obtained: 5880
+Expected index: 6562, Index obtained: 6492
+Expected index: 6448, Index obtained: 6378
+Expected index: 6577, Index obtained: 6507
+Expected index: 6633, Index obtained: 6561
+Expected index: 6926, Index obtained: 6853
+Expected index: 6687, Index obtained: 6614
+Expected index: 1497, Index obtained: 1482
+Expected index: 1452, Index obtained: 1437
+Expected index: 1467, Index obtained: 1452
+Expected index: 2689, Index obtained: 2659
+Expected index: 2717, Index obtained: 2686
+Expected index: 2846, Index obtained: 2814
+Expected index: 2816, Index obtained: 2784
+Expected index: 2904, Index obtained: 2872
+Expected index: 2801, Index obtained: 2769
+Expected index: 4242, Index obtained: 4192
+Expected index: 6194, Index obtained: 6124
+Expected index: 6511, Index obtained: 6439
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 7.396188992163689 10 500 0.295669 0.020709 8.64105 1.156854
+Expected index: 817, Index obtained: 814
+Expected index: 895, Index obtained: 891
+Expected index: 6528, Index obtained: 6491
+Expected index: 1768, Index obtained: 1756
+Expected index: 3589, Index obtained: 3564
+Expected index: 3482, Index obtained: 3472
+Expected index: 1231, Index obtained: 1227
+Expected index: 1602, Index obtained: 1594
+Expected index: 593, Index obtained: 593
+Expected index: 449, Index obtained: 447
+Expected index: 4802, Index obtained: 4771
+Expected index: 6447, Index obtained: 6399
+Expected index: 2748, Index obtained: 2728
+Expected index: 3646, Index obtained: 3629
+Expected index: 3638, Index obtained: 3621
+Expected index: 2524, Index obtained: 2512
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 9.00195836604358 10 500 0.295669 0.020709 8.31493 0.172582
+Expected index: 5363, Index obtained: 5326
+Expected index: 5992, Index obtained: 5949
+Expected index: 2874, Index obtained: 2845
+Expected index: 4352, Index obtained: 4308
+Expected index: 1215, Index obtained: 1210
+Expected index: 1896, Index obtained: 1888
+Expected index: 1721, Index obtained: 1713
+Expected index: 5830, Index obtained: 5785
+Expected index: 702, Index obtained: 695
+Expected index: 834, Index obtained: 826
+Expected index: 2424, Index obtained: 2402
+Expected index: 2396, Index obtained: 2374
+Expected index: 4469, Index obtained: 4423
+Expected index: 4946, Index obtained: 4898
+Expected index: 6575, Index obtained: 6512
+Expected index: 5890, Index obtained: 5846
+Expected index: 6445, Index obtained: 6403
+Expected index: 3299, Index obtained: 3272
+Expected index: 5532, Index obtained: 5485
+Expected index: 1379, Index obtained: 1362
+Expected index: 4839, Index obtained: 4786
+Expected index: 2949, Index obtained: 2920
+Expected index: 6137, Index obtained: 6084
+Expected index: 4720, Index obtained: 4684
+Expected index: 6167, Index obtained: 6112
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_47/Run_1/Output/library.json
+var = 0.12803886104592724
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_47/Run_2/Output/library.json
+var = 0.16385982895535597
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_47/Run_3/Output/library.json
+var = 0.13412084095070853
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_47/Run_4/Output/library.json
+var = 0.13313846757934453
+0.16385982895535597
+0.13412084095070853
+0.13313846757934453
+MINI NR IS:  1.0
+MINI IS:  0.12803886104592724
+Cleaning house
+Done cleaning house
+Generation 48
+Delta = 0.28
+In rando_specs.py: N_unsuccessful_tries = 18.0
+Generation = 48
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0942
+Changing kin param 3 from 0.0296 to 0.0231
+Changing kin param 4 from 0.0021 to 0.0807
+Changing kin param 5 from 0.8602 to 0.8090
+Changing kin param 6 from 0.0393 to 0.0453
+Changing kin param 0 from 0.0573 to 0.0558
+Changing kin param 3 from 0.0296 to 0.0975
+Not changing kin param 4 from 0.0021 to -0.0301
+Changing kin param 5 from 0.8602 to 0.7701
+Not changing kin param 6 from 0.0393 to -0.0309
+Changing kin param 0 from 0.0573 to 0.0931
+Changing kin param 3 from 0.0296 to 0.0480
+Changing kin param 4 from 0.0021 to 0.0683
+Changing kin param 5 from 0.8602 to 0.7395
+Changing kin param 6 from 0.0393 to 0.0074
+Changing kin param 0 from 0.0573 to 0.0329
+Not changing kin param 3 from 0.0296 to -0.0584
+Not changing kin param 4 from 0.0021 to -0.0002
+Changing kin param 5 from 0.8602 to 0.8771
+Changing kin param 6 from 0.0393 to 0.1573
+Running
+Running code
+params 8.748790158201475 10 500 0.231266 0.806981 8.089911 0.453327
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.6149808416345683 10 500 0.975181 0.020709 7.70134 0.393264
+Expected index: 1580, Index obtained: 1579
+Expected index: 1537, Index obtained: 1536
+Expected index: 2066, Index obtained: 2065
+Expected index: 3377, Index obtained: 3375
+Expected index: 3306, Index obtained: 3304
+Expected index: 3334, Index obtained: 3332
+Expected index: 3278, Index obtained: 3276
+Expected index: 3220, Index obtained: 3218
+Expected index: 3349, Index obtained: 3347
+Expected index: 2499, Index obtained: 2496
+Expected index: 2559, Index obtained: 2556
+Expected index: 2529, Index obtained: 2526
+Expected index: 2772, Index obtained: 2769
+Expected index: 2968, Index obtained: 2965
+Expected index: 2839, Index obtained: 2836
+Expected index: 3024, Index obtained: 3021
+Expected index: 2923, Index obtained: 2920
+Expected index: 5265, Index obtained: 5261
+Expected index: 5235, Index obtained: 5231
+Expected index: 5280, Index obtained: 5276
+Expected index: 3903, Index obtained: 3899
+Expected index: 4418, Index obtained: 4414
+Expected index: 2467, Index obtained: 2463
+Expected index: 4175, Index obtained: 4171
+Expected index: 4300, Index obtained: 4296
+Expected index: 3565, Index obtained: 3561
+Expected index: 3027, Index obtained: 3023
+Expected index: 3944, Index obtained: 3940
+Expected index: 3492, Index obtained: 3488
+Expected index: 3197, Index obtained: 3193
+Expected index: 4388, Index obtained: 4384
+Expected index: 4328, Index obtained: 4324
+Expected index: 4358, Index obtained: 4354
+Expected index: 4403, Index obtained: 4399
+Expected index: 4272, Index obtained: 4268
+Expected index: 4343, Index obtained: 4339
+Expected index: 3985, Index obtained: 3981
+Expected index: 6383, Index obtained: 6378
+Expected index: 6712, Index obtained: 6707
+Expected index: 6583, Index obtained: 6578
+Expected index: 3421, Index obtained: 3419
+Expected index: 3492, Index obtained: 3490
+Expected index: 3406, Index obtained: 3404
+Expected index: 3548, Index obtained: 3546
+Expected index: 3311, Index obtained: 3309
+Expected index: 3977, Index obtained: 3974
+Expected index: 3947, Index obtained: 3944
+Expected index: 3630, Index obtained: 3627
+Expected index: 5112, Index obtained: 5108
+Expected index: 5726, Index obtained: 5722
+Expected index: 6081, Index obtained: 6077
+Expected index: 5954, Index obtained: 5950
+Expected index: 6027, Index obtained: 6023
+Expected index: 5595, Index obtained: 5591
+Expected index: 5881, Index obtained: 5877
+Expected index: 4985, Index obtained: 4981
+Expected index: 5653, Index obtained: 5649
+Expected index: 6122, Index obtained: 6118
+Expected index: 6012, Index obtained: 6008
+Expected index: 5997, Index obtained: 5993
+Expected index: 5896, Index obtained: 5892
+Expected index: 4461, Index obtained: 4461
+Expected index: 4321, Index obtained: 4321
+Expected index: 3826, Index obtained: 3826
+Expected index: 2891, Index obtained: 2891
+Expected index: 4123, Index obtained: 4123
+Expected index: 3645, Index obtained: 3645
+Expected index: 4192, Index obtained: 4192
+Expected index: 3923, Index obtained: 3923
+Expected index: 4390, Index obtained: 4390
+Expected index: 4093, Index obtained: 4093
+Expected index: 3785, Index obtained: 3785
+Expected index: 5205, Index obtained: 5204
+Expected index: 5435, Index obtained: 5434
+Expected index: 4648, Index obtained: 4647
+Expected index: 5265, Index obtained: 5264
+Expected index: 3966, Index obtained: 3966
+Expected index: 3587, Index obtained: 3587
+Expected index: 5134, Index obtained: 5133
+Expected index: 5362, Index obtained: 5361
+Expected index: 5407, Index obtained: 5406
+Expected index: 4592, Index obtained: 4591
+Expected index: 5050, Index obtained: 5049
+Expected index: 5119, Index obtained: 5118
+Expected index: 5334, Index obtained: 5333
+Expected index: 5104, Index obtained: 5103
+Expected index: 4822, Index obtained: 4821
+Expected index: 3686, Index obtained: 3686
+Expected index: 4207, Index obtained: 4207
+Expected index: 4278, Index obtained: 4278
+Expected index: 4807, Index obtained: 4806
+Expected index: 3475, Index obtained: 3475
+Expected index: 5022, Index obtained: 5021
+Expected index: 4405, Index obtained: 4405
+Expected index: 4489, Index obtained: 4488
+Expected index: 5250, Index obtained: 5249
+Expected index: 5306, Index obtained: 5305
+Expected index: 5392, Index obtained: 5391
+Expected index: 5377, Index obtained: 5376
+Expected index: 4852, Index obtained: 4851
+Expected index: 4777, Index obtained: 4776
+Expected index: 3115, Index obtained: 3115
+Expected index: 5190, Index obtained: 5189
+Expected index: 5450, Index obtained: 5449
+Expected index: 5756, Index obtained: 5754
+Expected index: 5530, Index obtained: 5528
+Expected index: 4734, Index obtained: 4733
+Expected index: 5797, Index obtained: 5795
+Expected index: 4306, Index obtained: 4306
+Expected index: 5741, Index obtained: 5739
+Expected index: 5235, Index obtained: 5234
+Expected index: 3869, Index obtained: 3869
+Expected index: 5545, Index obtained: 5543
+Expected index: 1593, Index obtained: 1593
+Expected index: 1811, Index obtained: 1811
+Expected index: 4915, Index obtained: 4914
+Expected index: 5027, Index obtained: 5026
+Expected index: 4771, Index obtained: 4770
+Expected index: 4872, Index obtained: 4871
+Expected index: 4943, Index obtained: 4942
+Expected index: 4827, Index obtained: 4826
+Expected index: 4971, Index obtained: 4970
+Expected index: 4887, Index obtained: 4886
+Expected index: 785, Index obtained: 785
+Expected index: 882, Index obtained: 882
+Expected index: 1106, Index obtained: 1106
+Expected index: 1134, Index obtained: 1134
+Expected index: 2717, Index obtained: 2716
+Expected index: 2603, Index obtained: 2602
+Expected index: 2889, Index obtained: 2888
+Expected index: 2157, Index obtained: 2156
+Expected index: 2846, Index obtained: 2845
+Expected index: 2930, Index obtained: 2929
+Expected index: 2958, Index obtained: 2957
+Expected index: 2407, Index obtained: 2406
+Expected index: 2422, Index obtained: 2421
+Expected index: 2788, Index obtained: 2787
+Expected index: 2702, Index obtained: 2701
+Expected index: 5038, Index obtained: 5036
+Expected index: 3889, Index obtained: 3887
+Expected index: 4738, Index obtained: 4736
+Expected index: 4667, Index obtained: 4665
+Expected index: 5167, Index obtained: 5165
+Expected index: 5680, Index obtained: 5677
+Expected index: 5609, Index obtained: 5606
+Expected index: 5764, Index obtained: 5761
+Expected index: 6201, Index obtained: 6197
+Expected index: 6083, Index obtained: 6079
+Expected index: 6229, Index obtained: 6225
+Expected index: 6274, Index obtained: 6270
+Expected index: 6098, Index obtained: 6094
+Expected index: 6244, Index obtained: 6240
+Expected index: 6016, Index obtained: 6012
+Expected index: 6171, Index obtained: 6167
+Expected index: 6186, Index obtained: 6182
+Expected index: 6143, Index obtained: 6139
+Expected index: 6259, Index obtained: 6255
+Expected index: 3075, Index obtained: 3072
+Expected index: 3217, Index obtained: 3214
+Expected index: 3202, Index obtained: 3199
+Expected index: 3258, Index obtained: 3255
+Expected index: 3090, Index obtained: 3087
+Expected index: 3560, Index obtained: 3556
+Expected index: 5905, Index obtained: 5897
+Expected index: 5991, Index obtained: 5983
+Expected index: 5877, Index obtained: 5869
+Expected index: 5948, Index obtained: 5940
+Expected index: 1277, Index obtained: 1277
+Expected index: 1376, Index obtained: 1376
+Expected index: 2457, Index obtained: 2455
+Expected index: 2472, Index obtained: 2470
+Expected index: 2502, Index obtained: 2500
+Expected index: 2274, Index obtained: 2272
+Expected index: 2414, Index obtained: 2412
+Expected index: 2442, Index obtained: 2440
+Expected index: 2119, Index obtained: 2117
+Expected index: 1796, Index obtained: 1795
+Expected index: 2369, Index obtained: 2367
+Expected index: 5755, Index obtained: 5752
+Expected index: 5380, Index obtained: 5377
+Expected index: 5688, Index obtained: 5685
+Expected index: 206, Index obtained: 206
+Expected index: 510, Index obtained: 509
+Expected index: 1558, Index obtained: 1558
+Expected index: 2135, Index obtained: 2135
+Expected index: 1601, Index obtained: 1601
+Expected index: 2021, Index obtained: 2021
+Expected index: 2107, Index obtained: 2107
+Expected index: 1470, Index obtained: 1470
+Expected index: 1274, Index obtained: 1274
+Expected index: 1937, Index obtained: 1937
+Expected index: 1797, Index obtained: 1797
+Expected index: 1881, Index obtained: 1881
+Expected index: 2079, Index obtained: 2079
+Expected index: 2036, Index obtained: 2036
+Expected index: 1993, Index obtained: 1993
+Expected index: 2051, Index obtained: 2051
+Expected index: 3567, Index obtained: 3566
+Expected index: 2372, Index obtained: 2371
+Expected index: 3802, Index obtained: 3801
+Expected index: 3121, Index obtained: 3120
+Expected index: 2628, Index obtained: 2627
+Expected index: 3048, Index obtained: 3047
+Expected index: 3246, Index obtained: 3245
+Expected index: 2150, Index obtained: 2150
+Expected index: 2852, Index obtained: 2851
+Expected index: 2837, Index obtained: 2836
+Expected index: 2656, Index obtained: 2655
+Expected index: 3373, Index obtained: 3371
+Expected index: 2699, Index obtained: 2697
+Expected index: 3830, Index obtained: 3828
+Expected index: 3537, Index obtained: 3535
+Expected index: 2977, Index obtained: 2975
+Expected index: 1782, Index obtained: 1782
+Expected index: 3664, Index obtained: 3662
+Expected index: 3332, Index obtained: 3330
+Expected index: 3733, Index obtained: 3731
+Expected index: 3761, Index obtained: 3759
+Expected index: 1844, Index obtained: 1844
+Expected index: 2238, Index obtained: 2238
+Expected index: 1887, Index obtained: 1887
+Expected index: 2223, Index obtained: 2223
+Expected index: 2266, Index obtained: 2266
+Expected index: 1719, Index obtained: 1719
+Expected index: 2294, Index obtained: 2294
+Expected index: 1177, Index obtained: 1177
+Expected index: 2152, Index obtained: 2152
+Expected index: 2137, Index obtained: 2137
+Expected index: 2335, Index obtained: 2335
+Expected index: 2378, Index obtained: 2378
+Expected index: 2023, Index obtained: 2023
+Expected index: 1859, Index obtained: 1859
+Expected index: 1620, Index obtained: 1620
+Expected index: 4503, Index obtained: 4502
+Expected index: 4040, Index obtained: 4039
+Expected index: 4335, Index obtained: 4334
+Expected index: 4264, Index obtained: 4263
+Expected index: 4768, Index obtained: 4767
+Expected index: 3941, Index obtained: 3940
+Expected index: 3554, Index obtained: 3553
+Expected index: 4404, Index obtained: 4403
+Expected index: 4576, Index obtained: 4575
+Expected index: 4096, Index obtained: 4095
+Expected index: 3218, Index obtained: 3217
+Expected index: 4798, Index obtained: 4797
+Expected index: 4867, Index obtained: 4866
+Expected index: 4546, Index obtained: 4545
+Expected index: 4561, Index obtained: 4560
+Expected index: 3164, Index obtained: 3163
+Expected index: 4350, Index obtained: 4349
+Expected index: 3050, Index obtained: 3049
+Expected index: 4699, Index obtained: 4698
+Expected index: 4684, Index obtained: 4683
+Expected index: 3911, Index obtained: 3910
+Expected index: 2757, Index obtained: 2756
+Expected index: 3881, Index obtained: 3880
+Expected index: 4178, Index obtained: 4177
+Expected index: 2871, Index obtained: 2870
+Expected index: 4488, Index obtained: 4487
+Expected index: 4279, Index obtained: 4278
+Expected index: 3997, Index obtained: 3996
+Expected index: 4839, Index obtained: 4838
+Expected index: 2106, Index obtained: 2106
+Expected index: 1297, Index obtained: 1297
+Expected index: 1981, Index obtained: 1981
+Expected index: 2300, Index obtained: 2300
+Expected index: 1224, Index obtained: 1224
+Expected index: 2188, Index obtained: 2188
+Expected index: 2011, Index obtained: 2011
+Expected index: 1254, Index obtained: 1254
+Expected index: 1136, Index obtained: 1136
+Expected index: 990, Index obtained: 990
+Expected index: 1806, Index obtained: 1806
+Expected index: 1606, Index obtained: 1606
+Expected index: 1531, Index obtained: 1531
+Expected index: 2257, Index obtained: 2257
+Expected index: 1415, Index obtained: 1415
+Expected index: 2229, Index obtained: 2229
+Expected index: 1488, Index obtained: 1488
+Expected index: 1576, Index obtained: 1576
+Expected index: 1372, Index obtained: 1372
+Expected index: 1196, Index obtained: 1196
+Expected index: 3106, Index obtained: 3105
+Expected index: 3091, Index obtained: 3090
+Expected index: 2897, Index obtained: 2896
+Expected index: 2979, Index obtained: 2978
+Expected index: 2563, Index obtained: 2562
+Expected index: 2660, Index obtained: 2659
+Expected index: 3147, Index obtained: 3146
+Expected index: 3050, Index obtained: 3048
+Expected index: 1561, Index obtained: 1561
+Expected index: 2496, Index obtained: 2495
+Expected index: 2617, Index obtained: 2616
+Expected index: 4412, Index obtained: 4408
+Expected index: 4192, Index obtained: 4188
+Expected index: 4248, Index obtained: 4244
+Expected index: 4470, Index obtained: 4466
+Expected index: 4515, Index obtained: 4511
+Expected index: 4500, Index obtained: 4496
+Expected index: 4397, Index obtained: 4393
+Expected index: 4093, Index obtained: 4089
+Expected index: 4440, Index obtained: 4436
+Expected index: 3867, Index obtained: 3863
+Expected index: 4636, Index obtained: 4632
+Expected index: 3998, Index obtained: 3994
+Expected index: 3766, Index obtained: 3762
+Expected index: 5106, Index obtained: 5101
+Expected index: 6513, Index obtained: 6507
+Expected index: 6326, Index obtained: 6320
+Expected index: 5955, Index obtained: 5949
+Expected index: 6283, Index obtained: 6277
+Expected index: 6397, Index obtained: 6391
+Expected index: 6050, Index obtained: 6044
+Expected index: 6188, Index obtained: 6182
+Expected index: 6134, Index obtained: 6128
+Expected index: 6341, Index obtained: 6335
+Expected index: 6382, Index obtained: 6376
+Expected index: 6472, Index obtained: 6466
+Expected index: 5927, Index obtained: 5921
+Expected index: 6216, Index obtained: 6210
+Expected index: 3360, Index obtained: 3360
+Expected index: 3345, Index obtained: 3345
+Expected index: 3177, Index obtained: 3177
+Expected index: 3246, Index obtained: 3246
+Expected index: 4236, Index obtained: 4235
+Expected index: 3827, Index obtained: 3826
+Expected index: 3857, Index obtained: 3856
+Expected index: 4109, Index obtained: 4108
+Expected index: 4264, Index obtained: 4263
+Expected index: 4180, Index obtained: 4179
+Expected index: 4279, Index obtained: 4278
+Expected index: 4165, Index obtained: 4164
+Expected index: 3541, Index obtained: 3540
+Expected index: 3498, Index obtained: 3497
+Expected index: 3457, Index obtained: 3456
+Expected index: 4307, Index obtained: 4306
+Expected index: 3670, Index obtained: 3669
+Expected index: 3969, Index obtained: 3968
+Expected index: 4221, Index obtained: 4220
+Expected index: 3640, Index obtained: 3639
+Expected index: 3984, Index obtained: 3983
+Expected index: 365, Index obtained: 365
+Expected index: 290, Index obtained: 290
+Expected index: 776, Index obtained: 776
+Expected index: 1211, Index obtained: 1211
+Expected index: 1153, Index obtained: 1153
+Expected index: 1323, Index obtained: 1323
+Expected index: 1484, Index obtained: 1484
+Expected index: 1338, Index obtained: 1338
+Expected index: 1398, Index obtained: 1398
+Expected index: 1469, Index obtained: 1469
+Expected index: 1168, Index obtained: 1168
+Expected index: 817, Index obtained: 817
+Expected index: 1267, Index obtained: 1267
+Expected index: 421, Index obtained: 421
+Expected index: 890, Index obtained: 890
+Expected index: 1295, Index obtained: 1295
+Expected index: 1138, Index obtained: 1138
+Expected index: 1383, Index obtained: 1383
+Expected index: 3720, Index obtained: 3719
+Expected index: 3453, Index obtained: 3452
+Expected index: 3735, Index obtained: 3734
+Expected index: 3356, Index obtained: 3355
+Expected index: 3261, Index obtained: 3260
+Expected index: 3750, Index obtained: 3749
+Expected index: 3808, Index obtained: 3807
+Expected index: 3567, Index obtained: 3566
+Expected index: 3468, Index obtained: 3467
+Expected index: 3539, Index obtained: 3538
+Expected index: 2742, Index obtained: 2741
+Expected index: 3705, Index obtained: 3704
+Expected index: 3595, Index obtained: 3594
+Expected index: 3838, Index obtained: 3837
+Expected index: 3610, Index obtained: 3609
+Expected index: 3080, Index obtained: 3079
+Expected index: 3765, Index obtained: 3764
+Expected index: 3793, Index obtained: 3792
+Expected index: 3024, Index obtained: 3023
+Expected index: 2979, Index obtained: 2978
+Expected index: 3410, Index obtained: 3409
+Expected index: 5394, Index obtained: 5392
+Expected index: 6130, Index obtained: 6128
+Expected index: 5489, Index obtained: 5487
+Expected index: 6324, Index obtained: 6322
+Expected index: 5284, Index obtained: 5282
+Expected index: 5103, Index obtained: 5101
+Expected index: 6173, Index obtained: 6171
+Expected index: 6100, Index obtained: 6098
+Expected index: 5579, Index obtained: 5577
+Expected index: 6574, Index obtained: 6571
+Expected index: 6057, Index obtained: 6055
+Expected index: 5835, Index obtained: 5833
+Expected index: 6559, Index obtained: 6556
+Expected index: 6658, Index obtained: 6655
+Expected index: 5999, Index obtained: 5997
+Expected index: 6115, Index obtained: 6113
+Expected index: 5549, Index obtained: 5547
+Expected index: 5635, Index obtained: 5633
+Expected index: 6529, Index obtained: 6526
+Expected index: 5564, Index obtained: 5562
+Expected index: 5945, Index obtained: 5943
+Expected index: 6544, Index obtained: 6541
+Expected index: 5889, Index obtained: 5887
+Expected index: 159, Index obtained: 159
+Expected index: 1279, Index obtained: 1278
+Expected index: 2995, Index obtained: 2986
+Expected index: 3025, Index obtained: 3016
+Expected index: 2883, Index obtained: 2874
+Expected index: 3040, Index obtained: 3031
+Expected index: 2687, Index obtained: 2678
+Expected index: 3010, Index obtained: 3001
+Expected index: 3070, Index obtained: 3061
+Expected index: 6057, Index obtained: 6046
+Expected index: 6072, Index obtained: 6061
+Expected index: 6100, Index obtained: 6089
+Expected index: 6016, Index obtained: 6005
+Expected index: 5986, Index obtained: 5975
+Expected index: 4032, Index obtained: 4029
+Expected index: 5178, Index obtained: 5174
+Expected index: 5335, Index obtained: 5331
+Expected index: 5264, Index obtained: 5260
+Expected index: 5320, Index obtained: 5316
+Expected index: 5249, Index obtained: 5245
+Expected index: 5292, Index obtained: 5288
+Expected index: 6793, Index obtained: 6788
+Expected index: 6737, Index obtained: 6732
+Expected index: 6696, Index obtained: 6691
+Expected index: 1850, Index obtained: 1848
+Expected index: 2270, Index obtained: 2268
+Expected index: 2141, Index obtained: 2139
+Expected index: 2227, Index obtained: 2225
+Expected index: 2285, Index obtained: 2283
+Expected index: 2255, Index obtained: 2253
+Expected index: 2083, Index obtained: 2081
+Expected index: 2126, Index obtained: 2124
+Expected index: 3722, Index obtained: 3719
+Expected index: 2940, Index obtained: 2937
+Expected index: 3778, Index obtained: 3775
+Expected index: 3892, Index obtained: 3889
+Expected index: 3877, Index obtained: 3874
+Expected index: 3614, Index obtained: 3611
+Expected index: 3420, Index obtained: 3417
+Expected index: 3558, Index obtained: 3555
+Expected index: 3849, Index obtained: 3846
+Expected index: 3642, Index obtained: 3639
+Expected index: 3052, Index obtained: 3049
+Expected index: 3834, Index obtained: 3831
+Expected index: 107, Index obtained: 107
+Expected index: 529, Index obtained: 529
+Expected index: 585, Index obtained: 585
+Expected index: 36, Index obtained: 36
+Expected index: 393, Index obtained: 393
+Expected index: 501, Index obtained: 501
+Expected index: 1957, Index obtained: 1956
+Expected index: 1985, Index obtained: 1984
+Expected index: 1761, Index obtained: 1760
+Expected index: 2041, Index obtained: 2040
+Expected index: 1930, Index obtained: 1930
+Expected index: 1975, Index obtained: 1975
+Expected index: 2005, Index obtained: 2005
+Expected index: 1945, Index obtained: 1945
+Expected index: 1872, Index obtained: 1872
+Expected index: 4186, Index obtained: 4185
+Expected index: 4427, Index obtained: 4426
+Expected index: 4143, Index obtained: 4142
+Expected index: 4085, Index obtained: 4084
+Expected index: 4470, Index obtained: 4469
+Expected index: 4552, Index obtained: 4551
+Expected index: 3773, Index obtained: 3772
+Expected index: 3618, Index obtained: 3617
+Expected index: 4070, Index obtained: 4069
+Expected index: 4384, Index obtained: 4383
+Expected index: 4158, Index obtained: 4157
+Expected index: 3676, Index obtained: 3675
+Expected index: 4328, Index obtained: 4327
+Expected index: 4313, Index obtained: 4312
+Expected index: 4511, Index obtained: 4510
+Expected index: 4442, Index obtained: 4441
+Expected index: 3969, Index obtained: 3967
+Expected index: 4567, Index obtained: 4565
+Expected index: 931, Index obtained: 928
+Expected index: 2391, Index obtained: 2386
+Expected index: 2536, Index obtained: 2530
+Expected index: 4340, Index obtained: 4331
+Expected index: 4413, Index obtained: 4404
+Expected index: 4699, Index obtained: 4690
+Expected index: 1124, Index obtained: 1121
+Expected index: 799, Index obtained: 796
+Expected index: 1210, Index obtained: 1207
+Expected index: 1451, Index obtained: 1447
+Expected index: 1195, Index obtained: 1192
+Expected index: 1587, Index obtained: 1583
+Expected index: 1423, Index obtained: 1419
+Expected index: 1658, Index obtained: 1654
+Expected index: 2898, Index obtained: 2893
+Expected index: 2457, Index obtained: 2452
+Expected index: 3271, Index obtained: 3266
+Expected index: 2984, Index obtained: 2979
+Expected index: 3482, Index obtained: 3477
+Expected index: 3570, Index obtained: 3565
+Expected index: 1923, Index obtained: 1918
+Expected index: 3353, Index obtained: 3348
+Expected index: 3439, Index obtained: 3434
+Expected index: 3598, Index obtained: 3593
+Expected index: 3540, Index obtained: 3535
+Expected index: 3497, Index obtained: 3492
+Expected index: 2502, Index obtained: 2497
+Expected index: 3613, Index obtained: 3608
+Expected index: 2928, Index obtained: 2923
+Expected index: 2857, Index obtained: 2852
+Expected index: 3555, Index obtained: 3550
+Expected index: 3525, Index obtained: 3520
+Expected index: 2629, Index obtained: 2624
+Expected index: 2175, Index obtained: 2175
+Expected index: 1906, Index obtained: 1906
+Expected index: 2205, Index obtained: 2205
+Expected index: 2160, Index obtained: 2160
+Expected index: 2033, Index obtained: 2033
+Expected index: 2145, Index obtained: 2145
+Expected index: 2102, Index obtained: 2102
+Expected index: 2190, Index obtained: 2190
+Expected index: 2005, Index obtained: 2005
+Expected index: 2709, Index obtained: 2708
+Expected index: 2851, Index obtained: 2850
+Expected index: 5040, Index obtained: 5038
+Expected index: 5494, Index obtained: 5492
+Expected index: 5055, Index obtained: 5053
+Expected index: 5981, Index obtained: 5979
+Expected index: 3673, Index obtained: 3671
+Expected index: 5940, Index obtained: 5938
+Expected index: 6190, Index obtained: 6188
+Expected index: 5143, Index obtained: 5141
+Expected index: 5912, Index obtained: 5910
+Expected index: 4771, Index obtained: 4769
+Expected index: 6089, Index obtained: 6087
+Expected index: 4433, Index obtained: 4431
+Expected index: 6205, Index obtained: 6203
+Expected index: 4631, Index obtained: 4629
+Expected index: 5010, Index obtained: 5008
+Expected index: 4924, Index obtained: 4922
+Expected index: 6220, Index obtained: 6218
+Expected index: 5100, Index obtained: 5098
+Expected index: 6956, Index obtained: 6956
+Expected index: 6870, Index obtained: 6870
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 8.535481001193016 10 500 0.479813 0.683477 7.395373 0.074439
+Expected index: 6090, Index obtained: 6057
+Expected index: 36, Index obtained: 36
+Expected index: 165, Index obtained: 164
+Expected index: 1563, Index obtained: 1558
+Expected index: 6782, Index obtained: 6749
+Expected index: 5566, Index obtained: 5531
+Expected index: 3814, Index obtained: 3788
+Expected index: 2150, Index obtained: 2138
+Expected index: 2191, Index obtained: 2179
+Expected index: 2066, Index obtained: 2054
+Expected index: 6371, Index obtained: 6339
+Expected index: 3120, Index obtained: 3101
+Expected index: 3150, Index obtained: 3131
+Expected index: 3433, Index obtained: 3414
+Expected index: 3078, Index obtained: 3061
+Expected index: 3108, Index obtained: 3091
+Expected index: 3538, Index obtained: 3524
+Expected index: 4397, Index obtained: 4375
+Expected index: 5653, Index obtained: 5625
+Expected index: 3043, Index obtained: 3027
+Expected index: 1765, Index obtained: 1760
+Expected index: 1793, Index obtained: 1788
+Expected index: 2384, Index obtained: 2374
+Expected index: 5967, Index obtained: 5938
+Expected index: 1022, Index obtained: 1020
+Expected index: 3958, Index obtained: 3941
+Expected index: 5212, Index obtained: 5185
+Expected index: 2363, Index obtained: 2354
+Expected index: 5723, Index obtained: 5700
+Expected index: 5753, Index obtained: 5730
+Expected index: 6551, Index obtained: 6525
+Expected index: 392, Index obtained: 392
+Expected index: 3146, Index obtained: 3133
+Expected index: 3318, Index obtained: 3304
+Expected index: 3232, Index obtained: 3219
+Expected index: 2606, Index obtained: 2584
+Expected index: 2593, Index obtained: 2571
+Expected index: 4293, Index obtained: 4259
+Expected index: 2535, Index obtained: 2516
+Expected index: 288, Index obtained: 286
+Expected index: 434, Index obtained: 431
+Expected index: 419, Index obtained: 416
+Expected index: 449, Index obtained: 446
+Expected index: 331, Index obtained: 328
+Expected index: 841, Index obtained: 835
+Expected index: 768, Index obtained: 761
+Expected index: 813, Index obtained: 806
+Expected index: 798, Index obtained: 791
+Expected index: 2409, Index obtained: 2400
+Expected index: 3815, Index obtained: 3801
+Expected index: 325, Index obtained: 324
+Expected index: 750, Index obtained: 746
+Expected index: 1928, Index obtained: 1919
+Expected index: 2905, Index obtained: 2887
+Expected index: 3759, Index obtained: 3737
+Expected index: 1918, Index obtained: 1908
+Expected index: 5015, Index obtained: 4983
+Expected index: 4434, Index obtained: 4417
+Expected index: 478, Index obtained: 477
+Expected index: 646, Index obtained: 644
+Expected index: 588, Index obtained: 586
+Expected index: 416, Index obtained: 415
+Expected index: 3365, Index obtained: 3339
+Expected index: 3887, Index obtained: 3853
+Expected index: 4375, Index obtained: 4335
+Expected index: 2055, Index obtained: 2042
+Expected index: 3311, Index obtained: 3292
+Expected index: 4893, Index obtained: 4870
+Expected index: 666, Index obtained: 658
+Expected index: 6209, Index obtained: 6162
+Expected index: 6235, Index obtained: 6188
+Expected index: 6248, Index obtained: 6201
+Expected index: 917, Index obtained: 913
+Expected index: 990, Index obtained: 986
+Expected index: 2300, Index obtained: 2284
+Expected index: 2436, Index obtained: 2416
+Expected index: 5986, Index obtained: 5962
+Expected index: 4605, Index obtained: 4585
+Expected index: 5968, Index obtained: 5943
+Expected index: 6039, Index obtained: 6013
+Expected index: 5996, Index obtained: 5970
+Expected index: 4434, Index obtained: 4412
+Expected index: 2661, Index obtained: 2651
+Expected index: 2676, Index obtained: 2666
+Expected index: 3219, Index obtained: 3207
+Expected index: 3277, Index obtained: 3265
+Expected index: 3292, Index obtained: 3280
+Expected index: 4037, Index obtained: 4017
+Expected index: 6673, Index obtained: 6641
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 2.1324261517153382 10 500 0.295669 0.020709 8.771077 1.573227
+Expected index: 3372, Index obtained: 3351
+Expected index: 5124, Index obtained: 5097
+Expected index: 3575, Index obtained: 3553
+Expected index: 3340, Index obtained: 3328
+Expected index: 5184, Index obtained: 5164
+Expected index: 5158, Index obtained: 5138
+Expected index: 3892, Index obtained: 3875
+Expected index: 1852, Index obtained: 1841
+Expected index: 667, Index obtained: 664
+Expected index: 6474, Index obtained: 6438
+Expected index: 692, Index obtained: 687
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_48/Run_1/Output/library.json
+var = 0.4597598134760333
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_48/Run_2/Output/library.json
+var = 0.16896303977698043
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_48/Run_3/Output/library.json
+var = 0.2553909370757693
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_48/Run_4/Output/library.json
+var = 0.15611305400773715
+0.16896303977698043
+0.2553909370757693
+0.15611305400773715
+MINI NR IS:  4.0
+MINI IS:  0.15611305400773715
+Cleaning house
+Done cleaning house
+Generation 49
+Delta = 0.29000000000000004
+In rando_specs.py: N_unsuccessful_tries = 19.0
+Generation = 49
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.1763
+Changing kin param 3 from 0.0296 to 0.0325
+Changing kin param 4 from 0.0021 to 0.1055
+Changing kin param 5 from 0.8602 to 0.6870
+Changing kin param 6 from 0.0393 to 0.0421
+Changing kin param 0 from 0.0573 to 0.1192
+Changing kin param 3 from 0.0296 to 0.0127
+Not changing kin param 4 from 0.0021 to -0.1117
+Changing kin param 5 from 0.8602 to 0.8157
+Not changing kin param 6 from 0.0393 to -0.1360
+Changing kin param 0 from 0.0573 to 0.0505
+Changing kin param 3 from 0.0296 to 0.0197
+Not changing kin param 4 from 0.0021 to -0.0381
+Changing kin param 5 from 0.8602 to 0.9258
+Changing kin param 6 from 0.0393 to 0.1005
+Not changing kin param 0 from 0.0573 to -0.0011
+Changing kin param 3 from 0.0296 to 0.0597
+Changing kin param 4 from 0.0021 to 0.0232
+Changing kin param 5 from 0.8602 to 0.8584
+Not changing kin param 6 from 0.0393 to -0.0068
+Running
+Running code
+params 57.951409048703944 10 500 0.325466 1.054758 6.870413 0.420977
+Expected index: 3075, Index obtained: 3073
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 15.569762932972651 10 500 0.126978 0.020709 8.157159 0.393264
+Expected index: 2185, Index obtained: 2166
+Expected index: 2551, Index obtained: 2531
+Expected index: 5354, Index obtained: 5325
+Expected index: 300, Index obtained: 300
+Expected index: 2639, Index obtained: 2628
+Expected index: 2797, Index obtained: 2783
+Expected index: 5694, Index obtained: 5654
+Expected index: 6257, Index obtained: 6211
+Expected index: 2138, Index obtained: 2119
+Expected index: 2885, Index obtained: 2857
+Expected index: 2924, Index obtained: 2896
+Expected index: 3177, Index obtained: 3145
+Expected index: 5511, Index obtained: 5466
+Expected index: 2548, Index obtained: 2531
+Expected index: 3065, Index obtained: 3041
+Expected index: 3262, Index obtained: 3237
+Expected index: 713, Index obtained: 707
+Expected index: 1835, Index obtained: 1828
+Expected index: 3886, Index obtained: 3854
+Expected index: 5457, Index obtained: 5409
+Expected index: 3215, Index obtained: 3191
+Expected index: 4315, Index obtained: 4283
+Expected index: 4649, Index obtained: 4619
+Expected index: 3203, Index obtained: 3179
+Expected index: 3133, Index obtained: 3104
+Expected index: 3068, Index obtained: 3040
+Expected index: 3797, Index obtained: 3761
+Expected index: 6274, Index obtained: 6231
+Expected index: 2777, Index obtained: 2755
+Expected index: 2671, Index obtained: 2649
+Expected index: 5119, Index obtained: 5069
+Expected index: 5933, Index obtained: 5876
+Expected index: 4178, Index obtained: 4146
+Expected index: 2871, Index obtained: 2853
+Expected index: 2858, Index obtained: 2840
+Expected index: 3462, Index obtained: 3442
+Expected index: 3358, Index obtained: 3338
+Expected index: 4763, Index obtained: 4731
+Expected index: 4737, Index obtained: 4704
+Expected index: 6059, Index obtained: 6014
+Expected index: 47, Index obtained: 47
+Expected index: 4479, Index obtained: 4448
+Expected index: 4569, Index obtained: 4537
+Expected index: 5238, Index obtained: 5201
+Expected index: 1864, Index obtained: 1854
+Expected index: 3960, Index obtained: 3936
+Expected index: 5511, Index obtained: 5473
+Expected index: 4652, Index obtained: 4614
+Expected index: 4903, Index obtained: 4864
+Expected index: 2473, Index obtained: 2452
+Expected index: 6443, Index obtained: 6397
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.2022777661594763 10 500 0.196873 0.020709 9.257944 1.004997
+Expected index: 5832, Index obtained: 5813
+Expected index: 1789, Index obtained: 1778
+Expected index: 2081, Index obtained: 2068
+Expected index: 2269, Index obtained: 2254
+Expected index: 2392, Index obtained: 2376
+Expected index: 1583, Index obtained: 1569
+Expected index: 3657, Index obtained: 3635
+Expected index: 6073, Index obtained: 6033
+Expected index: 4667, Index obtained: 4637
+Expected index: 1938, Index obtained: 1925
+Expected index: 6124, Index obtained: 6079
+Expected index: 6267, Index obtained: 6220
+Expected index: 6254, Index obtained: 6207
+Expected index: 343, Index obtained: 341
+Expected index: 3150, Index obtained: 3132
+Expected index: 4607, Index obtained: 4582
+Expected index: 566, Index obtained: 563
+Expected index: 1418, Index obtained: 1406
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 3.7378597329563275 10 500 0.596626 0.232193 8.584383 0.393264
+Expected index: 5188, Index obtained: 5182
+Expected index: 5319, Index obtained: 5313
+Expected index: 5429, Index obtained: 5423
+Expected index: 5360, Index obtained: 5354
+Expected index: 5310, Index obtained: 5304
+Expected index: 2291, Index obtained: 2288
+Expected index: 5408, Index obtained: 5400
+Expected index: 942, Index obtained: 942
+Expected index: 871, Index obtained: 868
+Expected index: 856, Index obtained: 853
+Expected index: 1602, Index obtained: 1598
+Expected index: 1656, Index obtained: 1652
+Expected index: 2928, Index obtained: 2921
+Expected index: 6344, Index obtained: 6334
+Expected index: 2033, Index obtained: 2031
+Expected index: 2774, Index obtained: 2771
+Expected index: 3900, Index obtained: 3894
+Expected index: 6274, Index obtained: 6268
+Expected index: 6558, Index obtained: 6552
+Expected index: 6500, Index obtained: 6494
+Expected index: 767, Index obtained: 765
+Expected index: 1874, Index obtained: 1872
+Expected index: 1674, Index obtained: 1672
+Expected index: 1973, Index obtained: 1971
+Expected index: 2001, Index obtained: 1999
+Expected index: 1758, Index obtained: 1756
+Expected index: 1859, Index obtained: 1857
+Expected index: 3381, Index obtained: 3373
+Expected index: 3409, Index obtained: 3401
+Expected index: 6102, Index obtained: 6093
+Expected index: 6575, Index obtained: 6560
+Expected index: 6674, Index obtained: 6659
+Expected index: 6659, Index obtained: 6644
+Expected index: 2019, Index obtained: 2018
+Expected index: 5581, Index obtained: 5575
+Expected index: 5807, Index obtained: 5801
+Expected index: 5667, Index obtained: 5661
+Expected index: 3379, Index obtained: 3371
+Expected index: 3222, Index obtained: 3214
+Expected index: 3252, Index obtained: 3244
+Expected index: 2657, Index obtained: 2655
+Expected index: 2717, Index obtained: 2715
+Expected index: 2702, Index obtained: 2700
+Expected index: 3650, Index obtained: 3647
+Expected index: 3665, Index obtained: 3662
+Expected index: 6210, Index obtained: 6205
+Expected index: 6281, Index obtained: 6276
+Expected index: 6309, Index obtained: 6304
+Expected index: 6339, Index obtained: 6334
+Expected index: 2287, Index obtained: 2283
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_49/Run_1/Output/library.json
+var = 0.42041709382512943
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_49/Run_2/Output/library.json
+var = 0.14602325845070346
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_49/Run_3/Output/library.json
+var = 0.13425534409429074
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_49/Run_4/Output/library.json
+var = 0.22844531602942258
+0.14602325845070346
+0.13425534409429074
+0.22844531602942258
+MINI NR IS:  3.0
+MINI IS:  0.13425534409429074
+Cleaning house
+Done cleaning house
+Generation 50
+Delta = 0.30000000000000004
+In rando_specs.py: N_unsuccessful_tries = 20.0
+Generation = 50
+Random param update (no gradient used)
+Changing kin param 0 from 0.0573 to 0.0767
+Changing kin param 3 from 0.0296 to 0.0799
+Changing kin param 4 from 0.0021 to 0.0857
+Changing kin param 5 from 0.8602 to 0.8480
+Changing kin param 6 from 0.0393 to 0.0305
+Changing kin param 0 from 0.0573 to 0.0635
+Not changing kin param 3 from 0.0296 to -0.0045
+Not changing kin param 4 from 0.0021 to -0.0649
+Changing kin param 5 from 0.8602 to 0.7676
+Not changing kin param 6 from 0.0393 to -0.2060
+Changing kin param 0 from 0.0573 to 0.1892
+Changing kin param 3 from 0.0296 to 0.1074
+Changing kin param 4 from 0.0021 to 0.0710
+Changing kin param 5 from 0.8602 to 0.7643
+Changing kin param 6 from 0.0393 to 0.1439
+Changing kin param 0 from 0.0573 to 0.1391
+Changing kin param 3 from 0.0296 to 0.0619
+Changing kin param 4 from 0.0021 to 0.0424
+Changing kin param 5 from 0.8602 to 0.8531
+Changing kin param 6 from 0.0393 to 0.0433
+Running
+Running code
+params 5.851012150648665 10 500 0.799015 0.857101 8.480487 0.304608
+Expected index: 337, Index obtained: 337
+Expected index: 294, Index obtained: 293
+Expected index: 1416, Index obtained: 1413
+Expected index: 550, Index obtained: 547
+Expected index: 1121, Index obtained: 1118
+Expected index: 1483, Index obtained: 1479
+Expected index: 1823, Index obtained: 1818
+Expected index: 1879, Index obtained: 1874
+Expected index: 1569, Index obtained: 1564
+Expected index: 1993, Index obtained: 1988
+Expected index: 1922, Index obtained: 1917
+Expected index: 1780, Index obtained: 1775
+Expected index: 3529, Index obtained: 3522
+Expected index: 3010, Index obtained: 3004
+Expected index: 2965, Index obtained: 2959
+Expected index: 3557, Index obtained: 3550
+Expected index: 3303, Index obtained: 3296
+Expected index: 3473, Index obtained: 3466
+Expected index: 2894, Index obtained: 2888
+Expected index: 2995, Index obtained: 2989
+Expected index: 3611, Index obtained: 3603
+Expected index: 3333, Index obtained: 3326
+Expected index: 3501, Index obtained: 3494
+Expected index: 4223, Index obtained: 4213
+Expected index: 4479, Index obtained: 4469
+Expected index: 4410, Index obtained: 4400
+Expected index: 4382, Index obtained: 4372
+Expected index: 4029, Index obtained: 4019
+Expected index: 4324, Index obtained: 4314
+Expected index: 4535, Index obtained: 4525
+Expected index: 4507, Index obtained: 4497
+Expected index: 3777, Index obtained: 3767
+Expected index: 5135, Index obtained: 5123
+Expected index: 5856, Index obtained: 5844
+Expected index: 5647, Index obtained: 5634
+Expected index: 4967, Index obtained: 4957
+Expected index: 5010, Index obtained: 5000
+Expected index: 5094, Index obtained: 5084
+Expected index: 5079, Index obtained: 5069
+Expected index: 5585, Index obtained: 5572
+Expected index: 3908, Index obtained: 3904
+Expected index: 3893, Index obtained: 3889
+Expected index: 3848, Index obtained: 3844
+Expected index: 3820, Index obtained: 3816
+Expected index: 3734, Index obtained: 3730
+Expected index: 3719, Index obtained: 3715
+Expected index: 3975, Index obtained: 3971
+Expected index: 3792, Index obtained: 3788
+Expected index: 4139, Index obtained: 4134
+Expected index: 3878, Index obtained: 3874
+Expected index: 4154, Index obtained: 4149
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 4.311476268776845 10 500 0.295669 0.020709 7.676283 0.393264
+Expected index: 6511, Index obtained: 6470
+Expected index: 4985, Index obtained: 4949
+Expected index: 6460, Index obtained: 6419
+Expected index: 4317, Index obtained: 4284
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 78.04570355791553 10 500 1.07371 0.710267 7.643344 1.438538
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+params 24.59314101488267 10 500 0.618593 0.42433 8.530965 0.432811
+Expected index: 968, Index obtained: 968
+Expected index: 983, Index obtained: 983
+Expected index: 841, Index obtained: 841
+Expected index: 4522, Index obtained: 4521
+Expected index: 4492, Index obtained: 4491
+Expected index: 4507, Index obtained: 4506
+Expected index: 4552, Index obtained: 4551
+Expected index: 5516, Index obtained: 5515
+Expected index: 1688, Index obtained: 1688
+Expected index: 1645, Index obtained: 1645
+Expected index: 5382, Index obtained: 5379
+Expected index: 5425, Index obtained: 5422
+Expected index: 5526, Index obtained: 5523
+Expected index: 6113, Index obtained: 6109
+Expected index: 3673, Index obtained: 3671
+Expected index: 3606, Index obtained: 3604
+Expected index: 3701, Index obtained: 3699
+Expected index: 1084, Index obtained: 1084
+Expected index: 1211, Index obtained: 1211
+Expected index: 2588, Index obtained: 2585
+Expected index: 6372, Index obtained: 6372
+Expected index: 6327, Index obtained: 6327
+Expected index: 6555, Index obtained: 6555
+Expected index: 6417, Index obtained: 6417
+Expected index: 6473, Index obtained: 6473
+Expected index: 4663, Index obtained: 4662
+Expected index: 5348, Index obtained: 5345
+Expected index: 5333, Index obtained: 5330
+Expected index: 5363, Index obtained: 5360
+Expected index: 5305, Index obtained: 5302
+Expected index: 5570, Index obtained: 5566
+Expected index: 5540, Index obtained: 5536
+Expected index: 5585, Index obtained: 5581
+Expected index: 5555, Index obtained: 5551
+Expected index: 759, Index obtained: 759
+Expected index: 789, Index obtained: 789
+Expected index: 3950, Index obtained: 3949
+Expected index: 4006, Index obtained: 4005
+Expected index: 3920, Index obtained: 3919
+Expected index: 6636, Index obtained: 6635
+Expected index: 2911, Index obtained: 2909
+Expected index: 4715, Index obtained: 4711
+Dictionaries built!
+Converting and writing to json file... Output/library.json
+Your work here is done!
+Done running code
+Averaging
+Runs = 4
+in evo_average_fit_and_print_variance: i = 1
+family_1/Generation_50/Run_1/Output/library.json
+var = 0.1825250773647653
+in evo_average_fit_and_print_variance: i = 2
+family_1/Generation_50/Run_2/Output/library.json
+var = 0.11674237517947102
+in evo_average_fit_and_print_variance: i = 3
+family_1/Generation_50/Run_3/Output/library.json
+var = 0.45419296786746743
+in evo_average_fit_and_print_variance: i = 4
+family_1/Generation_50/Run_4/Output/library.json
+var = 0.25330737887867627
+0.11674237517947102
+0.45419296786746743
+0.25330737887867627
+MINI NR IS:  2.0
+MINI IS:  0.11674237517947102
+Cleaning house
+Done cleaning house
+Choosing best Gen
+BEST FIT
+29 	 2 0.11166288829711306
+Copying best Gen
+--------------
+CLEANING UP
+--------------
+-----------------
+DONE CLEANING UP
+-----------------
+Running final big simulation!
+Find results in the folder >>[1m[35m BEST_FIT [0m

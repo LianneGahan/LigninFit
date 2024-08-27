@@ -1,0 +1,12 @@
+1   50  4   0.1   200   50   3
+#1   50  4   0.1    32  50   2
+#
+
+#
+# Number of families
+# Number of generations
+# Number of Runs per generation
+# Delta (% by which each kin param changes) (0-1)
+# Number of Cores available
+# Number of Samples in each Run
+# Number of Samples per DOF in the gridsearch
