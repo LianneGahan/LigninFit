@@ -2,19 +2,13 @@
 import matplotlib.pyplot as plt
 import json 
 from rdkit.Chem import AllChem as Chem
-from rdkit import DataStructs
-from sklearn.metrics import r2_score
-from adjustText import adjust_text
-from scipy.optimize import curve_fit
-from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 from scipy import stats
 import matplotlib.gridspec as gridspec
-from collections import Counter, OrderedDict
+from collections import Counter
 import pandas as pd
 from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 from rdkit.Chem import Draw, MolFromSmiles, Descriptors
-from scipy.sparse import dok_matrix
 import matplotlib.patches as patches
 import seaborn as sns
 

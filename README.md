@@ -3,6 +3,19 @@
 
 LigninFit is the overall computational framework that we built in Python to perform a systematic and quantitative comparison of experimental data with simulated lignin molecules. It makes use of the previously published Lignin-KMC simulation algorithm, and its detailed architecture is illustrated in the figure below, and explained in further details in the following subsections.
 
+## Dependencies
+
+- RDKit
+- MatPlotLib
+- Pandas
+- Seaborn
+- NumPy
+- SciPy
+- SciKitLearn
+- Statsmodels
+- Collections
+- JSON
+- os
 
 
 ## Instructions for how to use the paramater optimization algorithm
