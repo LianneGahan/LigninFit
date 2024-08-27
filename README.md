@@ -6,9 +6,11 @@ LigninFit is the overall computational framework that we built in Python to perf
 
 
 ## Instructions for how to use the paramater optimization algorithm
-![image info](./overview.png)
-Scheme of the computational framework LigninFit. In the leftmost box, the "Initial conditions identification" finds the starting parameters for the "Fitting procedure" by comparing the target experimental bond distribution to an existing simulated database of bond distributions, following a grid search. In a loop, the "Fitting procedure" optimises the input parameters (S/G ratio, monomer addition rate, and the free energy barriers of S-S, G-G, and S-G bond formation) such that the simulated bond distribution matches the target experimental one.
+The figure shows the scheme of the computational framework LigninFit. In the leftmost box, the "Initial conditions identification" finds the starting parameters for the "Fitting procedure" by comparing the target experimental bond distribution to an existing simulated database of bond distributions, following a grid search. In a loop, the "Fitting procedure" optimises the input parameters (S/G ratio, monomer addition rate, and the free energy barriers of S-S, G-G, and S-G bond formation) such that the simulated bond distribution matches the target experimental one.
 Following the identification of the best fit, a large library of molecules is generated for the corresponding set of parameter values, leading to the "Compilation of molecule information" and the identification of the "Optimal growth conditions" (rightmost box).
+![image info](./overview.png)
+
+The sections below describe the setup and use of LigninFit. The main code can be found under "fitting_algrithm", and the companion analysis codes to produce the figures from the publication (in preparation) can be found in the "analysis" directory.
 
 ### Setup directory and data to be fitted
 
