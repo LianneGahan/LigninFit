@@ -10,7 +10,9 @@ The figure shows the scheme of the computational framework LigninFit. In the lef
 Following the identification of the best fit, a large library of molecules is generated for the corresponding set of parameter values, leading to the "Compilation of molecule information" and the identification of the "Optimal growth conditions" (rightmost box).
 ![image info](./overview.png)
 
-The sections below describe the setup and use of LigninFit. The main code can be found under "fitting_algrithm", and the companion analysis codes to produce the figures from the publication (in preparation) can be found in the "analysis" directory.
+The sections below describe the setup and use of LigninFit. The main code can be found under "fitting_algrithm", and the companion analysis codes to produce the figures from the publication (in preparation) can be found in the "analysis" directory. 
+
+**Please Note:** The fitting algorithm requires Lignin-KMC to function correctly, so please ensure you download a copy of the codes from the relevant GitHub directory and include it as specified below.
 
 ### Setup directory and data to be fitted
 
