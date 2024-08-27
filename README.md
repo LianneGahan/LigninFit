@@ -11,6 +11,9 @@
 
 - copy the content of this directory into topdir
 
+- download Lignin-KMC and copy "lignin-kmc" repository into topdir/latest/Code/
+
+
 Check that the "Params" directory, and the "Output" directory exist within the directory "latest"
 
 - create an empty directory called "family_1" in topdir.

@@ -9,9 +9,7 @@
 
 - copy the content of this directory into topdir
 
-- If you have changed the simulation code, copy the new code into topdir/latest/, and run compile.sh via the terminal command
-
-./compile.sh
+- download Lignin-KMC and copy "lignin-kmc" repository into topdir/latest/Code/
 
 Check that the "Params" directory, and the "Output" directory exist within the directory "latest"
 
