@@ -7,25 +7,21 @@
 
 - Create a directory in which you want to run the simulations (this will be referred to as topdir)
 
-- copy the content of this directory into topdir
+- Copy the content of this directory into topdir
 
-- download Lignin-KMC and copy "lignin-kmc" repository into topdir/latest/Code/
+- Download Lignin-KMC and copy "lignin-kmc" repository into topdir/latest/Code/
 
 Check that the "Params" directory, and the "Output" directory exist within the directory "latest"
 
-- create an empty directory called "family_1" in topdir.
+- Create an empty directory called "family_1" in topdir.
 
 - Open the file "best_kin_specs.txt" and enter those kinetic parameters from which the optimization algorithm should start. This file will be updated continuously during the algorithm
-
-- IMPORTANT: Within topdir, there is a file "keywords.txt" (if not, you need to create it). From this file the algorithm takes
-the names of the experimental data sets, and therefore it needs to contain AT LEAST ONE keyword. This is now automated and the code writes into the "keywords.txt" file, reading from the experimental data contained in "latest/Output/expe_data/expe_saccharification_keyword_glc.txt" or "latest/Output/expe_data/expe_saccharification_keyword_xyl.txt". If you want to put in the keywords manually you need to comment in evo_all_in_one.sh: line 16: ./evo_keywords.sh.
-
 
 - Open the file "kin_params_to_randomize.txt". Here, you can choose, which parameters should be fitted by setting the respective value to 0 (fixed at provided value) or 1 (fitted, provided value taken as starting point). 
 
 - Open the files "max_kin_vals.txt" and "max_grid_search.txt". Here, you can specify the maximum value for each parameter.
 
-- Open the files "min_kin_vals.txt" and "min_init_vals.txt". Here, you can specify the minimum value for each parameter.
+- Open the files "min_kin_vals.txt". Here, you can specify the minimum value for each parameter.
 
 
 ### Running the algorithm
