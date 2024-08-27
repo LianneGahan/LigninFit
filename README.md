@@ -1,4 +1,4 @@
-# LigninFit: A companion package for Lignin-KMC to identify growth parameters based upon bond distribution data
+# LigninFit: A companion fitting and analysis package for Lignin-KMC
 ![image info](./logo.png)
 
 
