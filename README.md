@@ -1,5 +1,5 @@
 # LigninFit: A companion package for Lignin-KMC to identify growth parameters based upon bond distribution data
-![image info](./logo.pdf)
+![image info](./logo.png)
 
 
 ## Instructions for how to use the paramater optimization algorithm
