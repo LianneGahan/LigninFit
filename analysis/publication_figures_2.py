@@ -715,6 +715,35 @@ def plot_DP_bonddistributions(library, label):
 
     plt.savefig("DP_bonddist.png", bbox_inches="tight")
 
+def process_lib_for_plotmolecule():
+    """
+    Process a specific biomass library to generate molecular structure images.
+
+    This function processes a predefined biomass library for birch (`birch_lib`), extracts the degree of polymerization (DP)
+    and SMILES (Simplified Molecular Input Line Entry System) strings for each molecule. It then filters molecules 
+    based on their DP, selecting only those with a DP between 15 and 25. For each selected molecule, an image of 
+    the molecular structure is generated and saved as a PNG file in the "birchmols" directory. The images are named 
+    sequentially using the format "birch_mol__<index>.png".
+
+    Parameters:
+    ----------
+    None
+        This function does not take any parameters.
+
+    Returns:
+    -------
+    None
+        The function does not return any value. It performs file output operations, saving molecular images 
+        to the specified directory.
+    """
+    birch_lib = set_C[8][1]
+    DPs = np.array([data["DP"] for data in birch_lib])
+    poplar_smile = np.array([data["smilestring"] for data in birch_lib])
+    for i, smile in enumerate(poplar_smile):
+        if DPs[i] < 25 and DPs[i] > 15:
+            name = "birchmols/birch_mol__" + str(i) + ".png"
+            plot_molecule(poplar_smile[i], name)
+    return()
 
 
 def order_data_by_cluster():
@@ -754,16 +783,16 @@ def get_sort_key(dict_name):
 
 def get_sg_key(dict_name):
     return biomasses[dict_name]["sg_ratio"]
+
+# Sort lignin libraries by ID key 
 sorted_dict_names = sorted(biomasses.keys(), key=get_sort_key)
-
 location_string = "example_data/set_C/"
-
 target_data = []
-
-allparamslimitedsglibs =[]
-
+allparamslimitedsglibs = []
 fitting_params_list = []
 fitting_data = []
+
+# Load in all relevant data
 for biomass_label in sorted_dict_names:
     library_import_string = location_string + biomass_label + "/BEST_FIT/best_Run/Output/library.json"
     if os.path.exists(library_import_string):
@@ -779,59 +808,10 @@ fitting_params_list.append(fitting_data)
 
 
 labels = [dict["short label"] for dict in target_data]
-#plot_branching_distribution(allparamslimitedsglibs, labels)
-"""]plot_DP_distribution(allparamslimitedsglibs, labels)
-plot_mass_comparison(allparamslimitedsglibs, target_data, labels)"""
 plot_euclidiansdistribution(allparamslimitedsglibs, target_data, labels)
+plot_average_bond_distribution_similarity(allparamslimitedsglibs, labels)
+
+smile = np.array([data["smilestring"] for data in allparamslimitedsglibs[8][1]])
+plot_molecule(smile[422], "birch_molecule.png")
 
 
-
-
-#plot_average_bond_distribution_similarity(allparamslimitedsglibs, labels)
-
-
-#### FOR FINGERPRINTS
-sorted_dict_names = sorted(biomasses.keys(), key=get_sg_key)
-location_string = "example_data/set_C/"
-target_data = []
-allparamslimitedsglibs =[]
-fitting_params_list = []
-fitting_data = []
-
-for biomass_label in sorted_dict_names:
-    library_import_string = location_string + biomass_label + "/BEST_FIT/best_Run/Output/library.json"
-    if os.path.exists(library_import_string):
-        allparamslimitedsglibs.append(import_library(library_import_string, "ligninkmc_"))
-        fitting_import_string = location_string + biomass_label + "/best_kin_specs.txt"
-        fitting_data.append(np.loadtxt(fitting_import_string))
-        target_data.append(biomasses[biomass_label])
-labels = [dict["short label"] for dict in target_data]
-#plot_fingerprint_similarity(allparamslimitedsglibs, target_data,labels)
-#cluster_biomasses(allparamslimitedsglibs, labels)
-#plot_DP_bonddistributions(allparamslimitedsglibs[0], "G1")
-#statistical_tests_bond_distribution(allparamslimitedsglibs, labels)
-#plot_highlightmolecules()
-def process_lib_for_plotmolecule():
-    poplar_lib = allparamslimitedsglibs[8][1]
-    DPs = np.array([data["DP"] for data in poplar_lib])
-    poplar_smile = np.array([data["smilestring"] for data in poplar_lib])
-    for i, smile in enumerate(poplar_smile):
-        if DPs[i] < 25 and DPs[i] > 15:
-            name = "birchmols/birch_mol__" + str(i) + ".png"
-            plot_molecule(poplar_smile[i], name)
-    return()
-
-"""smile = np.array([data["smilestring"] for data in allparamslimitedsglibs[8][1]])
-dp = np.array([data["DP"] for data in allparamslimitedsglibs[8][1]])
-sgs = np.array([data["sg_ratio"] for data in allparamslimitedsglibs[8][1]])
-bonds = np.array([data["Bonds"] for data in allparamslimitedsglibs[8][1]])
-
-
-plot_molecule(smile[422], "birch_molecule.png")"""
-
-"""
-libs, td = order_data_by_cluster()
-labs = [dict["short label"] for dict in td]
-
-print(labs)
-plot_bond_distributions(libs, labs)"""
