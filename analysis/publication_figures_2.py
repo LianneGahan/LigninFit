@@ -175,35 +175,49 @@ def plot_bond_distributions(libraries, biomass_labels):
 
 
 
-def plot_DP_distribution(libraries_list, labels):
-    fig, ax = plt.subplots(len(libraries_list), figsize=(12,12), sharex=True)
-    fontsize = 22
-
-     # Set the axis labels and title
-    ax[-1].set_xlabel('Degree of Polymerisation', fontsize=fontsize)
-    ax[2].set_ylabel('Frequency', fontsize=fontsize)
-    # Set positions of each biomass
-    x_positions = np.arange(len(libraries_list))+1
-    colors = [cmap(i) for i in np.linspace(0, 1, len(libraries_list))]
-
-    ax[-1].tick_params(axis='x', labelsize=fontsize)  # Change the fontsize of x-axis ticks
-    DPs = []
-    transparency = 0.8
-    i=0
-    for ind, library in libraries_list:
-        DP = np.array([data["DP"] for data in library])
-        maxi = np.max(DP)
-        DPs.append(DP)
-        ax[i].tick_params(axis='y', labelsize=fontsize-2)  # Change the fontsize of y-axis ticks
-
-        # Create weighted data by repeating each data point according to its weight
-        violin_parts = ax[i].hist(DP, bins=50, label=labels[i], density=True, histtype='step', alpha = transparency, linewidth = 4, color=colors[i])#,showmeans=True)#, colors=colors)
-        i+=1
-
-    plt.tight_layout()
-    plt.savefig("size_distribution__chosenbiomasses.png", bbox_inches='tight')
 
 def cluster_biomasses(libraries, labels):
+    """
+    Cluster biomasses based on their average bond distribution using K-Means clustering.
+
+    This function takes a list of libraries containing biomass data and calculates the average bond distribution 
+    for each biomass. It then uses K-Means clustering to group similar biomasses into clusters. The clustering 
+    process is run multiple times with different random initializations to ensure stability, and the most common 
+    cluster assignment for each biomass is chosen as the final assignment.
+
+    Parameters:
+    ----------
+    libraries : list
+        A list of library objects or data structures, where each library contains biomass data.
+        Each library will be used to compute the average bond distribution.
+
+    labels : list
+        A list of labels corresponding to each library in the 'libraries' list. These labels will be used to 
+        identify the biomass clusters.
+
+    Returns:
+    -------
+    None
+        The function prints out the cluster assignments and the corresponding labels of biomasses in each cluster.
+        No value is returned.
+
+    Notes:
+    -----
+    - The function uses seven bond distribution types: "bo4", "bb", "b5", "b1", "ao4", "5o4", and "55".
+    - The K-Means algorithm is run `n_init` (1000) times with different random states to find a stable clustering.
+    - The final cluster for each biomass is determined by the most frequent cluster assignment across all runs.
+    
+    Example Output:
+    --------------
+    Cluster 0: Biomasses [0, 2, 4]
+    Label 1
+    Label 3
+    Label 5
+    Cluster 1: Biomasses [1, 3]
+    Label 2
+    Label 4
+
+    """
     index= 0
     BO4 = np.zeros(len(libraries))
     BB = np.zeros(len(libraries))
@@ -321,104 +335,6 @@ def plot_branching_distribution(libraries_list, labels):
     plt.savefig("branching_distribution__chosenbiomasses.png", bbox_inches='tight')
 
 
-def plot_fingerprint_similarity_single_biomass(libraries_list, labels):
-    fig, ax = plt.subplots(figsize=(12,12))
-    fontsize = 22
-
-     # Set the axis labels and title
-    ax.set_xlabel('Biomass', fontsize=fontsize)
-    ax.set_ylabel('DP weighted branching factor', fontsize=fontsize)
-    for ind, lib in libraries_list:
-        library = lib
-    fingerprints = calculate_fingerprints(library)
-    similarity_matrix = compute_similarity_matrix(fingerprints)
-    print(np.shape(similarity_matrix))
-        # Check if similarity_matrix is empty or contains only NaN values
-    if similarity_matrix.size == 0:# or np.isnan(similarity_matrix).all():
-        raise ValueError("The similarity matrix is empty or contains only NaN values")
-
-    #similarity_matrix = pairwise_distances(fingerprints, metric='jaccard')
-    sns.heatmap(similarity_matrix, cmap='viridis')
-    plt.title('Similarity Matrix Heatmap')
-    plt.savefig("fingerprintsim.png", bbox_inches='tight')
-
-def plot_fingerprint_similarity(libraries_list, biomasses, labels):
-    fig, ax = plt.subplots(figsize=(15,12))
-    fontsize = 22
-    index = 0
-    biomasses_fingerprints = []
-    # Sort libs by sg ratio
-
-
-
-    print("Sorting library data and calculating fingerprints")
-    for ind, lib in libraries_list:
-        print(index)
-        fingerprints = []
-
-        data = [data for data in lib if data["DP"]>=10 and data["DP"]<=10]
-        euclidians = [bond_metrics(biomasses[index], mol["Bonds"])["euclidian"] for mol in data]
-        # Combine data with their corresponding euclidean distances
-        data_with_euclidians = list(zip(data, euclidians))
-
-        # Sort the combined list based on euclidean distances
-        sorted_data_with_euclidians = sorted(data_with_euclidians, key=lambda x: x[1])
-
-        # Extract the sorted data from the sorted list of tuples
-        sorted_data = [item[0] for item in sorted_data_with_euclidians]
-
-        for i in range(1):
-            try:
-                fingerprint = calculate_single_fingerprint(sorted_data[i])
-                print(sorted_data_with_euclidians[i][1])
-                fingerprints.append(fingerprint)
-
-            except:
-                fingerprint = [0]
-        biomasses_fingerprints.append(fingerprints)
-        print("There are :", len(fingerprints))
-        index+=1
-    n = len(biomasses)
-    similarity_matrix = np.zeros((n, n))
-    print("Calculating similarities")
-    for i in range(n):
-        for j in range(i, n):
-            similarity_matrix_pair = compute_similarity_matrix_twolibraries(np.array(biomasses_fingerprints[i]), np.array(biomasses_fingerprints[j]))
-            similarity_matrix[i, j] = np.mean(similarity_matrix_pair)
-            similarity_matrix[j, i] = np.mean(similarity_matrix_pair)
-        # Check if similarity_matrix is empty or contains only NaN values
-    if similarity_matrix.size == 0:# or np.isnan(similarity_matrix).all():
-        raise ValueError("The similarity matrix is empty or contains only NaN values")
-
-    """ax.axhline(4, color="white", linestyle="--", linewidth=2)
-    ax.axhline(11, color="white", linestyle="--", linewidth=2)
-    ax.axhline(16, color="white", linestyle="--", linewidth=2)
-    ax.axvline(4, color="white", linestyle="--", linewidth=2)
-    ax.axvline(11, color="white", linestyle="--", linewidth=2)
-    ax.axvline(16, color="white", linestyle="--", linewidth=2)"""
-
-    ticks = [0.5, 0.75, 1.0]
-    #similarity_matrix = pairwise_distances(fingerprints, metric='jaccard')
-    sns.heatmap(similarity_matrix, cmap='Greens', cbar_kws={'ticks': ticks, "label": "Tanimoto similarity"})
-     # Set the axis labels and title    
-    cbar = ax.collections[0].colorbar
-
-    cbar.set_label('Tanimoto similarity', fontsize=fontsize)
-
-    ax.collections[0].colorbar.set_ticklabels([abs(t) for t in ticks], fontsize=fontsize)
-    plt.gca().invert_yaxis()
-
-    x_positions = np.arange(len(libraries_list))+0.5
-
-    ax.set_xlabel('Biomass', fontsize=fontsize)
-    ax.set_xticks(x_positions)
-    ax.set_xticklabels(labels, fontsize=fontsize-1)
-    ax.set_yticks(x_positions)
-    ax.set_yticklabels(labels, fontsize=fontsize-1)#, rotation = 90)
- 
-    ax.set_ylabel('Biomass', fontsize=fontsize)
-    #plt.title('Similarity Matrix Heatmap')
-    plt.savefig("biomass_fingerprints_comparison_sgratioorder.png", bbox_inches='tight')
 
 def plot_average_bond_distribution_similarity(libraries, biomass_labels):
     """
@@ -515,7 +431,48 @@ def plot_average_bond_distribution_similarity(libraries, biomass_labels):
     plt.savefig(savestring, bbox_inches='tight')
 
 
-def plot_moleculespread(libraries_list, target_data, labels):
+def plot_euclidiansdistribution(libraries_list, target_data, labels):
+    """
+    Plot the distribution of Euclidean distances for various biomass libraries.
+
+    This function computes the Euclidean distance between the target bond distribution data and each biomass 
+    library's bond distribution. It then visualizes the distribution of these distances using violin plots, 
+    which show the probability density of the data at different values. The average Euclidean distance for 
+    each biomass library is also displayed as a dashed line on each violin plot.
+
+    Parameters:
+    ----------
+    libraries_list : list
+        A list of library objects or data structures, where each library contains biomass data. 
+        Each library is used to compute the bond distribution and compare it against the target data.
+
+    target_data : list
+        A list of target bond distributions, where each element corresponds to a target bond distribution for each 
+        biomass library. These serve as reference points for calculating the Euclidean distance.
+
+    labels : list
+        A list of labels corresponding to each library in the 'libraries_list'. These labels are used to identify 
+        the biomass libraries on the x-axis of the plot.
+
+    Returns:
+    -------
+    None
+        The function generates and saves a plot as "euclidiandistance_spread.png". No value is returned.
+
+    Notes:
+    -----
+    - The function uses violin plots to display the distribution of Euclidean distances.
+    - The average Euclidean distance for each biomass library is shown as a dashed line within each violin plot.
+    - Only data points with at least one non-zero bond value and a degree of polymerization (DP) greater than 1 
+      are considered for the distance calculations.
+    - The resulting plot is saved as "euclidiandistance_spread.png" with tight layout to minimize excess whitespace.
+
+    Example:
+    --------
+    plot_euclidiansdistribution(libraries_list, target_data, labels)
+    # Generates a plot showing the distribution of Euclidean distances for each biomass library.
+
+    """
     fig, ax = plt.subplots(figsize=(12, 6))
     fontsize = 22
 
@@ -653,60 +610,7 @@ def plot_molecule(smiles, name):
 
     print("Molecule saved")
 
-def plot_highlightmolecules():
-    smiles = "[CH3][O][c]1[cH][c]([CH]2[O][c]3[c]([O][CH3])[cH][c]([CH]([OH])[CH]([CH2][OH])[O][c]4[c]([O][CH3])[cH][c]([CH]([OH])[CH]([CH2][OH])[O][c]5[c]([O][CH3])[cH][c]([CH]([OH])[CH]([CH2][OH])[O][c]6[c]([O][CH3])[cH][c]([CH]7[O][CH2][CH]8[CH]([c]9[cH][c]([O][CH3])[c]([OH])[c]([O][CH3])[cH]9)[O][CH2][CH]78)[cH][c]6[O][CH3])[cH][c]5[O][c]5[c]([O][CH3])[cH][c]([CH]6[O][CH2][CH]7[CH]([c]8[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]9[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%10[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%11[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%12[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%13[cH][cH][c]([O][CH]([CH2][OH])[CH]([OH])[c]%14[cH][cH][c]([O][CH]([CH2][OH])[CH]([OH])[c]%15[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%16[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%17[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%18[cH][c]([O][CH3])[c]([O][CH]([CH2][OH])[CH]([OH])[c]%19[cH][cH][c]([O][CH]([CH2][OH])[CH]([OH])[c]%20[cH][c]([O][CH3])[c]%21[c]([cH]%20)[CH]([CH2][OH])[CH]([c]%20[cH][c]([O][CH3])[c]([OH])[c]([O][CH3])[cH]%20)[O]%21)[c]([O][CH3])[cH]%19)[c]([O][CH3])[cH]%18)[c]([O][CH3])[cH]%17)[c]([O][CH3])[cH]%16)[c]([O][CH3])[cH]%15)[c]([O][CH3])[cH]%14)[c]([O][CH3])[cH]%13)[c]([O][CH3])[cH]%12)[c]([O][CH3])[cH]%11)[c]([O][CH3])[cH]%10)[c]([O][c]%10[c]([O][CH3])[cH][c]([CH]([OH])[CH]([CH2][OH])[O][c]%11[c]([O][CH3])[cH][c]([CH]%12[O][CH2][CH]%13[CH]([c]%14[cH][c]([O][CH3])[c]([OH])[c]([O][CH3])[cH]%14)[O][CH2][CH]%12%13)[cH][c]%11[O][CH3])[cH][c]%10[O][CH3])[cH]9)[c]([O][CH3])[cH]8)[O][CH2][CH]67)[cH][c]5[O][CH3])[cH][c]4[O][CH3])[cH][c]3[CH]2[CH2][OH])[cH][cH][c]1[OH]"
 
-    # Generate molecule from SMILES
-    mol = Chem.MolFromSmiles(smiles)
-
-    # Add hydrogens to the molecule
-    mol_with_h = Chem.AddHs(mol)
-
-    # Define SMARTS patterns for guaiacyl and syringyl units
-    guaiacyl_smarts = "COc1ccccc1O"  # Guaiacyl unit: -OCH3 group on a phenol ring
-    syringyl_smarts = "COc1cc(OC)c(O)cc1"  # Syringyl unit: two -OCH3 groups on a phenol ring
-
-    # Convert SMARTS patterns to molecule objects
-    guaiacyl_pattern = Chem.MolFromSmarts(guaiacyl_smarts)
-    syringyl_pattern = Chem.MolFromSmarts(syringyl_smarts)
-
-    # Find all substructure matches
-    guaiacyl_matches = mol_with_h.GetSubstructMatches(guaiacyl_pattern)
-    syringyl_matches = mol_with_h.GetSubstructMatches(syringyl_pattern)
-
-    # Get the atom indices to highlight
-    highlight_atoms_guaiacyl = set(atom for match in guaiacyl_matches for atom in match)
-    highlight_atoms_syringyl = set(atom for match in syringyl_matches for atom in match)
-
-    # Set up drawing options
-    d2d = Draw.MolDraw2DCairo(1000, 1000)
-    d2d.drawOptions().bondLineWidth = 2.0
-    d2d.drawOptions().addStereoAnnotation = True
-    d2d.drawOptions().atomLabelFontSize = 14
-    d2d.drawOptions().useBWAtomPalette()
-    d2d.drawOptions().includeAtomNumbers = False  # Optionally disable atom numbering
-
-    # Define a function to remove hydrogen atoms from the molecule
-    def remove_hydrogens(mol):
-        """Remove hydrogen atoms from the molecule."""
-        return Chem.RemoveHs(mol)
-
-    # Remove hydrogen atoms from the molecule
-    mol_without_h = remove_hydrogens(mol_with_h)
-
-    # Draw the molecule with highlighted atoms
-    highlight_colors = {}
-    for atom in highlight_atoms_guaiacyl:
-        highlight_colors[atom] = (1, 0, 0)  # Red color for guaiacyl units
-    for atom in highlight_atoms_syringyl:
-        highlight_colors[atom] = (0, 0, 1)  # Blue color for syringyl units
-
-    d2d.DrawMolecule(mol_without_h, highlightAtoms=highlight_colors.keys(), highlightAtomColors=highlight_colors)
-    d2d.FinishDrawing()
-
-
-    # Save the drawing to a PDF file
-    d2d.WriteDrawingText('molecule_guaiacyl_syringyl_highlighted.png')
 
 def plot_DP_bonddistributions(library, label):
 
@@ -811,51 +715,6 @@ def plot_DP_bonddistributions(library, label):
 
     plt.savefig("DP_bonddist.png", bbox_inches="tight")
 
-def plot_mass_comparison(libraries_list, target_data, labels):
-    fig, ax = plt.subplots(figsize=(12,6))
-    fontsize = 22
-
-
-     # Set the axis labels and title
-    ax.set_xlabel('Biomass', fontsize=fontsize)
-    ax.set_ylabel('DP', fontsize=fontsize)
-    # Set positions of each biomass
-    x_positions = np.arange(len(libraries_list))+1
-    colors = [cmap(i) for i in np.linspace(0, 1, len(libraries_list))]
-
-    ax.set_xticks(x_positions)
-    ax.set_xticklabels(labels, fontsize=fontsize)
-    ax.tick_params(axis='x', labelsize=fontsize)  # Change the fontsize of x-axis ticks
-    ax.tick_params(axis='y', labelsize=fontsize)  # Change the fontsize of y-axis ticks
-    masses = []
-    DPs=[]
-    index =0
-    transparency=1
-    S_monolignol_weight =210
-    G_monolignol_weight = 180
-    for ind, library in libraries_list:
-        DP = np.array([data["DP"] for data in library])
-        DPs.append(DP)
-        DP = np.mean(DP)#calculate_mean_DP(library)
-        if 'MW' in target_data[index]:
-            target_DP = (target_data[index]["MW"]*(target_data[index]["Monolignols"]["S"]/100)/S_monolignol_weight) + (target_data[index]["MW"]*(target_data[index]["Monolignols"]["G"]/100)/G_monolignol_weight)
-            if index==0:
-                ax.scatter(x_positions[index], target_DP, marker="v", alpha=transparency, label = "Experimental Data", color = "k", s=300)
-                #ax.scatter(x_positions[index], DP, marker="v", alpha=transparency,  label = "Simulation Data",  color = "k", s=300)
-            else:
-                ax.scatter(x_positions[index], target_DP, marker="v", alpha=transparency,  color = "k", s=300)
-            #ax.scatter(x_positions[index], DP, marker="v", alpha=transparency,  color = "k", s=300)
-        index+=1
-    violin_parts = ax.violinplot(DPs,showmeans=True)#, colors=colors)
-    # Customize colors
-    for i, pc in enumerate(violin_parts['bodies']):
-        pc.set_facecolor(colors[i])
-        pc.set_edgecolor(colors[i])
-        pc.set_alpha(0.7)
-    fig.legend(fontsize=18, loc='lower center', bbox_to_anchor=(0.5, -0.12), markerscale = 1, ncols=2)
-
-    plt.tight_layout()
-    plt.savefig("DPcomparison__chosenbiomasses.png", bbox_inches='tight')
 
 
 def order_data_by_cluster():
@@ -923,7 +782,7 @@ labels = [dict["short label"] for dict in target_data]
 #plot_branching_distribution(allparamslimitedsglibs, labels)
 """]plot_DP_distribution(allparamslimitedsglibs, labels)
 plot_mass_comparison(allparamslimitedsglibs, target_data, labels)"""
-plot_moleculespread(allparamslimitedsglibs, target_data, labels)
+plot_euclidiansdistribution(allparamslimitedsglibs, target_data, labels)
 
 
 
