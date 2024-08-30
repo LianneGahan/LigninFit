@@ -1,27 +1,27 @@
 
 import matplotlib.pyplot as plt
-import json 
-from rdkit.Chem import AllChem as Chem
 from scipy import stats
-import matplotlib.gridspec as gridspec
+import seaborn as sns
 from collections import Counter
 import pandas as pd
+import numpy as np
+
+
+from rdkit.Chem import AllChem as Chem
+from rdkit.Chem import MolFromSmiles, Descriptors
+
+import matplotlib.gridspec as gridspec
 from statsmodels.stats.multicomp import pairwise_tukeyhsd
-
-from rdkit.Chem import Draw, MolFromSmiles, Descriptors
 import matplotlib.patches as patches
-import seaborn as sns
 
-#from rdkit.Chem import Fragments
 import os 
-import re
+import json 
 
-from figure_generation_functions import calculate_fingerprints, bond_metrics, line, straight_line, calculate_avg_bond_distribution, calculate_bond_distribution_fitness, exponential_2params, import_library, calculate_mean_DP, evaluate_minimum_maximum_DP, exponential_fit, exp_func, readin_fitting_results
+from figure_generation_functions import bond_metrics, calculate_avg_bond_distribution,  import_library
 from matplotlib import colors
 # Generate rainbow color palette
 cmap = plt.get_cmap('rainbow')
 
-import numpy as np
 
 
 
@@ -61,7 +61,6 @@ def plot_compare_SGratio_freeenergies__heatmap(fitting_parameters_list, biomasse
     fontsize = 22
     fig = plt.figure(figsize=(16,12))
 
-# Create a figure
 
     # Create a GridSpec object with 5 rows and 1 column, where the 4th row will be a spacer
     gs = gridspec.GridSpec(4, 1, height_ratios=[1, 1, 1, 1])# 0.0, 1])  # Adjust height_ratios as needed

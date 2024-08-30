@@ -36,25 +36,8 @@ TCL_NAME = "psfgen.tcl"
 PSF_NAME = 'lignin'
 TOPPAR_DIR = "toppar/"
 
-#fun = par.delayed(run_kmc)
 
 
-def gaussian(x, amplitude, mean, stddev):
-    return amplitude * np.exp(-((x - mean) / stddev) ** 2 / 2)
-
-def fit_gaussian_histogram(data, histogram, bin_edges):
-    bin_centers = (bin_edges[:-1] + bin_edges[1:]) / 2
-
-    initial_guess = [1.0, np.mean(data), np.std(data)]
-    params, covariance = curve_fit(gaussian, bin_centers, histogram, p0=initial_guess)
-
-    amplitude_fit, mean_fit, stddev_fit = params
-    print(mean_fit, amplitude_fit, stddev_fit)
-    fitted_curve = gaussian(bin_centers, amplitude_fit, mean_fit, stddev_fit)
-    
-    #filtered_indices = np.where((data >= lower_bound) & (data <= upper_bound))[0]
-    #filtered_data = data[filtered_indices]
-    return(bin_centers, fitted_curve, mean_fit, stddev_fit, amplitude_fit)
 def calculate_bond_distribution(data_dictionary):
     """
     Calculate the normalised distribution of specific bond types within a collection of simulated structures.
@@ -331,9 +314,7 @@ def separate_molecule_properties(adjacency_matrix, monomer_list):
     # for each molecule
     #Looping over each molecule 
     
-    #print(len(connected))
     for number, molecule in enumerate(connected):
-        #print("Molecule Analysis complete!")
         molecule = list(molecule)
 
 

@@ -22,7 +22,6 @@ from rdkit import Chem
 import matplotlib.pyplot as plt
 import json
 import numpy as np
-import copy
 #Parallelization
 import multiprocessing
 
@@ -37,7 +36,6 @@ TCL_NAME = "psfgen.tcl"
 PSF_NAME = 'lignin'
 TOPPAR_DIR = "toppar/"
 
-#fun = par.delayed(run_kmc)
 
 
 def calculate_bond_distribution(data_dictionary):
@@ -95,6 +93,25 @@ def calculate_bond_distribution(data_dictionary):
 
 
 def reassign_unique_ids(list_of_list_of_dicts):
+    """
+    Reassigns unique identifiers to a list of dictionaries and compiles them into a single dictionary.
+
+    This function takes a list of lists, where each inner list contains dictionaries. It assigns
+    a unique ID to each dictionary in the format "ligninkmc_X", where X is an incrementing integer, 
+    and compiles all the dictionaries into a single output dictionary.
+
+    Parameters:
+    -----------
+    list_of_list_of_dicts : list of lists of dict
+        A list containing sublists, each with dictionaries representing data entries.
+
+    Returns:
+    --------
+    new_dictionary : dict
+        A dictionary where each key is a unique ID in the format "ligninkmc_X" and each value 
+        is a dictionary from the input list.
+    """
+
     unique_id = 1  # Start with ID 1
     new_dictionary = {}
     for s in list_of_list_of_dicts:
@@ -105,66 +122,116 @@ def reassign_unique_ids(list_of_list_of_dicts):
             unique_id += 1  # Increment unique ID
     return new_dictionary
 
-def count_aromatic_rings(molecule):
-    """
-    Takes in an RDKIT molecule, and calculates the number of 6 sided rings there are in a structure. This is a solid calculation for how many 
-    monomers there are in a given molecule of lignin
-    """
-        # Generate a molecular graph with aromatic perception
-    Chem.Kekulize(molecule)
-    sssr = Chem.GetSymmSSSR(molecule)
-    aromatic_rings = [ring for ring in sssr if len(ring) == 6 and all(molecule.GetAtomWithIdx(atom_idx).GetIsAromatic() for atom_idx in ring)]
-    return len(aromatic_rings)
-
 def split_molecule_with_aromaticity(molecule):
-    # Convert the SMILES string into an RDKit molecule object with aromaticity detection
-    #molecule = Chem.MolFromSmiles(smiles_string, sanitize=False)
+    """
+    Splits a molecule into fragments while ensuring correct aromaticity perception.
 
+    This function takes an RDKit molecule object, adjusts aromaticity perception, and then
+    splits the molecule into separate fragments.
+
+    Parameters:
+    -----------
+    molecule : RDKit.Chem.Mol
+        An RDKit molecule object representing the chemical structure.
+
+    Returns:
+    --------
+    molecules : tuple of RDKit.Chem.Mol
+        A tuple containing RDKit molecule objects, each representing a fragment of the original molecule.
+    """
     # Ensure aromaticity is perceived correctly
     Chem.SanitizeMol(molecule, sanitizeOps=Chem.SANITIZE_ALL^Chem.SANITIZE_SETAROMATICITY)
 
     # Split the molecule into separate molecules (fragments)
     molecules = Chem.GetMolFrags(molecule, asMols=True)
-    #print("Number of molecules", len(molecules))
     return molecules
 
 
 def SMILES_pipeline(adjacency_matrix, monomer_list):
+    """
+    Generates SMILES strings for each molecule in a lignin polymer from an adjacency matrix and a list of monomers.
+
+    Parameters:
+    adjacency_matrix (dict of tuple of int): A dictionary where the keys are tuples representing pairs of monomers, 
+                                             and the values represent the bond types between these monomers. For example, 
+                                             `((i, j): bond_type)` where `bond_type` can be BO4, B1, BB, etc.
+    monomer_list (list of Monomer): A list where each element is a `Monomer` object. Each `Monomer` object should have
+                                     attributes necessary to construct the molecular structure (e.g., type).
+
+    Returns:
+    dict: A dictionary where each key is an integer index corresponding to a molecule. Each value is another dictionary 
+          containing the following properties for that molecule:
+          - "smilestring": The SMILES string representation of the molecule.
+
+    Description:
+    This function performs the following steps to generate SMILES strings for lignin molecules:
+    1. Uses the `generate_mol` function to create an RDKit molecule block from the provided adjacency matrix and monomer list.
+    2. Converts the RDKit molecule block to an RDKit molecule object.
+    3. Splits the molecule into individual fragments or components using aromaticity considerations.
+    4. Converts each fragment into a SMILES string using RDKit's SMILES writing functionality.
+    5. Stores the SMILES strings in a dictionary with indices as keys and the SMILES strings as values.
+
+    Note:
+    - Ensure that the `generate_mol` function correctly generates a molecular block in a format compatible with RDKit.
+    - The `split_molecule_with_aromaticity` function should correctly handle aromatic and non-aromatic structures.
+    - RDKit's `Chem` module functions (`MolFromMolBlock`, `MolToSmiles`, etc.) require RDKit to be installed and properly configured in your environment.
+    """
     # Default out is SMILES, which requires getting an rdKit molecule object; also required for everything
     #    except the TCL format
     dict={}
     block = generate_mol(adjacency_matrix, monomer_list)
     molecule_total = Chem.MolFromMolBlock(block)
     molecules = split_molecule_with_aromaticity(molecule_total)
+    #Save SMILES string for individual molecule
     params = Chem.SmilesWriteParams()
     params.allHsExplicit = True
     params.canonical = True
     params.doIsomericSmiles = True
-    """molecules = Chem.MolFromMolBlock(block)
-    try:
-        smi_str = Chem.MolToSmiles(molecules) + '\n'
-    except:
-        raise InvalidDataError("Error in producing SMILES string.")
-        smi_str = Non
-        # if SMI is to be saved, don't output to stdout
-    #str_to_file(smi_str, "molecule_smiles.txt", print_info=False)
-    #Save SMILES string for individual molecule
-    if smi_str is not None:
-        smiles = smi_str.split(".")"""
-
     smiles = [Chem.MolToSmiles(molecule, params) for molecule in molecules]
-    number_rings = [count_aromatic_rings(mol) for mol in molecules]
-
-    #smiles = [Chem.MolToSmiles(molecule) for molecule in molecules]
     #Write dictionaryoutput to return to workflow
-    for i in range(len(smiles)):
+    for i in range(len(molecules)):
         dict[i] = {
-                "smilestring": smiles[i],
-                "rings": number_rings[i]}
+                "smilestring": smiles[i],}
                 #"MW": mw}
     return(dict)
 
 def generate_analysis_parallel(adjacency_matrix, monomer_list, file_writing, savefile_path):
+    """
+    Analyzes the bond distribution and generates SMILES strings for a given lignin molecule structure.
+
+    This function takes an adjacency matrix representing the lignin molecule, a list of monomers,
+    and performs a complete workflow to analyze the bond distribution and calculate the degree of polymerization (DP).
+    It then generates SMILES strings for the molecule and associates them with the respective bond information.
+
+    Parameters:
+    -----------
+    adjacency_matrix : np.ndarray
+        A square matrix representing the connectivity between atoms in the lignin molecule, where
+        each entry indicates the presence or absence of a bond.
+    
+    monomer_list : list
+        A list of monomers in the lignin molecule that correspond to the indices in the adjacency matrix.
+    
+    file_writing : bool
+        A flag indicating whether to write the output data to a file.
+    
+    savefile_path : str
+        The path where the output file should be saved if file_writing is set to True.
+    
+    Returns:
+    --------
+    lignin_dictionaries : list of dict
+        A list of dictionaries where each dictionary contains bond information and the corresponding
+        SMILES string for a segment of the lignin molecule.
+
+    Notes:
+    ------
+    - The function uses the `separate_molecule_properties` function to calculate bond information
+      for each part of the lignin molecule.
+    - The `SMILES_pipeline` function generates the corresponding SMILES strings for each segment of the molecule.
+    - The function handles cases where B-1 bonds are present by concatenating the SMILES strings of bonded segments.
+    - If `file_writing` is True, the function saves the results to the specified file path.
+    """
     lignin_dictionaries = []
 
     # Complete work flow to calculate bond distribution and DP for each lignin molecule
@@ -175,34 +242,16 @@ def generate_analysis_parallel(adjacency_matrix, monomer_list, file_writing, sav
     
     smiles_dictionary_id = 0
     bond_dictionary_id = 0
-
-    b1count = 0
-    smiles=""
     for i in range(len(partial_dict_A)):
     # Cycling through bond info dictionary, but need to check smiles dict if B-1 bonds are present
-        if partial_dict_A[bond_dictionary_id]['Bonds']["b1"] != 0:  
-            b1count +=  partial_dict_A[bond_dictionary_id]['Bonds']["b1"] 
-            nrings = np.sum([partial_dict_B[smiles_dictionary_id + k]["rings"] for k in range(partial_dict_A[bond_dictionary_id]['Bonds']["b1"]+1)])
-            smiles = ""
-            for k in range((partial_dict_A[bond_dictionary_id]['Bonds']["b1"]+1)):
-                #print(partial_dict_B[smiles_dictionary_id + k]["smilestring"])
-                smiles+= (partial_dict_B[smiles_dictionary_id + k]["smilestring"] + ".")
-            smiles=smiles[:-1]
-            partial_dict_A[bond_dictionary_id]["smilestring"] = smiles
-
-
-            #smiles = [partial_dict_B[smiles_dictionary_id + k]["smilestring"] + "." for k in range(partial_dict_A[bond_dictionary_id]['Bonds']["b1"])]
-            #smiles = ".".join([partial_dict_B[smiles_dictionary_id + k]["smilestring"] for k in range(partial_dict_A[bond_dictionary_id]['Bonds']["b1"])])
-            #print(smiles)
+        if partial_dict_A[bond_dictionary_id]['Bonds']["b1"] != 0:    
+            smiles = ".".join([partial_dict_B[smiles_dictionary_id + k]["smilestring"] for k in range(partial_dict_A[bond_dictionary_id]['Bonds']["b1"])])
             smiles_dictionary_id += partial_dict_A[bond_dictionary_id]['Bonds']["b1"]
-            #print("DP: ", partial_dict_A[bond_dictionary_id]['DP'])
-            #print("multi estimated DP: ", nrings)
         else:
             smiles = partial_dict_B[smiles_dictionary_id]["smilestring"]
-            partial_dict_A[bond_dictionary_id]["smilestring"] = smiles
-
-            #print("DP: ", partial_dict_A[bond_dictionary_id]['DP'])
-            #print("estimated DP: ", partial_dict_B[smiles_dictionary_id]["rings"])
+        
+        # Combine dictionaries
+        partial_dict_A[bond_dictionary_id]["smilestring"] = smiles
         bond_dictionary_id+=1
         smiles_dictionary_id+=1
     #print("Analysis complete!")
@@ -219,6 +268,41 @@ def save_structures(id_list, molecules, dict):
     return()
 
 def separate_molecule_properties(adjacency_matrix, monomer_list):
+    """
+    Analyzes molecular properties from an adjacency matrix and a list of monomers, and returns a dictionary containing
+    detailed information about each lignin molecule.
+
+    Parameters:
+    adjacency_matrix (dict of tuple of int): A dictionary where the keys are tuples representing pairs of monomers, and
+                                             the values represent the bond types between these monomers. For example, 
+                                             `((i, j): bond_type)` where `bond_type` can be BO4, B1, BB, etc.
+    monomer_list (list of Monomer): A list where each element is a `Monomer` object. Each `Monomer` object should have
+                                     a `type` attribute that specifies the type of the monomer (e.g., 'syringyl', 'guaiacol').
+
+    Returns:
+    dict: A dictionary where each key represents a unique molecule identified by its index. Each value is another dictionary
+          containing the following properties for that molecule:
+          - "Bonds": A dictionary with bond types as keys and their counts as values.
+          - "sg_ratio": The S/G ratio of the molecule, calculated as the ratio of syringyl to guaiacol monomers.
+          - "DP": The degree of polymerization, which is the number of monomers in the molecule.
+          - "Branches": The number of branches in the molecule.
+          - "Monolignols": A dictionary with counts of different types of monolignols ('S', 'G', 'C') in the molecule.
+
+    Description:
+    This function processes an adjacency matrix and a list of monomers to extract and analyze individual lignin molecules.
+    It performs the following steps:
+    1. Uses the adjacency matrix to find fragments (molecules) and the number of branches in each molecule.
+    2. For each molecule, initializes a bond count dictionary to keep track of different bond types.
+    3. Constructs an adjacency matrix specific to the molecule and calculates the number of each bond type based on the
+       global adjacency matrix.
+    4. Computes the S/G ratio of the molecule and identifies the number of branches.
+    5. Compiles the information into a dictionary that provides detailed properties for each molecule.
+
+    Note:
+    - Ensure that the `find_fragments` function is defined and correctly returns the connected components and branch counts.
+    - The `Monomer` class or type used in `monomer_list` should have a `type` attribute to identify the monomer type.
+    - The bond types in `bonding_dict` (BO4, B1, BB, etc.) should be defined and consistent with those used in `adjacency_matrix`.
+    """
 
     bonding_dict = {(4, 8): BO4, (8, 4): BO4, (8, 1): B1, (1, 8): B1, (8, 8): BB, (5, 5): C5C5,
                     (8, 5): B5, (5, 8): B5, (7, 4): AO4, (4, 7): AO4, (5, 4): C5O4, (4, 5): C5O4}
@@ -230,9 +314,7 @@ def separate_molecule_properties(adjacency_matrix, monomer_list):
     # for each molecule
     #Looping over each molecule 
     
-    #print(len(connected))
     for number, molecule in enumerate(connected):
-        #print("Molecule Analysis complete!")
         molecule = list(molecule)
 
 
@@ -292,9 +374,37 @@ def separate_molecule_properties(adjacency_matrix, monomer_list):
     return dict
 
 def adjust_energy_barriers(energy_barrier_dict, scale_factor_GG, scale_factor_SS, scale_factor_SG):
-    adjusted_dict = copy.deepcopy(energy_barrier_dict)
+    """
+    Adjusts the energy barriers in a dictionary based on provided scaling factors for different types of monomer pairs.
+
+    Parameters:
+    energy_barrier_dict (dict): A dictionary where the keys represent different reaction types and the values are nested dictionaries.
+                                The nested dictionaries contain energy barrier values for different monomer pairs.
+    scale_factor_GG (float): The scaling factor to be applied to energy barriers associated with the G-G monomer pair.
+    scale_factor_SS (float): The scaling factor to be applied to energy barriers associated with the S-S monomer pair.
+    scale_factor_SG (float): The scaling factor to be applied to energy barriers associated with the S-G or G-S monomer pairs.
+
+    Returns:
+    dict: The updated `energy_barrier_dict` with adjusted energy barrier values based on the provided scaling factors.
+
+    Description:
+    This function iterates over the `energy_barrier_dict` to adjust the energy barriers for different monomer pairs. 
+    The dictionary is expected to have a structure where each key maps to a nested dictionary that contains energy barriers 
+    for different monomer pairs. The function applies the following scaling factors:
+    - `scale_factor_GG` to energy barriers for the G-G monomer pair.
+    - `scale_factor_SS` to energy barriers for the S-S monomer pair.
+    - `scale_factor_SG` to energy barriers for both S-G and G-S monomer pairs.
+
+    Note:
+    - Ensure that the keys in the nested dictionaries match the expected monomer pair tuples (e.g., (G, G), (S, G)).
+    - The function assumes that energy barrier values are numeric (integers or floats) and will be multiplied by the corresponding scale factors.
+
+    Example:
+    adjusted_energies = adjust_energy_barriers(energy_barriers, scale_factor_GG=1.1, scale_factor_SS=0.9, scale_factor_SG=1.05)
+
+    """
     # Iterate over each key in the dictionary
-    for key, value in adjusted_dict.items():
+    for key, value in energy_barrier_dict.items():
         # Check if the value is a dictionary
         if isinstance(value, dict):
             # Iterate over each key in the nested dictionary
@@ -315,16 +425,43 @@ def adjust_energy_barriers(energy_barrier_dict, scale_factor_GG, scale_factor_SS
                     for subnested_key, subnested_value in nested_value.items():
                         # Assuming subnested_value is an integer or float
                         value[nested_key][subnested_key] *= scale_factor_SS
-    return(adjusted_dict)
+    return(energy_barrier_dict)
 
 def generate_analysis(results, num_sims, num_cores, file_writing, savefile_path):
     """
-    An analysis of a series of lignin KMC simulations which uses 2 separate pipelines to calculate 
-    bond distributions, smiles structures, branching coefficients and chemical functions.
+    Analyzes the results of a series of lignin-KMCK simulations using parallel processing.
+    This function calculates bond distributions, SMILES structures, branching coefficients, and chemical functions
+    from the simulation outputs.
 
-    Input: 
-    results - the raw form of simulation output from run_kmc
-    num_sums - the number of repeats taken of the simulation scheme 
+    Parameters:
+    results (list of dict): The raw results from the KMC simulations, where each dictionary in the list contains 
+                            information such as adjacency matrices and monomer lists for each simulation.
+    num_sims (int): The number of simulation repeats used in the analysis.
+    num_cores (int): The number of CPU cores to be used for parallel processing.
+    file_writing (bool): Flag indicating whether to write the analysis results to a file.
+    savefile_path (str): The file path where the JSON results will be saved if `file_writing` is True.
+
+    Returns:
+    dict: A dictionary containing the final analyzed data, which includes information on bond distributions, 
+          SMILES structures, branching coefficients, and chemical functions.
+
+    Description:
+    This function processes the raw output from KMC simulations by performing the following steps:
+    1. Extracts adjacency matrices and monomer lists from the simulation results.
+    2. Utilizes multiprocessing to parallelize the analysis across multiple CPU cores. 
+    3. Calls the `generate_analysis_parallel` function to compute the required metrics for each simulation.
+    4. Flattens the resulting dictionaries and reassigns unique IDs using `reassign_unique_ids`.
+    5. Optionally writes the final results to a JSON file if `file_writing` is set to True.
+
+    Notes:
+    - Ensure that `generate_analysis_parallel` and `reassign_unique_ids` functions are correctly implemented and available in the context where this function is called.
+    - Make sure to handle exceptions or errors related to file operations if `file_writing` is True.
+    - The `multiprocessing.Pool` object requires that all functions used within the pool be pickleable.
+
+    Example:
+    ```python
+    final_data = generate_analysis(results, num_sims=10, num_cores=4, file_writing=True, savefile_path="output.json")
+    ```
     """
 
     #Simulation needs to be split into different adj matrices for different structures 
@@ -345,10 +482,8 @@ def generate_analysis(results, num_sims, num_cores, file_writing, savefile_path)
     final_lignin_dictionary = reassign_unique_ids(lignin_libraries)
 
     #if file_writing:
-        #save_structures(simulation_IDs, simulation_molecules, simulation_dicts)
-
     print("Dictionaries built!") 
-    print("Converting and writing to json file...", savefile_path)
+    print("Converting and writing to json file...")
     json_data = json.dumps(final_lignin_dictionary)
     with open(savefile_path, "w") as outfile:
         outfile.write(json_data)
@@ -359,15 +494,31 @@ def generate_analysis(results, num_sims, num_cores, file_writing, savefile_path)
 
 def simulation(sg_ratio, ini_num_monos, max_num_monos, mono_add_rate, simulation_reaction_rates, t_max):
     """
-    The core functions which run the simulations via lignin KMC
+    Runs a Kinetic Monte Carlo (KMC) simulation for lignin polymerization.
 
-    Input:
-    SG_ratio (integer) to describe the ratio of S and G monolignols in a simulation. 
+    Parameters:
+    sg_ratio (float): The ratio of S to G monolignols in the simulation. This ratio is used to determine the initial distribution of S and G monomers.
+    ini_num_monos (int): The initial number of monolignols to be generated for the simulation.
+    max_num_monos (int): The maximum number of monolignols allowed in the simulation.
+    mono_add_rate (float): The rate at which new monolignols are added to the system.
+    simulation_reaction_rates (dict): A dictionary containing the reaction rates for various processes in the simulation.
+    t_max (float): The maximum simulation time.
+
+    Returns:
+    result: The outcome of the KMC simulation, which may include information such as the final state of the system, reaction counts, or time evolution data.
+
+    Description:
+    This function sets up and runs a Kinetic Monte Carlo (KMC) simulation for lignin polymerization based on the provided parameters. It begins by determining the percentage of S monolignols based on the provided sg_ratio and generates an initial set of monomers. It then initializes the simulation state, sets up initial events, and runs the KMC simulation until the maximum number of monomers or the maximum simulation time is reached.
+
+    The simulation output typically includes the final state of the system, reaction statistics, or other relevant metrics as defined by the KMC implementation.
+
+    Note:
+    - Ensure that the `create_initial_monomers`, `create_initial_events`, `create_initial_state`, and `run_kmc` functions are defined and implemented correctly for this simulation function to work.
+    - The `Event` class or function used in `initial_events.append` should be properly defined and imported.
     """
     pct_s = sg_ratio / (1 + sg_ratio)
     # Make choices about what kinds of monomers there are and create them
     # Use a random number and the given sg_ratio to determine the monolignol types to be initially modeled
-    np.random.seed()
     monomer_draw = np.random.rand(ini_num_monos)
     initial_monomers = create_initial_monomers(pct_s, monomer_draw)
 

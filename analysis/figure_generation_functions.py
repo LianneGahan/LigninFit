@@ -1,15 +1,11 @@
 import numpy as np
 import json
 from scipy.optimize import curve_fit
-#from rdkit import AllChem, Descriptors#
-#import rdkit
 
-#from rdkit import Chem
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit import DataStructs
 from rdkit.Chem import rdMolDescriptors
-#from rdkit.Chem.AllChem import GetRDKitFPGenerator
 
 from scipy import stats
 
@@ -40,8 +36,6 @@ def calculate_fingerprints(lignin_library):
             print(i)
             molecule = AllChem.MolFromSmiles(data["smilestring"])
             fingerprints.append(AllChem.GetMorganFingerprint(molecule, radius=2))
-    #molecules = [AllChem.MolFromSmiles(data["smilestring"]) for data in lignin_library]
-    #fingerprints = [AllChem.GetMorganFingerprint(x) for x in molecules]
             i+=1
     return(fingerprints)
 
